@@ -12,16 +12,18 @@ import { analyze } from "@/lib/bullshit/analyze"
 import { datasets } from "@/lib/bullshit/data"
 import { SAMPLES } from "@/lib/bullshit/sample"
 import { createScanner, toSegments } from "@/lib/bullshit/scan"
+import { dictionaries, NUMBER_LOCALE } from "@/lib/i18n"
 import type { Lang } from "@/lib/bullshit/types"
 import { cn } from "@/lib/utils"
 
 export const MAX_CHARS = 10000
 
 const scan = createScanner(datasets)
-const SAMPLE_ORDER: Lang[] = ["en", "da"]
 const PANE = "h-[26rem]"
 
-export function Detector() {
+export function Detector({ locale }: { locale: Lang }) {
+  const t = dictionaries[locale]
+  const sampleOrder: Lang[] = locale === "da" ? ["da", "en"] : ["en", "da"]
   const [text, setText] = useState("")
   const [plain, setPlain] = useState(false)
   const [sampleIndex, setSampleIndex] = useState(0)
@@ -34,12 +36,17 @@ export function Detector() {
     return {
       segments: toSegments(text, findings),
       analysis: analyze(text, findings),
-      lang: (danish > findings.length - danish ? "da" : "en") as Lang,
+      // Language of the pasted text; the interface language until it shows.
+      lang: (findings.length === 0
+        ? locale
+        : danish > findings.length - danish
+          ? "da"
+          : "en") as Lang,
     }
-  }, [text])
+  }, [text, locale])
 
   const loadSample = () => {
-    setText(SAMPLES[SAMPLE_ORDER[sampleIndex % SAMPLE_ORDER.length]])
+    setText(SAMPLES[sampleOrder[sampleIndex % sampleOrder.length]])
     setSampleIndex((i) => i + 1)
   }
 
@@ -49,7 +56,7 @@ export function Detector() {
     <div className="flex flex-col gap-4">
       <div className="flex flex-wrap items-center gap-2">
         <Button variant="outline" size="sm" onClick={loadSample}>
-          Load sample
+          {t.loadSample}
         </Button>
         <Button
           variant="ghost"
@@ -57,33 +64,22 @@ export function Detector() {
           onClick={() => setText("")}
           disabled={text.length === 0}
         >
-          Clear
+          {t.clear}
         </Button>
         <label
           htmlFor={plainId}
           className="ml-auto flex cursor-pointer items-center gap-2 text-sm"
         >
           <Switch id={plainId} checked={plain} onCheckedChange={setPlain} />
-          Plain language
+          {t.plainLanguage}
         </label>
       </div>
 
       <div className="grid gap-4 md:grid-cols-2">
         <section className="flex min-w-0 flex-col gap-2">
-          <div className="flex h-6 items-center justify-between gap-2">
-            <label htmlFor={inputId} className="text-sm font-medium">
-              Your text
-            </label>
-            <span
-              className={cn(
-                "font-mono text-xs text-muted-foreground",
-                atLimit && "text-destructive"
-              )}
-            >
-              {text.length.toLocaleString("en-US")} /{" "}
-              {MAX_CHARS.toLocaleString("en-US")}
-            </span>
-          </div>
+          <label htmlFor={inputId} className="text-sm font-medium">
+            {t.yourText}
+          </label>
           <Textarea
             id={inputId}
             value={text}
@@ -91,25 +87,37 @@ export function Detector() {
             onChange={(event) =>
               setText(event.target.value.slice(0, MAX_CHARS))
             }
-            placeholder="Paste an email, a strategy memo or a job ad…"
+            placeholder={t.placeholder}
             spellCheck={false}
             className={cn(
               "field-sizing-fixed resize-none leading-relaxed",
               PANE
             )}
           />
+          <span
+            className={cn(
+              "self-end font-mono text-xs text-muted-foreground",
+              atLimit && "text-destructive"
+            )}
+          >
+            {text.length.toLocaleString(NUMBER_LOCALE[locale])} /{" "}
+            {MAX_CHARS.toLocaleString(NUMBER_LOCALE[locale])}
+          </span>
         </section>
 
         <section className="flex min-w-0 flex-col gap-2">
-          <div className="flex min-h-6 flex-wrap items-center justify-between gap-2">
-            <h2 className="text-sm font-medium">Scan</h2>
-            <TierLegend />
-          </div>
-          <ResultPane segments={segments} plain={plain} className={PANE} />
+          <h2 className="text-sm font-medium">{t.scan}</h2>
+          <ResultPane
+            segments={segments}
+            plain={plain}
+            locale={locale}
+            className={PANE}
+          />
+          <TierLegend lang={lang} locale={locale} />
         </section>
       </div>
 
-      <ScorePanel analysis={analysis} lang={lang} />
+      <ScorePanel analysis={analysis} lang={lang} locale={locale} />
     </div>
   )
 }

@@ -2,6 +2,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import type { Analysis } from "@/lib/bullshit/analyze"
 import { label, TIER_SOLID } from "@/lib/bullshit/labels"
 import type { Lang, TierId } from "@/lib/bullshit/types"
+import { dictionaries } from "@/lib/i18n"
 import { cn } from "@/lib/utils"
 
 function scoreTier(score: number): TierId {
@@ -61,11 +62,17 @@ function rowsFrom(
 export function ScorePanel({
   analysis,
   lang,
+  locale,
 }: {
   analysis: Analysis
+  /** Language of the pasted text; picks the taxonomy labels. */
   lang: Lang
+  /** Interface language. */
+  locale: Lang
 }) {
-  const { score, verdict, worst, topContext } = analysis
+  const t = dictionaries[locale]
+  const { score, worst, topContext } = analysis
+  const verdict = t.verdicts[analysis.verdict.min] ?? analysis.verdict
   const tier = scoreTier(score)
   const neutral = () => "bg-foreground/60"
   const hasFindings = analysis.findingCount > 0
@@ -77,7 +84,7 @@ export function ScorePanel({
           <div className="flex items-baseline gap-2">
             <span
               className="font-heading text-6xl leading-none font-semibold tabular-nums"
-              aria-label={`Bullshit score ${score} out of 100`}
+              aria-label={t.scoreAria(score)}
             >
               {score}
             </span>
@@ -103,11 +110,11 @@ export function ScorePanel({
               />
             </div>
             <p className="text-xs text-muted-foreground">
-              {analysis.findingCount}{" "}
-              {analysis.findingCount === 1 ? "finding" : "findings"} ·{" "}
-              {analysis.uniqueCount} unique{" "}
-              {analysis.uniqueCount === 1 ? "phrase" : "phrases"} ·{" "}
-              {analysis.wordCount} {analysis.wordCount === 1 ? "word" : "words"}
+              {t.stats(
+                analysis.findingCount,
+                analysis.uniqueCount,
+                analysis.wordCount
+              )}
             </p>
           </div>
         </div>
@@ -118,7 +125,7 @@ export function ScorePanel({
               {worst && (
                 <p>
                   <span className="text-muted-foreground">
-                    Worst offender:{" "}
+                    {t.worstOffender}{" "}
                   </span>
                   <span className="font-medium">{worst.entry.term}</span>
                   <span className="text-muted-foreground">
@@ -129,7 +136,7 @@ export function ScorePanel({
               )}
               {topContext && (
                 <p>
-                  <span className="text-muted-foreground">Reads like: </span>
+                  <span className="text-muted-foreground">{t.readsLike} </span>
                   <span className="font-medium">
                     {label(lang, "contexts", topContext)}
                   </span>
@@ -139,7 +146,7 @@ export function ScorePanel({
 
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
               <Breakdown
-                title="By tier"
+                title={t.byTier}
                 rows={rowsFrom(
                   analysis.perTier,
                   (id) => label(lang, "tiers", id),
@@ -147,7 +154,7 @@ export function ScorePanel({
                 )}
               />
               <Breakdown
-                title="By category"
+                title={t.byCategory}
                 rows={rowsFrom(
                   analysis.perCategory,
                   (id) => label(lang, "categories", id),
@@ -155,7 +162,7 @@ export function ScorePanel({
                 )}
               />
               <Breakdown
-                title="By origin"
+                title={t.byOrigin}
                 rows={rowsFrom(
                   analysis.perOrigin,
                   (id) => label(lang, "origins", id),
@@ -163,7 +170,7 @@ export function ScorePanel({
                 )}
               />
               <Breakdown
-                title="By language"
+                title={t.byLanguage}
                 rows={rowsFrom(
                   analysis.perLanguage,
                   (id) => label(lang, "languages", id),

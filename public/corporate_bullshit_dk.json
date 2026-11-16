@@ -140,50 +140,26 @@
       {
         "id": "tier-1",
         "label": "De værste",
-        "ranks": [
-          1,
-          10
-        ],
-        "score_range": [
-          93,
-          100
-        ]
+        "ranks": [1, 10],
+        "score_range": [93, 100]
       },
       {
         "id": "tier-2",
         "label": "Konsulentsprog",
-        "ranks": [
-          11,
-          30
-        ],
-        "score_range": [
-          77,
-          92
-        ]
+        "ranks": [11, 30],
+        "score_range": [77, 92]
       },
       {
         "id": "tier-3",
         "label": "Mødelokale-dialekt",
-        "ranks": [
-          31,
-          60
-        ],
-        "score_range": [
-          52,
-          76
-        ]
+        "ranks": [31, 60],
+        "score_range": [52, 76]
       },
       {
         "id": "tier-4",
         "label": "HR, jobopslag og hverdagsstøj",
-        "ranks": [
-          61,
-          100
-        ],
-        "score_range": [
-          20,
-          52
-        ]
+        "ranks": [61, 100],
+        "score_range": [20, 52]
       }
     ]
   },
@@ -198,10 +174,7 @@
       "category": "euphemism",
       "origin": "consulting",
       "language": "danish",
-      "contexts": [
-        "leadership",
-        "hr"
-      ],
+      "contexts": ["leadership", "hr"],
       "meaning": "Fyringer.",
       "variations": [
         {
@@ -221,13 +194,7 @@
           "slug": "vi-tilpasser-os"
         }
       ],
-      "related": [
-        "bs-002",
-        "bs-003",
-        "bs-031",
-        "bs-032",
-        "bs-077"
-      ]
+      "related": ["bs-002", "bs-003", "bs-031", "bs-032", "bs-077"]
     },
     {
       "id": "bs-002",
@@ -239,10 +206,7 @@
       "category": "euphemism",
       "origin": "consulting",
       "language": "english",
-      "contexts": [
-        "leadership",
-        "hr"
-      ],
+      "contexts": ["leadership", "hr"],
       "meaning": "Fyringer, på engelsk.",
       "variations": [
         {
@@ -262,10 +226,7 @@
           "slug": "rightsizing-af-organisationen"
         }
       ],
-      "related": [
-        "bs-001",
-        "bs-003"
-      ]
+      "related": ["bs-001", "bs-003"]
     },
     {
       "id": "bs-003",
@@ -277,10 +238,7 @@
       "category": "euphemism",
       "origin": "consulting",
       "language": "danish",
-      "contexts": [
-        "leadership",
-        "hr"
-      ],
+      "contexts": ["leadership", "hr"],
       "meaning": "Fyringer eller omplacering.",
       "variations": [
         {
@@ -296,11 +254,7 @@
           "slug": "frigjorte-ressourcer"
         }
       ],
-      "related": [
-        "bs-001",
-        "bs-002",
-        "bs-077"
-      ]
+      "related": ["bs-001", "bs-002", "bs-077"]
     },
     {
       "id": "bs-004",
@@ -312,11 +266,7 @@
       "category": "platitude",
       "origin": "general",
       "language": "danish",
-      "contexts": [
-        "hr",
-        "job_ad",
-        "leadership"
-      ],
+      "contexts": ["hr", "job_ad", "leadership"],
       "meaning": "Forventning om loyalitet uden modydelse.",
       "variations": [
         {
@@ -332,9 +282,7 @@
           "slug": "vores-lille-familie"
         }
       ],
-      "related": [
-        "bs-061"
-      ]
+      "related": ["bs-061"]
     },
     {
       "id": "bs-005",
@@ -346,10 +294,7 @@
       "category": "metaphor",
       "origin": "consulting",
       "language": "danish",
-      "contexts": [
-        "strategy",
-        "leadership"
-      ],
+      "contexts": ["strategy", "leadership"],
       "meaning": "Der er ingen klar plan.",
       "variations": [
         {
@@ -369,10 +314,7 @@
           "slug": "digital-rejse"
         }
       ],
-      "related": [
-        "bs-074",
-        "bs-075"
-      ]
+      "related": ["bs-074", "bs-075"]
     },
     {
       "id": "bs-006",
@@ -384,10 +326,7 @@
       "category": "metaphor",
       "origin": "general",
       "language": "danglish",
-      "contexts": [
-        "meeting",
-        "strategy"
-      ],
+      "contexts": ["meeting", "strategy"],
       "meaning": "Lette opgaver.",
       "variations": [
         {
@@ -415,10 +354,7 @@
       "category": "buzzword",
       "origin": "consulting",
       "language": "danglish",
-      "contexts": [
-        "strategy",
-        "leadership"
-      ],
+      "contexts": ["strategy", "leadership"],
       "meaning": "Besparelser eller sammenlægning, sjældent dokumenteret.",
       "variations": [
         {
@@ -450,9 +386,7 @@
       "category": "process_jargon",
       "origin": "tech",
       "language": "danglish",
-      "contexts": [
-        "meeting"
-      ],
+      "contexts": ["meeting"],
       "meaning": "Stop med at tale om det nu.",
       "variations": [
         {
@@ -468,9 +402,7 @@
           "slug": "vi-tager-den-bilateralt"
         }
       ],
-      "related": [
-        "bs-047"
-      ]
+      "related": ["bs-047"]
     },
     {
       "id": "bs-009",
@@ -482,10 +414,7 @@
       "category": "metaphor",
       "origin": "tech",
       "language": "danglish",
-      "contexts": [
-        "meeting",
-        "email_chat"
-      ],
+      "contexts": ["meeting", "email_chat"],
       "meaning": "Har du tid?",
       "variations": [
         {
@@ -517,10 +446,7 @@
       "category": "metaphor",
       "origin": "general",
       "language": "danish",
-      "contexts": [
-        "strategy",
-        "job_ad"
-      ],
+      "contexts": ["strategy", "job_ad"],
       "meaning": "Det står i værdigrundlaget.",
       "variations": [
         {
@@ -548,10 +474,7 @@
       "category": "metaphor",
       "origin": "consulting",
       "language": "danglish",
-      "contexts": [
-        "strategy",
-        "leadership"
-      ],
+      "contexts": ["strategy", "leadership"],
       "meaning": "Krise brugt som argument for forandring.",
       "variations": [
         {
@@ -575,9 +498,7 @@
       "category": "buzzword",
       "origin": "academic",
       "language": "danish",
-      "contexts": [
-        "strategy"
-      ],
+      "contexts": ["strategy"],
       "meaning": "En ændring, ofte en lille.",
       "variations": [
         {
@@ -605,10 +526,7 @@
       "category": "buzzword",
       "origin": "sports",
       "language": "english",
-      "contexts": [
-        "strategy",
-        "tech"
-      ],
+      "contexts": ["strategy", "tech"],
       "meaning": "Nyt produkt eller værktøj.",
       "variations": [
         {
@@ -636,10 +554,7 @@
       "category": "buzzword",
       "origin": "startup",
       "language": "english",
-      "contexts": [
-        "strategy",
-        "tech"
-      ],
+      "contexts": ["strategy", "tech"],
       "meaning": "Konkurrence eller ny teknologi.",
       "variations": [
         {
@@ -675,9 +590,7 @@
       "category": "metaphor",
       "origin": "consulting",
       "language": "danglish",
-      "contexts": [
-        "meeting"
-      ],
+      "contexts": ["meeting"],
       "meaning": "Kom med en idé.",
       "variations": [
         {
@@ -705,10 +618,7 @@
       "category": "process_jargon",
       "origin": "sports",
       "language": "danglish",
-      "contexts": [
-        "meeting",
-        "email_chat"
-      ],
+      "contexts": ["meeting", "email_chat"],
       "meaning": "Et kort møde.",
       "variations": [
         {
@@ -728,10 +638,7 @@
           "slug": "tjekke-ind"
         }
       ],
-      "related": [
-        "bs-017",
-        "bs-018"
-      ]
+      "related": ["bs-017", "bs-018"]
     },
     {
       "id": "bs-017",
@@ -743,10 +650,7 @@
       "category": "process_jargon",
       "origin": "general",
       "language": "danglish",
-      "contexts": [
-        "email_chat",
-        "meeting"
-      ],
+      "contexts": ["email_chat", "meeting"],
       "meaning": "Senere, måske aldrig.",
       "variations": [
         {
@@ -762,9 +666,7 @@
           "slug": "foelge-op"
         }
       ],
-      "related": [
-        "bs-016"
-      ]
+      "related": ["bs-016"]
     },
     {
       "id": "bs-018",
@@ -776,9 +678,7 @@
       "category": "verbified_noun",
       "origin": "tech",
       "language": "danglish",
-      "contexts": [
-        "email_chat"
-      ],
+      "contexts": ["email_chat"],
       "meaning": "Skriv til mig.",
       "variations": [
         {
@@ -798,9 +698,7 @@
           "slug": "jeg-pinger-dig"
         }
       ],
-      "related": [
-        "bs-016"
-      ]
+      "related": ["bs-016"]
     },
     {
       "id": "bs-019",
@@ -812,10 +710,7 @@
       "category": "management_speak",
       "origin": "consulting",
       "language": "danglish",
-      "contexts": [
-        "meeting",
-        "leadership"
-      ],
+      "contexts": ["meeting", "leadership"],
       "meaning": "Enige.",
       "variations": [
         {
@@ -835,9 +730,7 @@
           "slug": "forventningsafstemme"
         }
       ],
-      "related": [
-        "bs-080"
-      ]
+      "related": ["bs-080"]
     },
     {
       "id": "bs-020",
@@ -849,10 +742,7 @@
       "category": "management_speak",
       "origin": "general",
       "language": "danglish",
-      "contexts": [
-        "leadership",
-        "meeting"
-      ],
+      "contexts": ["leadership", "meeting"],
       "meaning": "Nu er det dit ansvar.",
       "variations": [
         {
@@ -884,9 +774,7 @@
       "category": "buzzword",
       "origin": "consulting",
       "language": "danglish",
-      "contexts": [
-        "strategy"
-      ],
+      "contexts": ["strategy"],
       "meaning": "Gøre noget nyttigt.",
       "variations": [
         {
@@ -918,10 +806,7 @@
       "category": "metaphor",
       "origin": "sports",
       "language": "danish",
-      "contexts": [
-        "leadership",
-        "hr"
-      ],
+      "contexts": ["leadership", "hr"],
       "meaning": "Samarbejde.",
       "variations": [
         {
@@ -933,10 +818,7 @@
           "slug": "goere-hinanden-gode"
         }
       ],
-      "related": [
-        "bs-023",
-        "bs-024"
-      ]
+      "related": ["bs-023", "bs-024"]
     },
     {
       "id": "bs-023",
@@ -948,9 +830,7 @@
       "category": "metaphor",
       "origin": "general",
       "language": "danish",
-      "contexts": [
-        "leadership"
-      ],
+      "contexts": ["leadership"],
       "meaning": "Alle skal arbejde mere.",
       "variations": [
         {
@@ -962,9 +842,7 @@
           "slug": "loefte-sammen"
         }
       ],
-      "related": [
-        "bs-022"
-      ]
+      "related": ["bs-022"]
     },
     {
       "id": "bs-024",
@@ -976,9 +854,7 @@
       "category": "platitude",
       "origin": "general",
       "language": "danish",
-      "contexts": [
-        "leadership"
-      ],
+      "contexts": ["leadership"],
       "meaning": "Mål uden konkret indhold.",
       "variations": [
         {
@@ -994,9 +870,7 @@
           "slug": "lykkes-med-opgaven"
         }
       ],
-      "related": [
-        "bs-022"
-      ]
+      "related": ["bs-022"]
     },
     {
       "id": "bs-025",
@@ -1008,10 +882,7 @@
       "category": "euphemism",
       "origin": "general",
       "language": "danish",
-      "contexts": [
-        "meeting",
-        "leadership"
-      ],
+      "contexts": ["meeting", "leadership"],
       "meaning": "Et problem.",
       "variations": [
         {
@@ -1039,10 +910,7 @@
       "category": "platitude",
       "origin": "general",
       "language": "danish",
-      "contexts": [
-        "leadership",
-        "job_ad"
-      ],
+      "contexts": ["leadership", "job_ad"],
       "meaning": "Bruges om alt, inkl. dårlige nyheder.",
       "variations": [
         {
@@ -1074,10 +942,7 @@
       "category": "metaphor",
       "origin": "consulting",
       "language": "danglish",
-      "contexts": [
-        "strategy",
-        "meeting"
-      ],
+      "contexts": ["strategy", "meeting"],
       "meaning": "Overblik uden detaljer.",
       "variations": [
         {
@@ -1087,6 +952,10 @@
         {
           "text": "helicopter view",
           "slug": "helicopter-view"
+        },
+        {
+          "text": "helicopteren",
+          "slug": "helicopteren"
         },
         {
           "text": "overordnet niveau",
@@ -1105,9 +974,7 @@
       "category": "metaphor",
       "origin": "startup",
       "language": "danglish",
-      "contexts": [
-        "strategy"
-      ],
+      "contexts": ["strategy"],
       "meaning": "Hovedmål.",
       "variations": [
         {
@@ -1135,9 +1002,7 @@
       "category": "process_jargon",
       "origin": "general",
       "language": "danglish",
-      "contexts": [
-        "meeting"
-      ],
+      "contexts": ["meeting"],
       "meaning": "Undersøge grundigt.",
       "variations": [
         {
@@ -1165,10 +1030,7 @@
       "category": "platitude",
       "origin": "general",
       "language": "english",
-      "contexts": [
-        "strategy",
-        "meeting"
-      ],
+      "contexts": ["strategy", "meeting"],
       "meaning": "Begge parter får noget.",
       "variations": [
         {
@@ -1196,10 +1058,7 @@
       "category": "euphemism",
       "origin": "general",
       "language": "danish",
-      "contexts": [
-        "leadership",
-        "hr"
-      ],
+      "contexts": ["leadership", "hr"],
       "meaning": "Færre kvadratmeter eller besparelser.",
       "variations": [
         {
@@ -1211,9 +1070,7 @@
           "slug": "taettere-sammen"
         }
       ],
-      "related": [
-        "bs-001"
-      ]
+      "related": ["bs-001"]
     },
     {
       "id": "bs-032",
@@ -1225,10 +1082,7 @@
       "category": "euphemism",
       "origin": "consulting",
       "language": "danish",
-      "contexts": [
-        "strategy",
-        "leadership"
-      ],
+      "contexts": ["strategy", "leadership"],
       "meaning": "Besparelser.",
       "variations": [
         {
@@ -1248,9 +1102,7 @@
           "slug": "optimering"
         }
       ],
-      "related": [
-        "bs-001"
-      ]
+      "related": ["bs-001"]
     },
     {
       "id": "bs-033",
@@ -1262,10 +1114,7 @@
       "category": "buzzword",
       "origin": "consulting",
       "language": "danish",
-      "contexts": [
-        "hr",
-        "leadership"
-      ],
+      "contexts": ["hr", "leadership"],
       "meaning": "Medarbejdere skal tåle mere.",
       "variations": [
         {
@@ -1293,10 +1142,7 @@
       "category": "management_speak",
       "origin": "general",
       "language": "danish",
-      "contexts": [
-        "hr",
-        "job_ad"
-      ],
+      "contexts": ["hr", "job_ad"],
       "meaning": "Accepter ændringer uden at klage.",
       "variations": [
         {
@@ -1312,9 +1158,7 @@
           "slug": "omstillingsparat"
         }
       ],
-      "related": [
-        "bs-035"
-      ]
+      "related": ["bs-035"]
     },
     {
       "id": "bs-035",
@@ -1326,9 +1170,7 @@
       "category": "management_speak",
       "origin": "consulting",
       "language": "english",
-      "contexts": [
-        "leadership"
-      ],
+      "contexts": ["leadership"],
       "meaning": "At få folk til at acceptere en beslutning.",
       "variations": [
         {
@@ -1344,9 +1186,7 @@
           "slug": "haandtere-forandringen"
         }
       ],
-      "related": [
-        "bs-034"
-      ]
+      "related": ["bs-034"]
     },
     {
       "id": "bs-036",
@@ -1358,10 +1198,7 @@
       "category": "metaphor",
       "origin": "general",
       "language": "danish",
-      "contexts": [
-        "leadership",
-        "hr"
-      ],
+      "contexts": ["leadership", "hr"],
       "meaning": "Oplære.",
       "variations": [
         {
@@ -1385,10 +1222,7 @@
       "category": "process_jargon",
       "origin": "general",
       "language": "danish",
-      "contexts": [
-        "meeting",
-        "leadership"
-      ],
+      "contexts": ["meeting", "leadership"],
       "meaning": "Forklare opgaven.",
       "variations": [
         {
@@ -1412,10 +1246,7 @@
       "category": "process_jargon",
       "origin": "academic",
       "language": "danish",
-      "contexts": [
-        "meeting",
-        "hr"
-      ],
+      "contexts": ["meeting", "hr"],
       "meaning": "Sige det.",
       "variations": [
         {
@@ -1443,10 +1274,7 @@
       "category": "management_speak",
       "origin": "consulting",
       "language": "danish",
-      "contexts": [
-        "strategy",
-        "leadership"
-      ],
+      "contexts": ["strategy", "leadership"],
       "meaning": "Fortælle medarbejderne om strategien.",
       "variations": [
         {
@@ -1478,9 +1306,7 @@
       "category": "management_speak",
       "origin": "consulting",
       "language": "danish",
-      "contexts": [
-        "strategy"
-      ],
+      "contexts": ["strategy"],
       "meaning": "Mål.",
       "variations": [
         {
@@ -1496,9 +1322,7 @@
           "slug": "strategiske-spor"
         }
       ],
-      "related": [
-        "bs-041"
-      ]
+      "related": ["bs-041"]
     },
     {
       "id": "bs-041",
@@ -1510,9 +1334,7 @@
       "category": "management_speak",
       "origin": "consulting",
       "language": "danish",
-      "contexts": [
-        "strategy"
-      ],
+      "contexts": ["strategy"],
       "meaning": "Mål.",
       "variations": [
         {
@@ -1528,9 +1350,7 @@
           "slug": "target-state"
         }
       ],
-      "related": [
-        "bs-040"
-      ]
+      "related": ["bs-040"]
     },
     {
       "id": "bs-042",
@@ -1542,10 +1362,7 @@
       "category": "management_speak",
       "origin": "consulting",
       "language": "danish",
-      "contexts": [
-        "strategy",
-        "leadership"
-      ],
+      "contexts": ["strategy", "leadership"],
       "meaning": "At nogen faktisk gør det.",
       "variations": [
         {
@@ -1573,9 +1390,7 @@
       "category": "process_jargon",
       "origin": "general",
       "language": "danish",
-      "contexts": [
-        "meeting"
-      ],
+      "contexts": ["meeting"],
       "meaning": "Foreslå.",
       "variations": [
         {
@@ -1599,9 +1414,7 @@
       "category": "process_jargon",
       "origin": "general",
       "language": "danish",
-      "contexts": [
-        "meeting"
-      ],
+      "contexts": ["meeting"],
       "meaning": "Bidrage.",
       "variations": [
         {
@@ -1629,9 +1442,7 @@
       "category": "metaphor",
       "origin": "general",
       "language": "danish",
-      "contexts": [
-        "meeting"
-      ],
+      "contexts": ["meeting"],
       "meaning": "Beslutte.",
       "variations": [
         {
@@ -1659,10 +1470,7 @@
       "category": "metaphor",
       "origin": "general",
       "language": "danish",
-      "contexts": [
-        "leadership",
-        "meeting"
-      ],
+      "contexts": ["leadership", "meeting"],
       "meaning": "Udføre opgaven.",
       "variations": [
         {
@@ -1690,9 +1498,7 @@
       "category": "process_jargon",
       "origin": "general",
       "language": "danish",
-      "contexts": [
-        "meeting"
-      ],
+      "contexts": ["meeting"],
       "meaning": "Den kommer aldrig tilbage.",
       "variations": [
         {
@@ -1708,9 +1514,7 @@
           "slug": "vi-parkerer-den"
         }
       ],
-      "related": [
-        "bs-008"
-      ]
+      "related": ["bs-008"]
     },
     {
       "id": "bs-048",
@@ -1722,10 +1526,7 @@
       "category": "metaphor",
       "origin": "military",
       "language": "danglish",
-      "contexts": [
-        "meeting",
-        "email_chat"
-      ],
+      "contexts": ["meeting", "email_chat"],
       "meaning": "Være opmærksom på det.",
       "variations": [
         {
@@ -1753,10 +1554,7 @@
       "category": "metaphor",
       "origin": "general",
       "language": "danish",
-      "contexts": [
-        "hr",
-        "meeting"
-      ],
+      "contexts": ["hr", "meeting"],
       "meaning": "Spørge hvordan det går.",
       "variations": [
         {
@@ -1784,9 +1582,7 @@
       "category": "platitude",
       "origin": "general",
       "language": "danish",
-      "contexts": [
-        "meeting"
-      ],
+      "contexts": ["meeting"],
       "meaning": "Jeg er uenig.",
       "variations": [
         {
@@ -1814,9 +1610,7 @@
       "category": "platitude",
       "origin": "general",
       "language": "danish",
-      "contexts": [
-        "meeting"
-      ],
+      "contexts": ["meeting"],
       "meaning": "Jeg har ikke et svar.",
       "variations": [
         {
@@ -1844,9 +1638,7 @@
       "category": "platitude",
       "origin": "general",
       "language": "danglish",
-      "contexts": [
-        "meeting"
-      ],
+      "contexts": ["meeting"],
       "meaning": "Ok.",
       "variations": [
         {
@@ -1874,10 +1666,7 @@
       "category": "process_jargon",
       "origin": "sports",
       "language": "danglish",
-      "contexts": [
-        "meeting",
-        "leadership"
-      ],
+      "contexts": ["meeting", "leadership"],
       "meaning": "Snakke om det.",
       "variations": [
         {
@@ -1905,10 +1694,7 @@
       "category": "buzzword",
       "origin": "general",
       "language": "english",
-      "contexts": [
-        "strategy",
-        "meeting"
-      ],
+      "contexts": ["strategy", "meeting"],
       "meaning": "Nemt resultat.",
       "variations": [
         {
@@ -1936,10 +1722,7 @@
       "category": "process_jargon",
       "origin": "consulting",
       "language": "english",
-      "contexts": [
-        "tech",
-        "strategy"
-      ],
+      "contexts": ["tech", "strategy"],
       "meaning": "Sådan gør andre.",
       "variations": [
         {
@@ -1967,10 +1750,7 @@
       "category": "buzzword",
       "origin": "academic",
       "language": "danish",
-      "contexts": [
-        "strategy",
-        "hr"
-      ],
+      "contexts": ["strategy", "hr"],
       "meaning": "Bredt.",
       "variations": [
         {
@@ -1986,10 +1766,7 @@
           "slug": "helhedssyn"
         }
       ],
-      "related": [
-        "bs-057",
-        "bs-058"
-      ]
+      "related": ["bs-057", "bs-058"]
     },
     {
       "id": "bs-057",
@@ -2001,9 +1778,7 @@
       "category": "buzzword",
       "origin": "general",
       "language": "danish",
-      "contexts": [
-        "strategy"
-      ],
+      "contexts": ["strategy"],
       "meaning": "Bredt, igen.",
       "variations": [
         {
@@ -2015,9 +1790,7 @@
           "slug": "helhedstaenkning"
         }
       ],
-      "related": [
-        "bs-056"
-      ]
+      "related": ["bs-056"]
     },
     {
       "id": "bs-058",
@@ -2029,10 +1802,7 @@
       "category": "buzzword",
       "origin": "general",
       "language": "danish",
-      "contexts": [
-        "strategy",
-        "leadership"
-      ],
+      "contexts": ["strategy", "leadership"],
       "meaning": "Flere afdelinger involveret.",
       "variations": [
         {
@@ -2052,10 +1822,7 @@
           "slug": "tvaerfaglig"
         }
       ],
-      "related": [
-        "bs-056",
-        "bs-059"
-      ]
+      "related": ["bs-056", "bs-059"]
     },
     {
       "id": "bs-059",
@@ -2067,10 +1834,7 @@
       "category": "metaphor",
       "origin": "consulting",
       "language": "danglish",
-      "contexts": [
-        "leadership",
-        "strategy"
-      ],
+      "contexts": ["leadership", "strategy"],
       "meaning": "Afdelinger skal tale sammen.",
       "variations": [
         {
@@ -2086,9 +1850,7 @@
           "slug": "break-down-silos"
         }
       ],
-      "related": [
-        "bs-058"
-      ]
+      "related": ["bs-058"]
     },
     {
       "id": "bs-060",
@@ -2100,10 +1862,7 @@
       "category": "buzzword",
       "origin": "academic",
       "language": "english",
-      "contexts": [
-        "hr",
-        "leadership"
-      ],
+      "contexts": ["hr", "leadership"],
       "meaning": "Holdning.",
       "variations": [
         {
@@ -2131,10 +1890,7 @@
       "category": "hr_job_ad",
       "origin": "general",
       "language": "danish",
-      "contexts": [
-        "job_ad",
-        "hr"
-      ],
+      "contexts": ["job_ad", "hr"],
       "meaning": "Arbejder gratis over.",
       "variations": [
         {
@@ -2146,11 +1902,7 @@
           "slug": "en-aegte-ildsjael"
         }
       ],
-      "related": [
-        "bs-004",
-        "bs-062",
-        "bs-063"
-      ]
+      "related": ["bs-004", "bs-062", "bs-063"]
     },
     {
       "id": "bs-062",
@@ -2162,9 +1914,7 @@
       "category": "hr_job_ad",
       "origin": "general",
       "language": "danish",
-      "contexts": [
-        "job_ad"
-      ],
+      "contexts": ["job_ad"],
       "meaning": "Kan lide.",
       "variations": [
         {
@@ -2176,9 +1926,7 @@
           "slug": "braendende-interesse"
         }
       ],
-      "related": [
-        "bs-061"
-      ]
+      "related": ["bs-061"]
     },
     {
       "id": "bs-063",
@@ -2190,9 +1938,7 @@
       "category": "hr_job_ad",
       "origin": "general",
       "language": "danglish",
-      "contexts": [
-        "job_ad"
-      ],
+      "contexts": ["job_ad"],
       "meaning": "Kan lide, men mere.",
       "variations": [
         {
@@ -2208,9 +1954,7 @@
           "slug": "med-passion-for"
         }
       ],
-      "related": [
-        "bs-061"
-      ]
+      "related": ["bs-061"]
     },
     {
       "id": "bs-064",
@@ -2222,10 +1966,7 @@
       "category": "hr_job_ad",
       "origin": "tech",
       "language": "english",
-      "contexts": [
-        "job_ad",
-        "tech"
-      ],
+      "contexts": ["job_ad", "tech"],
       "meaning": "Udvikler, uden ekstra løn.",
       "variations": [
         {
@@ -2261,9 +2002,7 @@
       "category": "hr_job_ad",
       "origin": "general",
       "language": "danish",
-      "contexts": [
-        "job_ad"
-      ],
+      "contexts": ["job_ad"],
       "meaning": "Kaotisk.",
       "variations": [
         {
@@ -2287,9 +2026,7 @@
       "category": "hr_job_ad",
       "origin": "general",
       "language": "danish",
-      "contexts": [
-        "job_ad"
-      ],
+      "contexts": ["job_ad"],
       "meaning": "Underbemandet.",
       "variations": [
         {
@@ -2317,9 +2054,7 @@
       "category": "hr_job_ad",
       "origin": "general",
       "language": "danish",
-      "contexts": [
-        "job_ad"
-      ],
+      "contexts": ["job_ad"],
       "meaning": "Vi siger ikke tallet.",
       "variations": [
         {
@@ -2347,10 +2082,7 @@
       "category": "hr_job_ad",
       "origin": "general",
       "language": "danish",
-      "contexts": [
-        "job_ad",
-        "hr"
-      ],
+      "contexts": ["job_ad", "hr"],
       "meaning": "Uklart, hvem der bestemmer.",
       "variations": [
         {
@@ -2366,9 +2098,7 @@
           "slug": "korte-beslutningsveje"
         }
       ],
-      "related": [
-        "bs-069"
-      ]
+      "related": ["bs-069"]
     },
     {
       "id": "bs-069",
@@ -2380,10 +2110,7 @@
       "category": "management_speak",
       "origin": "general",
       "language": "danish",
-      "contexts": [
-        "hr",
-        "job_ad"
-      ],
+      "contexts": ["hr", "job_ad"],
       "meaning": "Ingen leder.",
       "variations": [
         {
@@ -2399,9 +2126,7 @@
           "slug": "self-management"
         }
       ],
-      "related": [
-        "bs-068"
-      ]
+      "related": ["bs-068"]
     },
     {
       "id": "bs-070",
@@ -2413,9 +2138,7 @@
       "category": "hr_job_ad",
       "origin": "academic",
       "language": "danglish",
-      "contexts": [
-        "hr"
-      ],
+      "contexts": ["hr"],
       "meaning": "Godt begreb, slidt som slogan.",
       "variations": [
         {
@@ -2443,10 +2166,7 @@
       "category": "management_speak",
       "origin": "general",
       "language": "danish",
-      "contexts": [
-        "hr",
-        "job_ad"
-      ],
+      "contexts": ["hr", "job_ad"],
       "meaning": "Lederen er der.",
       "variations": [
         {
@@ -2474,10 +2194,7 @@
       "category": "management_speak",
       "origin": "general",
       "language": "danish",
-      "contexts": [
-        "hr",
-        "leadership"
-      ],
+      "contexts": ["hr", "leadership"],
       "meaning": "Færre kontroller, på papiret.",
       "variations": [
         {
@@ -2501,9 +2218,7 @@
       "category": "hr_job_ad",
       "origin": "general",
       "language": "danglish",
-      "contexts": [
-        "hr"
-      ],
+      "contexts": ["hr"],
       "meaning": "Kritik med skema.",
       "variations": [
         {
@@ -2531,9 +2246,7 @@
       "category": "buzzword",
       "origin": "consulting",
       "language": "danglish",
-      "contexts": [
-        "hr"
-      ],
+      "contexts": ["hr"],
       "meaning": "Ansættelsesforløb.",
       "variations": [
         {
@@ -2549,10 +2262,7 @@
           "slug": "employee-experience"
         }
       ],
-      "related": [
-        "bs-005",
-        "bs-075"
-      ]
+      "related": ["bs-005", "bs-075"]
     },
     {
       "id": "bs-075",
@@ -2564,10 +2274,7 @@
       "category": "buzzword",
       "origin": "consulting",
       "language": "danglish",
-      "contexts": [
-        "strategy",
-        "tech"
-      ],
+      "contexts": ["strategy", "tech"],
       "meaning": "Hvordan kunden bruger produktet.",
       "variations": [
         {
@@ -2587,10 +2294,7 @@
           "slug": "cx"
         }
       ],
-      "related": [
-        "bs-005",
-        "bs-074"
-      ]
+      "related": ["bs-005", "bs-074"]
     },
     {
       "id": "bs-076",
@@ -2602,9 +2306,7 @@
       "category": "hr_job_ad",
       "origin": "consulting",
       "language": "danglish",
-      "contexts": [
-        "hr"
-      ],
+      "contexts": ["hr"],
       "meaning": "Ansatte.",
       "variations": [
         {
@@ -2636,10 +2338,7 @@
       "category": "euphemism",
       "origin": "general",
       "language": "danglish",
-      "contexts": [
-        "leadership",
-        "hr"
-      ],
+      "contexts": ["leadership", "hr"],
       "meaning": "Mennesker.",
       "variations": [
         {
@@ -2659,10 +2358,7 @@
           "slug": "ressourcepersoner"
         }
       ],
-      "related": [
-        "bs-001",
-        "bs-003"
-      ]
+      "related": ["bs-001", "bs-003"]
     },
     {
       "id": "bs-078",
@@ -2674,10 +2370,7 @@
       "category": "process_jargon",
       "origin": "consulting",
       "language": "danglish",
-      "contexts": [
-        "strategy",
-        "tech"
-      ],
+      "contexts": ["strategy", "tech"],
       "meaning": "Folk der har en mening.",
       "variations": [
         {
@@ -2705,10 +2398,7 @@
       "category": "verbified_noun",
       "origin": "general",
       "language": "danglish",
-      "contexts": [
-        "hr",
-        "tech"
-      ],
+      "contexts": ["hr", "tech"],
       "meaning": "Introducere.",
       "variations": [
         {
@@ -2740,10 +2430,7 @@
       "category": "verbified_noun",
       "origin": "general",
       "language": "danglish",
-      "contexts": [
-        "leadership",
-        "meeting"
-      ],
+      "contexts": ["leadership", "meeting"],
       "meaning": "Love.",
       "variations": [
         {
@@ -2759,9 +2446,7 @@
           "slug": "committe"
         }
       ],
-      "related": [
-        "bs-019"
-      ]
+      "related": ["bs-019"]
     },
     {
       "id": "bs-081",
@@ -2773,10 +2458,7 @@
       "category": "process_jargon",
       "origin": "consulting",
       "language": "danglish",
-      "contexts": [
-        "tech",
-        "strategy"
-      ],
+      "contexts": ["tech", "strategy"],
       "meaning": "Opgaver.",
       "variations": [
         {
@@ -2800,10 +2482,7 @@
       "category": "platitude",
       "origin": "general",
       "language": "danish",
-      "contexts": [
-        "email_chat",
-        "leadership"
-      ],
+      "contexts": ["email_chat", "leadership"],
       "meaning": "Fremover.",
       "variations": [
         {
@@ -2827,10 +2506,7 @@
       "category": "buzzword",
       "origin": "general",
       "language": "danglish",
-      "contexts": [
-        "job_ad",
-        "hr"
-      ],
+      "contexts": ["job_ad", "hr"],
       "meaning": "Gør ting uden at blive bedt om det.",
       "variations": [
         {
@@ -2858,10 +2534,7 @@
       "category": "buzzword",
       "origin": "tech",
       "language": "danglish",
-      "contexts": [
-        "tech",
-        "strategy"
-      ],
+      "contexts": ["tech", "strategy"],
       "meaning": "Om alt med statusmøde hver anden uge.",
       "variations": [
         {
@@ -2897,10 +2570,7 @@
       "category": "buzzword",
       "origin": "tech",
       "language": "danglish",
-      "contexts": [
-        "strategy",
-        "tech"
-      ],
+      "contexts": ["strategy", "tech"],
       "meaning": "Vi har et dashboard.",
       "variations": [
         {
@@ -2928,10 +2598,7 @@
       "category": "buzzword",
       "origin": "tech",
       "language": "danglish",
-      "contexts": [
-        "tech",
-        "strategy"
-      ],
+      "contexts": ["tech", "strategy"],
       "meaning": "Kan vokse.",
       "variations": [
         {
@@ -2959,9 +2626,7 @@
       "category": "buzzword",
       "origin": "general",
       "language": "danish",
-      "contexts": [
-        "strategy"
-      ],
+      "contexts": ["strategy"],
       "meaning": "Ofte brugt uden miljømæssig betydning.",
       "variations": [
         {
@@ -2989,9 +2654,7 @@
       "category": "management_speak",
       "origin": "general",
       "language": "danish",
-      "contexts": [
-        "leadership"
-      ],
+      "contexts": ["leadership"],
       "meaning": "Lederen gør det også.",
       "variations": [
         {
@@ -3015,9 +2678,7 @@
       "category": "platitude",
       "origin": "general",
       "language": "danish",
-      "contexts": [
-        "job_ad"
-      ],
+      "contexts": ["job_ad"],
       "meaning": "Arbejde.",
       "variations": [
         {
@@ -3045,10 +2706,7 @@
       "category": "process_jargon",
       "origin": "general",
       "language": "danish",
-      "contexts": [
-        "hr",
-        "meeting"
-      ],
+      "contexts": ["hr", "meeting"],
       "meaning": "Afsætte tid.",
       "variations": [
         {
@@ -3076,9 +2734,7 @@
       "category": "metaphor",
       "origin": "general",
       "language": "danish",
-      "contexts": [
-        "strategy"
-      ],
+      "contexts": ["strategy"],
       "meaning": "Konsekvenser.",
       "variations": [
         {
@@ -3106,9 +2762,7 @@
       "category": "process_jargon",
       "origin": "sports",
       "language": "english",
-      "contexts": [
-        "meeting"
-      ],
+      "contexts": ["meeting"],
       "meaning": "Første møde.",
       "variations": [
         {
@@ -3128,9 +2782,7 @@
           "slug": "kickoffmoede"
         }
       ],
-      "related": [
-        "bs-093"
-      ]
+      "related": ["bs-093"]
     },
     {
       "id": "bs-093",
@@ -3142,9 +2794,7 @@
       "category": "process_jargon",
       "origin": "general",
       "language": "danglish",
-      "contexts": [
-        "meeting"
-      ],
+      "contexts": ["meeting"],
       "meaning": "Møde med post-its.",
       "variations": [
         {
@@ -3164,9 +2814,7 @@
           "slug": "design-sprint"
         }
       ],
-      "related": [
-        "bs-092"
-      ]
+      "related": ["bs-092"]
     },
     {
       "id": "bs-094",
@@ -3178,9 +2826,7 @@
       "category": "process_jargon",
       "origin": "general",
       "language": "english",
-      "contexts": [
-        "meeting"
-      ],
+      "contexts": ["meeting"],
       "meaning": "Konklusioner.",
       "variations": [
         {
@@ -3208,9 +2854,7 @@
       "category": "hr_job_ad",
       "origin": "general",
       "language": "english",
-      "contexts": [
-        "job_ad"
-      ],
+      "contexts": ["job_ad"],
       "meaning": "Laver selv arbejdet.",
       "variations": [
         {
@@ -3238,9 +2882,7 @@
       "category": "process_jargon",
       "origin": "tech",
       "language": "danglish",
-      "contexts": [
-        "tech"
-      ],
+      "contexts": ["tech"],
       "meaning": "Prøve igen.",
       "variations": [
         {
@@ -3268,10 +2910,7 @@
       "category": "buzzword",
       "origin": "startup",
       "language": "english",
-      "contexts": [
-        "tech",
-        "strategy"
-      ],
+      "contexts": ["tech", "strategy"],
       "meaning": "Første version, ofte den eneste.",
       "variations": [
         {
@@ -3299,9 +2938,7 @@
       "category": "buzzword",
       "origin": "startup",
       "language": "english",
-      "contexts": [
-        "strategy"
-      ],
+      "contexts": ["strategy"],
       "meaning": "Skifte retning.",
       "variations": [
         {
@@ -3329,10 +2966,7 @@
       "category": "platitude",
       "origin": "general",
       "language": "danish",
-      "contexts": [
-        "meeting",
-        "email_chat"
-      ],
+      "contexts": ["meeting", "email_chat"],
       "meaning": "Kan indsættes i enhver sætning.",
       "variations": [
         {
@@ -3360,10 +2994,7 @@
       "category": "platitude",
       "origin": "general",
       "language": "danish",
-      "contexts": [
-        "email_chat",
-        "meeting"
-      ],
+      "contexts": ["email_chat", "meeting"],
       "meaning": "Starten/slutningen af.",
       "variations": [
         {
@@ -3485,11 +3116,7 @@
         "bs-094",
         "bs-096"
       ],
-      "verbified_noun": [
-        "bs-018",
-        "bs-079",
-        "bs-080"
-      ],
+      "verbified_noun": ["bs-018", "bs-079", "bs-080"],
       "hr_job_ad": [
         "bs-061",
         "bs-062",
@@ -3749,16 +3376,8 @@
         "bs-086",
         "bs-096"
       ],
-      "sports": [
-        "bs-013",
-        "bs-016",
-        "bs-022",
-        "bs-053",
-        "bs-092"
-      ],
-      "military": [
-        "bs-048"
-      ],
+      "sports": ["bs-013", "bs-016", "bs-022", "bs-053", "bs-092"],
+      "military": ["bs-048"],
       "consulting": [
         "bs-001",
         "bs-002",
@@ -3785,19 +3404,8 @@
         "bs-078",
         "bs-081"
       ],
-      "startup": [
-        "bs-014",
-        "bs-028",
-        "bs-097",
-        "bs-098"
-      ],
-      "academic": [
-        "bs-012",
-        "bs-038",
-        "bs-056",
-        "bs-060",
-        "bs-070"
-      ]
+      "startup": ["bs-014", "bs-028", "bs-097", "bs-098"],
+      "academic": ["bs-012", "bs-038", "bs-056", "bs-060", "bs-070"]
     },
     "by_language": {
       "english": [
@@ -4108,6 +3716,7 @@
       "mega spændende": "bs-026",
       "helikopterniveau": "bs-027",
       "helicopter view": "bs-027",
+      "helicopteren": "bs-027",
       "overordnet niveau": "bs-027",
       "north star": "bs-028",
       "north star metric": "bs-028",

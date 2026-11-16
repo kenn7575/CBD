@@ -10,6 +10,8 @@ import { Separator } from "@/components/ui/separator"
 import { entryById } from "@/lib/bullshit/data"
 import { describe, label, TIER_HIGHLIGHT } from "@/lib/bullshit/labels"
 import type { Finding } from "@/lib/bullshit/scan"
+import type { Lang } from "@/lib/bullshit/types"
+import { dictionaries } from "@/lib/i18n"
 import { cn } from "@/lib/utils"
 
 /** Fit a dataset meaning ("Layoffs.") into the middle of a sentence. */
@@ -24,10 +26,13 @@ function inlineMeaning(finding: Finding): string {
 export function FindingMark({
   finding,
   plain,
+  locale,
 }: {
   finding: Finding
   plain: boolean
+  locale: Lang
 }) {
+  const t = dictionaries[locale]
   const { entry, lang } = finding
   const tierClass = TIER_HIGHLIGHT[entry.tier]
   const matchedDiffers =
@@ -63,7 +68,7 @@ export function FindingMark({
             </div>
             {matchedDiffers && (
               <div className="text-xs text-muted-foreground">
-                matched as “{finding.text.replace(/\s+/g, " ")}”
+                {t.matchedAs(finding.text.replace(/\s+/g, " "))}
               </div>
             )}
           </div>
@@ -73,12 +78,12 @@ export function FindingMark({
         </div>
 
         <p className="text-sm">
-          <span className="text-muted-foreground">Actually means: </span>
+          <span className="text-muted-foreground">{t.actuallyMeans} </span>
           {entry.meaning}
         </p>
 
         <div className="font-mono text-xs text-muted-foreground">
-          #{entry.rank} of 100 · score {entry.score}
+          {t.rankLine(entry.rank, entry.score)}
         </div>
 
         <Separator />
@@ -111,7 +116,7 @@ export function FindingMark({
 
         {related.length > 0 && (
           <div className="text-xs text-muted-foreground">
-            <span className="font-medium text-foreground">Related: </span>
+            <span className="font-medium text-foreground">{t.related} </span>
             {related.map((e) => e.term).join(" · ")}
           </div>
         )}
