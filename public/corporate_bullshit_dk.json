@@ -1,0 +1,4463 @@
+{
+  "meta": {
+    "title": "Dansk corporate bullshit",
+    "version": "1.1.0",
+    "language": "da",
+    "generated": "2026-11-16",
+    "count": 100,
+    "scoring": {
+      "min": 1,
+      "max": 100,
+      "direction": "højere = mere irriterende",
+      "note": "Subjektiv rangering. Score afledt af rang (1 = 100, 100 = 20)."
+    }
+  },
+  "taxonomy": {
+    "categories": [
+      {
+        "id": "euphemism",
+        "label": "Eufemisme",
+        "description": "Pakker en ubehagelig realitet ind (typisk fyringer eller besparelser)."
+      },
+      {
+        "id": "metaphor",
+        "label": "Metafor",
+        "description": "Billedsprog der erstatter en konkret beskrivelse."
+      },
+      {
+        "id": "buzzword",
+        "label": "Buzzword",
+        "description": "Modeord med høj frekvens og lavt indhold."
+      },
+      {
+        "id": "platitude",
+        "label": "Floskel",
+        "description": "Fast vending uden reel information."
+      },
+      {
+        "id": "management_speak",
+        "label": "Ledelsesjargon",
+        "description": "Ledelses- og strategisprog."
+      },
+      {
+        "id": "process_jargon",
+        "label": "Procesjargon",
+        "description": "Sprog om møder, processer og samarbejde."
+      },
+      {
+        "id": "verbified_noun",
+        "label": "Verbificeret navneord",
+        "description": "Navneord brugt som udsagnsord eller udsagnsord brugt som navneord."
+      },
+      {
+        "id": "hr_job_ad",
+        "label": "HR og jobopslag",
+        "description": "HR-sprog og typiske jobopslagsformuleringer."
+      }
+    ],
+    "contexts": [
+      {
+        "id": "meeting",
+        "label": "Møde",
+        "description": "Mødelokalet"
+      },
+      {
+        "id": "strategy",
+        "label": "Strategi",
+        "description": "Strategidokumenter og præsentationer"
+      },
+      {
+        "id": "leadership",
+        "label": "Ledelse",
+        "description": "Ledelseskommunikation"
+      },
+      {
+        "id": "hr",
+        "label": "HR",
+        "description": "HR og personale"
+      },
+      {
+        "id": "job_ad",
+        "label": "Jobopslag",
+        "description": "Jobopslag"
+      },
+      {
+        "id": "email_chat",
+        "label": "Mail og chat",
+        "description": "Mail, Slack og Teams"
+      },
+      {
+        "id": "tech",
+        "label": "IT",
+        "description": "IT og udvikling"
+      }
+    ],
+    "origins": [
+      {
+        "id": "general",
+        "label": "Generelt"
+      },
+      {
+        "id": "tech",
+        "label": "Tech"
+      },
+      {
+        "id": "sports",
+        "label": "Sport"
+      },
+      {
+        "id": "military",
+        "label": "Militær"
+      },
+      {
+        "id": "consulting",
+        "label": "Konsulentbranchen"
+      },
+      {
+        "id": "startup",
+        "label": "Startup"
+      },
+      {
+        "id": "academic",
+        "label": "Akademisk"
+      }
+    ],
+    "languages": [
+      {
+        "id": "english",
+        "label": "Engelsk"
+      },
+      {
+        "id": "danish",
+        "label": "Dansk"
+      },
+      {
+        "id": "danglish",
+        "label": "Danglish"
+      }
+    ],
+    "tiers": [
+      {
+        "id": "tier-1",
+        "label": "De værste",
+        "ranks": [
+          1,
+          10
+        ],
+        "score_range": [
+          93,
+          100
+        ]
+      },
+      {
+        "id": "tier-2",
+        "label": "Konsulentsprog",
+        "ranks": [
+          11,
+          30
+        ],
+        "score_range": [
+          77,
+          92
+        ]
+      },
+      {
+        "id": "tier-3",
+        "label": "Mødelokale-dialekt",
+        "ranks": [
+          31,
+          60
+        ],
+        "score_range": [
+          52,
+          76
+        ]
+      },
+      {
+        "id": "tier-4",
+        "label": "HR, jobopslag og hverdagsstøj",
+        "ranks": [
+          61,
+          100
+        ],
+        "score_range": [
+          20,
+          52
+        ]
+      }
+    ]
+  },
+  "entries": [
+    {
+      "id": "bs-001",
+      "rank": 1,
+      "slug": "tilpasning-af-organisationen",
+      "term": "Tilpasning af organisationen",
+      "score": 100,
+      "tier": "tier-1",
+      "category": "euphemism",
+      "origin": "consulting",
+      "language": "danish",
+      "contexts": [
+        "leadership",
+        "hr"
+      ],
+      "meaning": "Fyringer.",
+      "variations": [
+        {
+          "text": "tilpasse organisationen",
+          "slug": "tilpasse-organisationen"
+        },
+        {
+          "text": "organisationstilpasning",
+          "slug": "organisationstilpasning"
+        },
+        {
+          "text": "organisatorisk tilpasning",
+          "slug": "organisatorisk-tilpasning"
+        },
+        {
+          "text": "vi tilpasser os",
+          "slug": "vi-tilpasser-os"
+        }
+      ],
+      "related": [
+        "bs-002",
+        "bs-003",
+        "bs-031",
+        "bs-032",
+        "bs-077"
+      ]
+    },
+    {
+      "id": "bs-002",
+      "rank": 2,
+      "slug": "rightsizing",
+      "term": "Rightsizing",
+      "score": 99,
+      "tier": "tier-1",
+      "category": "euphemism",
+      "origin": "consulting",
+      "language": "english",
+      "contexts": [
+        "leadership",
+        "hr"
+      ],
+      "meaning": "Fyringer, på engelsk.",
+      "variations": [
+        {
+          "text": "right-sizing",
+          "slug": "right-sizing"
+        },
+        {
+          "text": "rightsize",
+          "slug": "rightsize"
+        },
+        {
+          "text": "at rightsize",
+          "slug": "at-rightsize"
+        },
+        {
+          "text": "rightsizing af organisationen",
+          "slug": "rightsizing-af-organisationen"
+        }
+      ],
+      "related": [
+        "bs-001",
+        "bs-003"
+      ]
+    },
+    {
+      "id": "bs-003",
+      "rank": 3,
+      "slug": "frigoere-ressourcer",
+      "term": "Frigøre ressourcer",
+      "score": 98,
+      "tier": "tier-1",
+      "category": "euphemism",
+      "origin": "consulting",
+      "language": "danish",
+      "contexts": [
+        "leadership",
+        "hr"
+      ],
+      "meaning": "Fyringer eller omplacering.",
+      "variations": [
+        {
+          "text": "frigive ressourcer",
+          "slug": "frigive-ressourcer"
+        },
+        {
+          "text": "frigørelse af ressourcer",
+          "slug": "frigoerelse-af-ressourcer"
+        },
+        {
+          "text": "frigjorte ressourcer",
+          "slug": "frigjorte-ressourcer"
+        }
+      ],
+      "related": [
+        "bs-001",
+        "bs-002",
+        "bs-077"
+      ]
+    },
+    {
+      "id": "bs-004",
+      "rank": 4,
+      "slug": "vi-er-en-familie",
+      "term": "Vi er en familie",
+      "score": 98,
+      "tier": "tier-1",
+      "category": "platitude",
+      "origin": "general",
+      "language": "danish",
+      "contexts": [
+        "hr",
+        "job_ad",
+        "leadership"
+      ],
+      "meaning": "Forventning om loyalitet uden modydelse.",
+      "variations": [
+        {
+          "text": "vi er som en familie",
+          "slug": "vi-er-som-en-familie"
+        },
+        {
+          "text": "en del af familien",
+          "slug": "en-del-af-familien"
+        },
+        {
+          "text": "vores lille familie",
+          "slug": "vores-lille-familie"
+        }
+      ],
+      "related": [
+        "bs-061"
+      ]
+    },
+    {
+      "id": "bs-005",
+      "rank": 5,
+      "slug": "vi-er-paa-en-rejse",
+      "term": "Vi er på en rejse",
+      "score": 97,
+      "tier": "tier-1",
+      "category": "metaphor",
+      "origin": "consulting",
+      "language": "danish",
+      "contexts": [
+        "strategy",
+        "leadership"
+      ],
+      "meaning": "Der er ingen klar plan.",
+      "variations": [
+        {
+          "text": "vores rejse",
+          "slug": "vores-rejse"
+        },
+        {
+          "text": "en spændende rejse",
+          "slug": "en-spaendende-rejse"
+        },
+        {
+          "text": "transformationsrejse",
+          "slug": "transformationsrejse"
+        },
+        {
+          "text": "digital rejse",
+          "slug": "digital-rejse"
+        }
+      ],
+      "related": [
+        "bs-074",
+        "bs-075"
+      ]
+    },
+    {
+      "id": "bs-006",
+      "rank": 6,
+      "slug": "lavthaengende-frugter",
+      "term": "Lavthængende frugter",
+      "score": 96,
+      "tier": "tier-1",
+      "category": "metaphor",
+      "origin": "general",
+      "language": "danglish",
+      "contexts": [
+        "meeting",
+        "strategy"
+      ],
+      "meaning": "Lette opgaver.",
+      "variations": [
+        {
+          "text": "low-hanging fruit",
+          "slug": "low-hanging-fruit"
+        },
+        {
+          "text": "lavthængende frugt",
+          "slug": "lavthaengende-frugt"
+        },
+        {
+          "text": "plukke de lavthængende frugter",
+          "slug": "plukke-de-lavthaengende-frugter"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-007",
+      "rank": 7,
+      "slug": "synergier",
+      "term": "Synergier",
+      "score": 95,
+      "tier": "tier-1",
+      "category": "buzzword",
+      "origin": "consulting",
+      "language": "danglish",
+      "contexts": [
+        "strategy",
+        "leadership"
+      ],
+      "meaning": "Besparelser eller sammenlægning, sjældent dokumenteret.",
+      "variations": [
+        {
+          "text": "synergi",
+          "slug": "synergi"
+        },
+        {
+          "text": "synergieffekter",
+          "slug": "synergieffekter"
+        },
+        {
+          "text": "høste synergier",
+          "slug": "hoeste-synergier"
+        },
+        {
+          "text": "synergize",
+          "slug": "synergize"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-008",
+      "rank": 8,
+      "slug": "lad-os-tage-den-offline",
+      "term": "Lad os tage den offline",
+      "score": 94,
+      "tier": "tier-1",
+      "category": "process_jargon",
+      "origin": "tech",
+      "language": "danglish",
+      "contexts": [
+        "meeting"
+      ],
+      "meaning": "Stop med at tale om det nu.",
+      "variations": [
+        {
+          "text": "tage den offline",
+          "slug": "tage-den-offline"
+        },
+        {
+          "text": "take it offline",
+          "slug": "take-it-offline"
+        },
+        {
+          "text": "vi tager den bilateralt",
+          "slug": "vi-tager-den-bilateralt"
+        }
+      ],
+      "related": [
+        "bs-047"
+      ]
+    },
+    {
+      "id": "bs-009",
+      "rank": 9,
+      "slug": "har-du-baandbredde-til-det",
+      "term": "Har du båndbredde til det?",
+      "score": 94,
+      "tier": "tier-1",
+      "category": "metaphor",
+      "origin": "tech",
+      "language": "danglish",
+      "contexts": [
+        "meeting",
+        "email_chat"
+      ],
+      "meaning": "Har du tid?",
+      "variations": [
+        {
+          "text": "båndbredde",
+          "slug": "baandbredde"
+        },
+        {
+          "text": "bandwidth",
+          "slug": "bandwidth"
+        },
+        {
+          "text": "har du kapacitet",
+          "slug": "har-du-kapacitet"
+        },
+        {
+          "text": "har du plads på tallerkenen",
+          "slug": "har-du-plads-paa-tallerkenen"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-010",
+      "rank": 10,
+      "slug": "det-ligger-i-vores-dna",
+      "term": "Det ligger i vores DNA",
+      "score": 93,
+      "tier": "tier-1",
+      "category": "metaphor",
+      "origin": "general",
+      "language": "danish",
+      "contexts": [
+        "strategy",
+        "job_ad"
+      ],
+      "meaning": "Det står i værdigrundlaget.",
+      "variations": [
+        {
+          "text": "vores DNA",
+          "slug": "vores-dna"
+        },
+        {
+          "text": "i virksomhedens DNA",
+          "slug": "i-virksomhedens-dna"
+        },
+        {
+          "text": "DNA'et",
+          "slug": "dna-et"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-011",
+      "rank": 11,
+      "slug": "braendende-platform",
+      "term": "Brændende platform",
+      "score": 92,
+      "tier": "tier-2",
+      "category": "metaphor",
+      "origin": "consulting",
+      "language": "danglish",
+      "contexts": [
+        "strategy",
+        "leadership"
+      ],
+      "meaning": "Krise brugt som argument for forandring.",
+      "variations": [
+        {
+          "text": "burning platform",
+          "slug": "burning-platform"
+        },
+        {
+          "text": "den brændende platform",
+          "slug": "den-braendende-platform"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-012",
+      "rank": 12,
+      "slug": "paradigmeskift",
+      "term": "Paradigmeskift",
+      "score": 91,
+      "tier": "tier-2",
+      "category": "buzzword",
+      "origin": "academic",
+      "language": "danish",
+      "contexts": [
+        "strategy"
+      ],
+      "meaning": "En ændring, ofte en lille.",
+      "variations": [
+        {
+          "text": "paradigm shift",
+          "slug": "paradigm-shift"
+        },
+        {
+          "text": "et nyt paradigme",
+          "slug": "et-nyt-paradigme"
+        },
+        {
+          "text": "paradigmeskiftende",
+          "slug": "paradigmeskiftende"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-013",
+      "rank": 13,
+      "slug": "gamechanger",
+      "term": "Gamechanger",
+      "score": 90,
+      "tier": "tier-2",
+      "category": "buzzword",
+      "origin": "sports",
+      "language": "english",
+      "contexts": [
+        "strategy",
+        "tech"
+      ],
+      "meaning": "Nyt produkt eller værktøj.",
+      "variations": [
+        {
+          "text": "game changer",
+          "slug": "game-changer"
+        },
+        {
+          "text": "game-changer",
+          "slug": "game-changer"
+        },
+        {
+          "text": "gamechanging",
+          "slug": "gamechanging"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-014",
+      "rank": 14,
+      "slug": "disruption",
+      "term": "Disruption",
+      "score": 89,
+      "tier": "tier-2",
+      "category": "buzzword",
+      "origin": "startup",
+      "language": "english",
+      "contexts": [
+        "strategy",
+        "tech"
+      ],
+      "meaning": "Konkurrence eller ny teknologi.",
+      "variations": [
+        {
+          "text": "disruptive",
+          "slug": "disruptive"
+        },
+        {
+          "text": "disruptiv",
+          "slug": "disruptiv"
+        },
+        {
+          "text": "disrupte",
+          "slug": "disrupte"
+        },
+        {
+          "text": "blive disruptet",
+          "slug": "blive-disruptet"
+        },
+        {
+          "text": "disruptor",
+          "slug": "disruptor"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-015",
+      "rank": 15,
+      "slug": "taenke-ud-af-boksen",
+      "term": "Tænke ud af boksen",
+      "score": 89,
+      "tier": "tier-2",
+      "category": "metaphor",
+      "origin": "consulting",
+      "language": "danglish",
+      "contexts": [
+        "meeting"
+      ],
+      "meaning": "Kom med en idé.",
+      "variations": [
+        {
+          "text": "out of the box",
+          "slug": "out-of-the-box"
+        },
+        {
+          "text": "ud af boksen",
+          "slug": "ud-af-boksen"
+        },
+        {
+          "text": "think outside the box",
+          "slug": "think-outside-the-box"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-016",
+      "rank": 16,
+      "slug": "touchbase",
+      "term": "Touchbase",
+      "score": 88,
+      "tier": "tier-2",
+      "category": "process_jargon",
+      "origin": "sports",
+      "language": "danglish",
+      "contexts": [
+        "meeting",
+        "email_chat"
+      ],
+      "meaning": "Et kort møde.",
+      "variations": [
+        {
+          "text": "touch base",
+          "slug": "touch-base"
+        },
+        {
+          "text": "touche base",
+          "slug": "touche-base"
+        },
+        {
+          "text": "et touchbase",
+          "slug": "et-touchbase"
+        },
+        {
+          "text": "tjekke ind",
+          "slug": "tjekke-ind"
+        }
+      ],
+      "related": [
+        "bs-017",
+        "bs-018"
+      ]
+    },
+    {
+      "id": "bs-017",
+      "rank": 17,
+      "slug": "circle-back",
+      "term": "Circle back",
+      "score": 87,
+      "tier": "tier-2",
+      "category": "process_jargon",
+      "origin": "general",
+      "language": "danglish",
+      "contexts": [
+        "email_chat",
+        "meeting"
+      ],
+      "meaning": "Senere, måske aldrig.",
+      "variations": [
+        {
+          "text": "vende tilbage på det",
+          "slug": "vende-tilbage-paa-det"
+        },
+        {
+          "text": "circle back on this",
+          "slug": "circle-back-on-this"
+        },
+        {
+          "text": "følge op",
+          "slug": "foelge-op"
+        }
+      ],
+      "related": [
+        "bs-016"
+      ]
+    },
+    {
+      "id": "bs-018",
+      "rank": 18,
+      "slug": "ping-mig",
+      "term": "Ping mig",
+      "score": 86,
+      "tier": "tier-2",
+      "category": "verbified_noun",
+      "origin": "tech",
+      "language": "danglish",
+      "contexts": [
+        "email_chat"
+      ],
+      "meaning": "Skriv til mig.",
+      "variations": [
+        {
+          "text": "ping",
+          "slug": "ping"
+        },
+        {
+          "text": "pinge",
+          "slug": "pinge"
+        },
+        {
+          "text": "smid mig et ping",
+          "slug": "smid-mig-et-ping"
+        },
+        {
+          "text": "jeg pinger dig",
+          "slug": "jeg-pinger-dig"
+        }
+      ],
+      "related": [
+        "bs-016"
+      ]
+    },
+    {
+      "id": "bs-019",
+      "rank": 19,
+      "slug": "at-vaere-alignet",
+      "term": "At være alignet",
+      "score": 85,
+      "tier": "tier-2",
+      "category": "management_speak",
+      "origin": "consulting",
+      "language": "danglish",
+      "contexts": [
+        "meeting",
+        "leadership"
+      ],
+      "meaning": "Enige.",
+      "variations": [
+        {
+          "text": "alignment",
+          "slug": "alignment"
+        },
+        {
+          "text": "aligne",
+          "slug": "aligne"
+        },
+        {
+          "text": "er vi alignet?",
+          "slug": "er-vi-alignet"
+        },
+        {
+          "text": "forventningsafstemme",
+          "slug": "forventningsafstemme"
+        }
+      ],
+      "related": [
+        "bs-080"
+      ]
+    },
+    {
+      "id": "bs-020",
+      "rank": 20,
+      "slug": "tage-ejerskab",
+      "term": "Tage ejerskab",
+      "score": 85,
+      "tier": "tier-2",
+      "category": "management_speak",
+      "origin": "general",
+      "language": "danglish",
+      "contexts": [
+        "leadership",
+        "meeting"
+      ],
+      "meaning": "Nu er det dit ansvar.",
+      "variations": [
+        {
+          "text": "ejerskab",
+          "slug": "ejerskab"
+        },
+        {
+          "text": "take ownership",
+          "slug": "take-ownership"
+        },
+        {
+          "text": "eje opgaven",
+          "slug": "eje-opgaven"
+        },
+        {
+          "text": "ejer af processen",
+          "slug": "ejer-af-processen"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-021",
+      "rank": 21,
+      "slug": "skabe-vaerdi",
+      "term": "Skabe værdi",
+      "score": 84,
+      "tier": "tier-2",
+      "category": "buzzword",
+      "origin": "consulting",
+      "language": "danglish",
+      "contexts": [
+        "strategy"
+      ],
+      "meaning": "Gøre noget nyttigt.",
+      "variations": [
+        {
+          "text": "værdiskabelse",
+          "slug": "vaerdiskabelse"
+        },
+        {
+          "text": "værdiskabende",
+          "slug": "vaerdiskabende"
+        },
+        {
+          "text": "add value",
+          "slug": "add-value"
+        },
+        {
+          "text": "skabe merværdi",
+          "slug": "skabe-mervaerdi"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-022",
+      "rank": 22,
+      "slug": "spille-hinanden-gode",
+      "term": "Spille hinanden gode",
+      "score": 83,
+      "tier": "tier-2",
+      "category": "metaphor",
+      "origin": "sports",
+      "language": "danish",
+      "contexts": [
+        "leadership",
+        "hr"
+      ],
+      "meaning": "Samarbejde.",
+      "variations": [
+        {
+          "text": "spiller hinanden gode",
+          "slug": "spiller-hinanden-gode"
+        },
+        {
+          "text": "gøre hinanden gode",
+          "slug": "goere-hinanden-gode"
+        }
+      ],
+      "related": [
+        "bs-023",
+        "bs-024"
+      ]
+    },
+    {
+      "id": "bs-023",
+      "rank": 23,
+      "slug": "loefte-i-flok",
+      "term": "Løfte i flok",
+      "score": 82,
+      "tier": "tier-2",
+      "category": "metaphor",
+      "origin": "general",
+      "language": "danish",
+      "contexts": [
+        "leadership"
+      ],
+      "meaning": "Alle skal arbejde mere.",
+      "variations": [
+        {
+          "text": "vi løfter i flok",
+          "slug": "vi-loefter-i-flok"
+        },
+        {
+          "text": "løfte sammen",
+          "slug": "loefte-sammen"
+        }
+      ],
+      "related": [
+        "bs-022"
+      ]
+    },
+    {
+      "id": "bs-024",
+      "rank": 24,
+      "slug": "vi-skal-lykkes-sammen",
+      "term": "Vi skal lykkes sammen",
+      "score": 81,
+      "tier": "tier-2",
+      "category": "platitude",
+      "origin": "general",
+      "language": "danish",
+      "contexts": [
+        "leadership"
+      ],
+      "meaning": "Mål uden konkret indhold.",
+      "variations": [
+        {
+          "text": "lykkes sammen",
+          "slug": "lykkes-sammen"
+        },
+        {
+          "text": "vi skal lykkes",
+          "slug": "vi-skal-lykkes"
+        },
+        {
+          "text": "lykkes med opgaven",
+          "slug": "lykkes-med-opgaven"
+        }
+      ],
+      "related": [
+        "bs-022"
+      ]
+    },
+    {
+      "id": "bs-025",
+      "rank": 25,
+      "slug": "udfordring",
+      "term": "Udfordring",
+      "score": 81,
+      "tier": "tier-2",
+      "category": "euphemism",
+      "origin": "general",
+      "language": "danish",
+      "contexts": [
+        "meeting",
+        "leadership"
+      ],
+      "meaning": "Et problem.",
+      "variations": [
+        {
+          "text": "udfordringer",
+          "slug": "udfordringer"
+        },
+        {
+          "text": "en spændende udfordring",
+          "slug": "en-spaendende-udfordring"
+        },
+        {
+          "text": "udfordringsbillede",
+          "slug": "udfordringsbillede"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-026",
+      "rank": 26,
+      "slug": "spaendende",
+      "term": "Spændende",
+      "score": 80,
+      "tier": "tier-2",
+      "category": "platitude",
+      "origin": "general",
+      "language": "danish",
+      "contexts": [
+        "leadership",
+        "job_ad"
+      ],
+      "meaning": "Bruges om alt, inkl. dårlige nyheder.",
+      "variations": [
+        {
+          "text": "spændende tider",
+          "slug": "spaendende-tider"
+        },
+        {
+          "text": "spændende muligheder",
+          "slug": "spaendende-muligheder"
+        },
+        {
+          "text": "super spændende",
+          "slug": "super-spaendende"
+        },
+        {
+          "text": "mega spændende",
+          "slug": "mega-spaendende"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-027",
+      "rank": 27,
+      "slug": "helikopterperspektiv",
+      "term": "Helikopterperspektiv",
+      "score": 79,
+      "tier": "tier-2",
+      "category": "metaphor",
+      "origin": "consulting",
+      "language": "danglish",
+      "contexts": [
+        "strategy",
+        "meeting"
+      ],
+      "meaning": "Overblik uden detaljer.",
+      "variations": [
+        {
+          "text": "helikopterniveau",
+          "slug": "helikopterniveau"
+        },
+        {
+          "text": "helicopter view",
+          "slug": "helicopter-view"
+        },
+        {
+          "text": "overordnet niveau",
+          "slug": "overordnet-niveau"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-028",
+      "rank": 28,
+      "slug": "nordstjerne",
+      "term": "Nordstjerne",
+      "score": 78,
+      "tier": "tier-2",
+      "category": "metaphor",
+      "origin": "startup",
+      "language": "danglish",
+      "contexts": [
+        "strategy"
+      ],
+      "meaning": "Hovedmål.",
+      "variations": [
+        {
+          "text": "North Star",
+          "slug": "north-star"
+        },
+        {
+          "text": "north star metric",
+          "slug": "north-star-metric"
+        },
+        {
+          "text": "ledestjerne",
+          "slug": "ledestjerne"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-029",
+      "rank": 29,
+      "slug": "deep-dive",
+      "term": "Deep dive",
+      "score": 77,
+      "tier": "tier-2",
+      "category": "process_jargon",
+      "origin": "general",
+      "language": "danglish",
+      "contexts": [
+        "meeting"
+      ],
+      "meaning": "Undersøge grundigt.",
+      "variations": [
+        {
+          "text": "dykke ned i",
+          "slug": "dykke-ned-i"
+        },
+        {
+          "text": "deepdive",
+          "slug": "deepdive"
+        },
+        {
+          "text": "tage et deep dive",
+          "slug": "tage-et-deep-dive"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-030",
+      "rank": 30,
+      "slug": "win-win",
+      "term": "Win-win",
+      "score": 77,
+      "tier": "tier-2",
+      "category": "platitude",
+      "origin": "general",
+      "language": "english",
+      "contexts": [
+        "strategy",
+        "meeting"
+      ],
+      "meaning": "Begge parter får noget.",
+      "variations": [
+        {
+          "text": "win/win",
+          "slug": "win-win"
+        },
+        {
+          "text": "win-win-situation",
+          "slug": "win-win-situation"
+        },
+        {
+          "text": "win-win-win",
+          "slug": "win-win-win"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-031",
+      "rank": 31,
+      "slug": "rykke-taettere-sammen",
+      "term": "Rykke tættere sammen",
+      "score": 76,
+      "tier": "tier-3",
+      "category": "euphemism",
+      "origin": "general",
+      "language": "danish",
+      "contexts": [
+        "leadership",
+        "hr"
+      ],
+      "meaning": "Færre kvadratmeter eller besparelser.",
+      "variations": [
+        {
+          "text": "rykke sammen",
+          "slug": "rykke-sammen"
+        },
+        {
+          "text": "tættere sammen",
+          "slug": "taettere-sammen"
+        }
+      ],
+      "related": [
+        "bs-001"
+      ]
+    },
+    {
+      "id": "bs-032",
+      "rank": 32,
+      "slug": "effektivisering",
+      "term": "Effektivisering",
+      "score": 75,
+      "tier": "tier-3",
+      "category": "euphemism",
+      "origin": "consulting",
+      "language": "danish",
+      "contexts": [
+        "strategy",
+        "leadership"
+      ],
+      "meaning": "Besparelser.",
+      "variations": [
+        {
+          "text": "effektivisere",
+          "slug": "effektivisere"
+        },
+        {
+          "text": "effektiviseringsgevinst",
+          "slug": "effektiviseringsgevinst"
+        },
+        {
+          "text": "effektiviseringspotentiale",
+          "slug": "effektiviseringspotentiale"
+        },
+        {
+          "text": "optimering",
+          "slug": "optimering"
+        }
+      ],
+      "related": [
+        "bs-001"
+      ]
+    },
+    {
+      "id": "bs-033",
+      "rank": 33,
+      "slug": "robust-organisation",
+      "term": "Robust organisation",
+      "score": 74,
+      "tier": "tier-3",
+      "category": "buzzword",
+      "origin": "consulting",
+      "language": "danish",
+      "contexts": [
+        "hr",
+        "leadership"
+      ],
+      "meaning": "Medarbejdere skal tåle mere.",
+      "variations": [
+        {
+          "text": "robusthed",
+          "slug": "robusthed"
+        },
+        {
+          "text": "robuste medarbejdere",
+          "slug": "robuste-medarbejdere"
+        },
+        {
+          "text": "organisatorisk robusthed",
+          "slug": "organisatorisk-robusthed"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-034",
+      "rank": 34,
+      "slug": "forandringsparathed",
+      "term": "Forandringsparathed",
+      "score": 73,
+      "tier": "tier-3",
+      "category": "management_speak",
+      "origin": "general",
+      "language": "danish",
+      "contexts": [
+        "hr",
+        "job_ad"
+      ],
+      "meaning": "Accepter ændringer uden at klage.",
+      "variations": [
+        {
+          "text": "forandringsparat",
+          "slug": "forandringsparat"
+        },
+        {
+          "text": "omstillingsparathed",
+          "slug": "omstillingsparathed"
+        },
+        {
+          "text": "omstillingsparat",
+          "slug": "omstillingsparat"
+        }
+      ],
+      "related": [
+        "bs-035"
+      ]
+    },
+    {
+      "id": "bs-035",
+      "rank": 35,
+      "slug": "change-management",
+      "term": "Change management",
+      "score": 73,
+      "tier": "tier-3",
+      "category": "management_speak",
+      "origin": "consulting",
+      "language": "english",
+      "contexts": [
+        "leadership"
+      ],
+      "meaning": "At få folk til at acceptere en beslutning.",
+      "variations": [
+        {
+          "text": "forandringsledelse",
+          "slug": "forandringsledelse"
+        },
+        {
+          "text": "change manager",
+          "slug": "change-manager"
+        },
+        {
+          "text": "håndtere forandringen",
+          "slug": "haandtere-forandringen"
+        }
+      ],
+      "related": [
+        "bs-034"
+      ]
+    },
+    {
+      "id": "bs-036",
+      "rank": 36,
+      "slug": "klaede-medarbejderne-paa",
+      "term": "Klæde medarbejderne på",
+      "score": 72,
+      "tier": "tier-3",
+      "category": "metaphor",
+      "origin": "general",
+      "language": "danish",
+      "contexts": [
+        "leadership",
+        "hr"
+      ],
+      "meaning": "Oplære.",
+      "variations": [
+        {
+          "text": "klæde på",
+          "slug": "klaede-paa"
+        },
+        {
+          "text": "klædt på til opgaven",
+          "slug": "klaedt-paa-til-opgaven"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-037",
+      "rank": 37,
+      "slug": "rammesaette",
+      "term": "Rammesætte",
+      "score": 71,
+      "tier": "tier-3",
+      "category": "process_jargon",
+      "origin": "general",
+      "language": "danish",
+      "contexts": [
+        "meeting",
+        "leadership"
+      ],
+      "meaning": "Forklare opgaven.",
+      "variations": [
+        {
+          "text": "rammesætning",
+          "slug": "rammesaetning"
+        },
+        {
+          "text": "sætte rammerne",
+          "slug": "saette-rammerne"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-038",
+      "rank": 38,
+      "slug": "italesaette",
+      "term": "Italesætte",
+      "score": 70,
+      "tier": "tier-3",
+      "category": "process_jargon",
+      "origin": "academic",
+      "language": "danish",
+      "contexts": [
+        "meeting",
+        "hr"
+      ],
+      "meaning": "Sige det.",
+      "variations": [
+        {
+          "text": "italesættelse",
+          "slug": "italesaettelse"
+        },
+        {
+          "text": "sætte ord på",
+          "slug": "saette-ord-paa"
+        },
+        {
+          "text": "få det italesat",
+          "slug": "faa-det-italesat"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-039",
+      "rank": 39,
+      "slug": "kaskadere-strategien",
+      "term": "Kaskadere strategien",
+      "score": 69,
+      "tier": "tier-3",
+      "category": "management_speak",
+      "origin": "consulting",
+      "language": "danish",
+      "contexts": [
+        "strategy",
+        "leadership"
+      ],
+      "meaning": "Fortælle medarbejderne om strategien.",
+      "variations": [
+        {
+          "text": "kaskadere",
+          "slug": "kaskadere"
+        },
+        {
+          "text": "kaskadering",
+          "slug": "kaskadering"
+        },
+        {
+          "text": "rulle strategien ud",
+          "slug": "rulle-strategien-ud"
+        },
+        {
+          "text": "oversætte strategien",
+          "slug": "oversaette-strategien"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-040",
+      "rank": 40,
+      "slug": "strategiske-pejlemaerker",
+      "term": "Strategiske pejlemærker",
+      "score": 68,
+      "tier": "tier-3",
+      "category": "management_speak",
+      "origin": "consulting",
+      "language": "danish",
+      "contexts": [
+        "strategy"
+      ],
+      "meaning": "Mål.",
+      "variations": [
+        {
+          "text": "pejlemærker",
+          "slug": "pejlemaerker"
+        },
+        {
+          "text": "strategiske sigtelinjer",
+          "slug": "strategiske-sigtelinjer"
+        },
+        {
+          "text": "strategiske spor",
+          "slug": "strategiske-spor"
+        }
+      ],
+      "related": [
+        "bs-041"
+      ]
+    },
+    {
+      "id": "bs-041",
+      "rank": 41,
+      "slug": "maalbillede",
+      "term": "Målbillede",
+      "score": 68,
+      "tier": "tier-3",
+      "category": "management_speak",
+      "origin": "consulting",
+      "language": "danish",
+      "contexts": [
+        "strategy"
+      ],
+      "meaning": "Mål.",
+      "variations": [
+        {
+          "text": "målbilleder",
+          "slug": "maalbilleder"
+        },
+        {
+          "text": "det fremtidige målbillede",
+          "slug": "det-fremtidige-maalbillede"
+        },
+        {
+          "text": "target state",
+          "slug": "target-state"
+        }
+      ],
+      "related": [
+        "bs-040"
+      ]
+    },
+    {
+      "id": "bs-042",
+      "rank": 42,
+      "slug": "forankring",
+      "term": "Forankring",
+      "score": 67,
+      "tier": "tier-3",
+      "category": "management_speak",
+      "origin": "consulting",
+      "language": "danish",
+      "contexts": [
+        "strategy",
+        "leadership"
+      ],
+      "meaning": "At nogen faktisk gør det.",
+      "variations": [
+        {
+          "text": "forankre",
+          "slug": "forankre"
+        },
+        {
+          "text": "forankret",
+          "slug": "forankret"
+        },
+        {
+          "text": "sikre forankring",
+          "slug": "sikre-forankring"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-043",
+      "rank": 43,
+      "slug": "bringe-i-spil",
+      "term": "Bringe i spil",
+      "score": 66,
+      "tier": "tier-3",
+      "category": "process_jargon",
+      "origin": "general",
+      "language": "danish",
+      "contexts": [
+        "meeting"
+      ],
+      "meaning": "Foreslå.",
+      "variations": [
+        {
+          "text": "bringe noget i spil",
+          "slug": "bringe-noget-i-spil"
+        },
+        {
+          "text": "spille ind med",
+          "slug": "spille-ind-med"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-044",
+      "rank": 44,
+      "slug": "byde-ind",
+      "term": "Byde ind",
+      "score": 65,
+      "tier": "tier-3",
+      "category": "process_jargon",
+      "origin": "general",
+      "language": "danish",
+      "contexts": [
+        "meeting"
+      ],
+      "meaning": "Bidrage.",
+      "variations": [
+        {
+          "text": "byde ind med",
+          "slug": "byde-ind-med"
+        },
+        {
+          "text": "byde ind på opgaven",
+          "slug": "byde-ind-paa-opgaven"
+        },
+        {
+          "text": "komme med input",
+          "slug": "komme-med-input"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-045",
+      "rank": 45,
+      "slug": "lande-en-beslutning",
+      "term": "Lande en beslutning",
+      "score": 64,
+      "tier": "tier-3",
+      "category": "metaphor",
+      "origin": "general",
+      "language": "danish",
+      "contexts": [
+        "meeting"
+      ],
+      "meaning": "Beslutte.",
+      "variations": [
+        {
+          "text": "lande den",
+          "slug": "lande-den"
+        },
+        {
+          "text": "få landet",
+          "slug": "faa-landet"
+        },
+        {
+          "text": "lande en aftale",
+          "slug": "lande-en-aftale"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-046",
+      "rank": 46,
+      "slug": "loefte-opgaven",
+      "term": "Løfte opgaven",
+      "score": 64,
+      "tier": "tier-3",
+      "category": "metaphor",
+      "origin": "general",
+      "language": "danish",
+      "contexts": [
+        "leadership",
+        "meeting"
+      ],
+      "meaning": "Udføre opgaven.",
+      "variations": [
+        {
+          "text": "løfte ansvaret",
+          "slug": "loefte-ansvaret"
+        },
+        {
+          "text": "løfte niveauet",
+          "slug": "loefte-niveauet"
+        },
+        {
+          "text": "kan du løfte den?",
+          "slug": "kan-du-loefte-den"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-047",
+      "rank": 47,
+      "slug": "lad-os-parkere-den",
+      "term": "Lad os parkere den",
+      "score": 63,
+      "tier": "tier-3",
+      "category": "process_jargon",
+      "origin": "general",
+      "language": "danish",
+      "contexts": [
+        "meeting"
+      ],
+      "meaning": "Den kommer aldrig tilbage.",
+      "variations": [
+        {
+          "text": "parkere",
+          "slug": "parkere"
+        },
+        {
+          "text": "parking lot",
+          "slug": "parking-lot"
+        },
+        {
+          "text": "vi parkerer den",
+          "slug": "vi-parkerer-den"
+        }
+      ],
+      "related": [
+        "bs-008"
+      ]
+    },
+    {
+      "id": "bs-048",
+      "rank": 48,
+      "slug": "have-det-paa-radaren",
+      "term": "Have det på radaren",
+      "score": 62,
+      "tier": "tier-3",
+      "category": "metaphor",
+      "origin": "military",
+      "language": "danglish",
+      "contexts": [
+        "meeting",
+        "email_chat"
+      ],
+      "meaning": "Være opmærksom på det.",
+      "variations": [
+        {
+          "text": "på radaren",
+          "slug": "paa-radaren"
+        },
+        {
+          "text": "on the radar",
+          "slug": "on-the-radar"
+        },
+        {
+          "text": "under radaren",
+          "slug": "under-radaren"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-049",
+      "rank": 49,
+      "slug": "tage-temperaturen",
+      "term": "Tage temperaturen",
+      "score": 61,
+      "tier": "tier-3",
+      "category": "metaphor",
+      "origin": "general",
+      "language": "danish",
+      "contexts": [
+        "hr",
+        "meeting"
+      ],
+      "meaning": "Spørge hvordan det går.",
+      "variations": [
+        {
+          "text": "temperaturmåling",
+          "slug": "temperaturmaaling"
+        },
+        {
+          "text": "pulsmåling",
+          "slug": "pulsmaaling"
+        },
+        {
+          "text": "pulse check",
+          "slug": "pulse-check"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-050",
+      "rank": 50,
+      "slug": "jeg-vil-gerne-udfordre-dig-paa-det",
+      "term": "Jeg vil gerne udfordre dig på det",
+      "score": 60,
+      "tier": "tier-3",
+      "category": "platitude",
+      "origin": "general",
+      "language": "danish",
+      "contexts": [
+        "meeting"
+      ],
+      "meaning": "Jeg er uenig.",
+      "variations": [
+        {
+          "text": "udfordre dig",
+          "slug": "udfordre-dig"
+        },
+        {
+          "text": "må jeg udfordre",
+          "slug": "maa-jeg-udfordre"
+        },
+        {
+          "text": "challenge",
+          "slug": "challenge"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-051",
+      "rank": 51,
+      "slug": "det-er-et-rigtig-godt-spoergsmaal",
+      "term": "Det er et rigtig godt spørgsmål",
+      "score": 60,
+      "tier": "tier-3",
+      "category": "platitude",
+      "origin": "general",
+      "language": "danish",
+      "contexts": [
+        "meeting"
+      ],
+      "meaning": "Jeg har ikke et svar.",
+      "variations": [
+        {
+          "text": "godt spørgsmål",
+          "slug": "godt-spoergsmaal"
+        },
+        {
+          "text": "great question",
+          "slug": "great-question"
+        },
+        {
+          "text": "super godt spørgsmål",
+          "slug": "super-godt-spoergsmaal"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-052",
+      "rank": 52,
+      "slug": "det-giver-god-mening",
+      "term": "Det giver god mening",
+      "score": 59,
+      "tier": "tier-3",
+      "category": "platitude",
+      "origin": "general",
+      "language": "danglish",
+      "contexts": [
+        "meeting"
+      ],
+      "meaning": "Ok.",
+      "variations": [
+        {
+          "text": "giver mening",
+          "slug": "giver-mening"
+        },
+        {
+          "text": "makes sense",
+          "slug": "makes-sense"
+        },
+        {
+          "text": "det giver rigtig god mening",
+          "slug": "det-giver-rigtig-god-mening"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-053",
+      "rank": 53,
+      "slug": "sparring",
+      "term": "Sparring",
+      "score": 58,
+      "tier": "tier-3",
+      "category": "process_jargon",
+      "origin": "sports",
+      "language": "danglish",
+      "contexts": [
+        "meeting",
+        "leadership"
+      ],
+      "meaning": "Snakke om det.",
+      "variations": [
+        {
+          "text": "sparre",
+          "slug": "sparre"
+        },
+        {
+          "text": "sparringspartner",
+          "slug": "sparringspartner"
+        },
+        {
+          "text": "give sparring",
+          "slug": "give-sparring"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-054",
+      "rank": 54,
+      "slug": "quick-win",
+      "term": "Quick win",
+      "score": 57,
+      "tier": "tier-3",
+      "category": "buzzword",
+      "origin": "general",
+      "language": "english",
+      "contexts": [
+        "strategy",
+        "meeting"
+      ],
+      "meaning": "Nemt resultat.",
+      "variations": [
+        {
+          "text": "quick wins",
+          "slug": "quick-wins"
+        },
+        {
+          "text": "hurtig gevinst",
+          "slug": "hurtig-gevinst"
+        },
+        {
+          "text": "hurtige sejre",
+          "slug": "hurtige-sejre"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-055",
+      "rank": 55,
+      "slug": "best-practice",
+      "term": "Best practice",
+      "score": 56,
+      "tier": "tier-3",
+      "category": "process_jargon",
+      "origin": "consulting",
+      "language": "english",
+      "contexts": [
+        "tech",
+        "strategy"
+      ],
+      "meaning": "Sådan gør andre.",
+      "variations": [
+        {
+          "text": "best practices",
+          "slug": "best-practices"
+        },
+        {
+          "text": "bedste praksis",
+          "slug": "bedste-praksis"
+        },
+        {
+          "text": "next practice",
+          "slug": "next-practice"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-056",
+      "rank": 56,
+      "slug": "holistisk",
+      "term": "Holistisk",
+      "score": 56,
+      "tier": "tier-3",
+      "category": "buzzword",
+      "origin": "academic",
+      "language": "danish",
+      "contexts": [
+        "strategy",
+        "hr"
+      ],
+      "meaning": "Bredt.",
+      "variations": [
+        {
+          "text": "holistisk tilgang",
+          "slug": "holistisk-tilgang"
+        },
+        {
+          "text": "holistic",
+          "slug": "holistic"
+        },
+        {
+          "text": "helhedssyn",
+          "slug": "helhedssyn"
+        }
+      ],
+      "related": [
+        "bs-057",
+        "bs-058"
+      ]
+    },
+    {
+      "id": "bs-057",
+      "rank": 57,
+      "slug": "helhedsorienteret",
+      "term": "Helhedsorienteret",
+      "score": 55,
+      "tier": "tier-3",
+      "category": "buzzword",
+      "origin": "general",
+      "language": "danish",
+      "contexts": [
+        "strategy"
+      ],
+      "meaning": "Bredt, igen.",
+      "variations": [
+        {
+          "text": "helhedsorienteret tilgang",
+          "slug": "helhedsorienteret-tilgang"
+        },
+        {
+          "text": "helhedstænkning",
+          "slug": "helhedstaenkning"
+        }
+      ],
+      "related": [
+        "bs-056"
+      ]
+    },
+    {
+      "id": "bs-058",
+      "rank": 58,
+      "slug": "paa-tvaers",
+      "term": "På tværs",
+      "score": 54,
+      "tier": "tier-3",
+      "category": "buzzword",
+      "origin": "general",
+      "language": "danish",
+      "contexts": [
+        "strategy",
+        "leadership"
+      ],
+      "meaning": "Flere afdelinger involveret.",
+      "variations": [
+        {
+          "text": "på tværs af organisationen",
+          "slug": "paa-tvaers-af-organisationen"
+        },
+        {
+          "text": "tværgående",
+          "slug": "tvaergaaende"
+        },
+        {
+          "text": "tværorganisatorisk",
+          "slug": "tvaerorganisatorisk"
+        },
+        {
+          "text": "tværfaglig",
+          "slug": "tvaerfaglig"
+        }
+      ],
+      "related": [
+        "bs-056",
+        "bs-059"
+      ]
+    },
+    {
+      "id": "bs-059",
+      "rank": 59,
+      "slug": "nedbryde-siloer",
+      "term": "Nedbryde siloer",
+      "score": 53,
+      "tier": "tier-3",
+      "category": "metaphor",
+      "origin": "consulting",
+      "language": "danglish",
+      "contexts": [
+        "leadership",
+        "strategy"
+      ],
+      "meaning": "Afdelinger skal tale sammen.",
+      "variations": [
+        {
+          "text": "silotænkning",
+          "slug": "silotaenkning"
+        },
+        {
+          "text": "siloer",
+          "slug": "siloer"
+        },
+        {
+          "text": "break down silos",
+          "slug": "break-down-silos"
+        }
+      ],
+      "related": [
+        "bs-058"
+      ]
+    },
+    {
+      "id": "bs-060",
+      "rank": 60,
+      "slug": "mindset",
+      "term": "Mindset",
+      "score": 52,
+      "tier": "tier-3",
+      "category": "buzzword",
+      "origin": "academic",
+      "language": "english",
+      "contexts": [
+        "hr",
+        "leadership"
+      ],
+      "meaning": "Holdning.",
+      "variations": [
+        {
+          "text": "growth mindset",
+          "slug": "growth-mindset"
+        },
+        {
+          "text": "det rette mindset",
+          "slug": "det-rette-mindset"
+        },
+        {
+          "text": "mindsettet",
+          "slug": "mindsettet"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-061",
+      "rank": 61,
+      "slug": "ildsjael",
+      "term": "Ildsjæl",
+      "score": 52,
+      "tier": "tier-4",
+      "category": "hr_job_ad",
+      "origin": "general",
+      "language": "danish",
+      "contexts": [
+        "job_ad",
+        "hr"
+      ],
+      "meaning": "Arbejder gratis over.",
+      "variations": [
+        {
+          "text": "ildsjæle",
+          "slug": "ildsjaele"
+        },
+        {
+          "text": "en ægte ildsjæl",
+          "slug": "en-aegte-ildsjael"
+        }
+      ],
+      "related": [
+        "bs-004",
+        "bs-062",
+        "bs-063"
+      ]
+    },
+    {
+      "id": "bs-062",
+      "rank": 62,
+      "slug": "braende-for",
+      "term": "Brænde for",
+      "score": 51,
+      "tier": "tier-4",
+      "category": "hr_job_ad",
+      "origin": "general",
+      "language": "danish",
+      "contexts": [
+        "job_ad"
+      ],
+      "meaning": "Kan lide.",
+      "variations": [
+        {
+          "text": "brænder for",
+          "slug": "braender-for"
+        },
+        {
+          "text": "brændende interesse",
+          "slug": "braendende-interesse"
+        }
+      ],
+      "related": [
+        "bs-061"
+      ]
+    },
+    {
+      "id": "bs-063",
+      "rank": 63,
+      "slug": "passioneret",
+      "term": "Passioneret",
+      "score": 50,
+      "tier": "tier-4",
+      "category": "hr_job_ad",
+      "origin": "general",
+      "language": "danglish",
+      "contexts": [
+        "job_ad"
+      ],
+      "meaning": "Kan lide, men mere.",
+      "variations": [
+        {
+          "text": "passion",
+          "slug": "passion"
+        },
+        {
+          "text": "passionate",
+          "slug": "passionate"
+        },
+        {
+          "text": "med passion for",
+          "slug": "med-passion-for"
+        }
+      ],
+      "related": [
+        "bs-061"
+      ]
+    },
+    {
+      "id": "bs-064",
+      "rank": 64,
+      "slug": "rockstjerne",
+      "term": "Rockstjerne",
+      "score": 49,
+      "tier": "tier-4",
+      "category": "hr_job_ad",
+      "origin": "tech",
+      "language": "english",
+      "contexts": [
+        "job_ad",
+        "tech"
+      ],
+      "meaning": "Udvikler, uden ekstra løn.",
+      "variations": [
+        {
+          "text": "rockstar",
+          "slug": "rockstar"
+        },
+        {
+          "text": "ninja",
+          "slug": "ninja"
+        },
+        {
+          "text": "guru",
+          "slug": "guru"
+        },
+        {
+          "text": "wizard",
+          "slug": "wizard"
+        },
+        {
+          "text": "unicorn",
+          "slug": "unicorn"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-065",
+      "rank": 65,
+      "slug": "dynamisk-hverdag",
+      "term": "Dynamisk hverdag",
+      "score": 48,
+      "tier": "tier-4",
+      "category": "hr_job_ad",
+      "origin": "general",
+      "language": "danish",
+      "contexts": [
+        "job_ad"
+      ],
+      "meaning": "Kaotisk.",
+      "variations": [
+        {
+          "text": "dynamisk arbejdsplads",
+          "slug": "dynamisk-arbejdsplads"
+        },
+        {
+          "text": "ingen dage er ens",
+          "slug": "ingen-dage-er-ens"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-066",
+      "rank": 66,
+      "slug": "mange-bolde-i-luften",
+      "term": "Mange bolde i luften",
+      "score": 47,
+      "tier": "tier-4",
+      "category": "hr_job_ad",
+      "origin": "general",
+      "language": "danish",
+      "contexts": [
+        "job_ad"
+      ],
+      "meaning": "Underbemandet.",
+      "variations": [
+        {
+          "text": "bolde i luften",
+          "slug": "bolde-i-luften"
+        },
+        {
+          "text": "travl hverdag",
+          "slug": "travl-hverdag"
+        },
+        {
+          "text": "højt tempo",
+          "slug": "hoejt-tempo"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-067",
+      "rank": 67,
+      "slug": "konkurrencedygtig-loen",
+      "term": "Konkurrencedygtig løn",
+      "score": 47,
+      "tier": "tier-4",
+      "category": "hr_job_ad",
+      "origin": "general",
+      "language": "danish",
+      "contexts": [
+        "job_ad"
+      ],
+      "meaning": "Vi siger ikke tallet.",
+      "variations": [
+        {
+          "text": "konkurrencedygtige vilkår",
+          "slug": "konkurrencedygtige-vilkaar"
+        },
+        {
+          "text": "attraktiv lønpakke",
+          "slug": "attraktiv-loenpakke"
+        },
+        {
+          "text": "løn efter kvalifikationer",
+          "slug": "loen-efter-kvalifikationer"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-068",
+      "rank": 68,
+      "slug": "flad-struktur",
+      "term": "Flad struktur",
+      "score": 46,
+      "tier": "tier-4",
+      "category": "hr_job_ad",
+      "origin": "general",
+      "language": "danish",
+      "contexts": [
+        "job_ad",
+        "hr"
+      ],
+      "meaning": "Uklart, hvem der bestemmer.",
+      "variations": [
+        {
+          "text": "flad organisation",
+          "slug": "flad-organisation"
+        },
+        {
+          "text": "flat hierarchy",
+          "slug": "flat-hierarchy"
+        },
+        {
+          "text": "korte beslutningsveje",
+          "slug": "korte-beslutningsveje"
+        }
+      ],
+      "related": [
+        "bs-069"
+      ]
+    },
+    {
+      "id": "bs-069",
+      "rank": 69,
+      "slug": "selvledelse",
+      "term": "Selvledelse",
+      "score": 45,
+      "tier": "tier-4",
+      "category": "management_speak",
+      "origin": "general",
+      "language": "danish",
+      "contexts": [
+        "hr",
+        "job_ad"
+      ],
+      "meaning": "Ingen leder.",
+      "variations": [
+        {
+          "text": "selvledende",
+          "slug": "selvledende"
+        },
+        {
+          "text": "selvledende teams",
+          "slug": "selvledende-teams"
+        },
+        {
+          "text": "self-management",
+          "slug": "self-management"
+        }
+      ],
+      "related": [
+        "bs-068"
+      ]
+    },
+    {
+      "id": "bs-070",
+      "rank": 70,
+      "slug": "psykologisk-tryghed",
+      "term": "Psykologisk tryghed",
+      "score": 44,
+      "tier": "tier-4",
+      "category": "hr_job_ad",
+      "origin": "academic",
+      "language": "danglish",
+      "contexts": [
+        "hr"
+      ],
+      "meaning": "Godt begreb, slidt som slogan.",
+      "variations": [
+        {
+          "text": "psychological safety",
+          "slug": "psychological-safety"
+        },
+        {
+          "text": "psykologisk sikkerhed",
+          "slug": "psykologisk-sikkerhed"
+        },
+        {
+          "text": "trygt rum",
+          "slug": "trygt-rum"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-071",
+      "rank": 71,
+      "slug": "naervaerende-ledelse",
+      "term": "Nærværende ledelse",
+      "score": 43,
+      "tier": "tier-4",
+      "category": "management_speak",
+      "origin": "general",
+      "language": "danish",
+      "contexts": [
+        "hr",
+        "job_ad"
+      ],
+      "meaning": "Lederen er der.",
+      "variations": [
+        {
+          "text": "nærværende leder",
+          "slug": "naervaerende-leder"
+        },
+        {
+          "text": "nærvær",
+          "slug": "naervaer"
+        },
+        {
+          "text": "tilstedeværende ledelse",
+          "slug": "tilstedevaerende-ledelse"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-072",
+      "rank": 72,
+      "slug": "tillidsbaseret-ledelse",
+      "term": "Tillidsbaseret ledelse",
+      "score": 43,
+      "tier": "tier-4",
+      "category": "management_speak",
+      "origin": "general",
+      "language": "danish",
+      "contexts": [
+        "hr",
+        "leadership"
+      ],
+      "meaning": "Færre kontroller, på papiret.",
+      "variations": [
+        {
+          "text": "tillidsbaseret",
+          "slug": "tillidsbaseret"
+        },
+        {
+          "text": "ledelse baseret på tillid",
+          "slug": "ledelse-baseret-paa-tillid"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-073",
+      "rank": 73,
+      "slug": "feedbackkultur",
+      "term": "Feedbackkultur",
+      "score": 42,
+      "tier": "tier-4",
+      "category": "hr_job_ad",
+      "origin": "general",
+      "language": "danglish",
+      "contexts": [
+        "hr"
+      ],
+      "meaning": "Kritik med skema.",
+      "variations": [
+        {
+          "text": "feedback-kultur",
+          "slug": "feedback-kultur"
+        },
+        {
+          "text": "feedforward",
+          "slug": "feedforward"
+        },
+        {
+          "text": "360-graders feedback",
+          "slug": "360-graders-feedback"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-074",
+      "rank": 74,
+      "slug": "medarbejderrejsen",
+      "term": "Medarbejderrejsen",
+      "score": 41,
+      "tier": "tier-4",
+      "category": "buzzword",
+      "origin": "consulting",
+      "language": "danglish",
+      "contexts": [
+        "hr"
+      ],
+      "meaning": "Ansættelsesforløb.",
+      "variations": [
+        {
+          "text": "employee journey",
+          "slug": "employee-journey"
+        },
+        {
+          "text": "medarbejderoplevelse",
+          "slug": "medarbejderoplevelse"
+        },
+        {
+          "text": "employee experience",
+          "slug": "employee-experience"
+        }
+      ],
+      "related": [
+        "bs-005",
+        "bs-075"
+      ]
+    },
+    {
+      "id": "bs-075",
+      "rank": 75,
+      "slug": "kunderejsen",
+      "term": "Kunderejsen",
+      "score": 40,
+      "tier": "tier-4",
+      "category": "buzzword",
+      "origin": "consulting",
+      "language": "danglish",
+      "contexts": [
+        "strategy",
+        "tech"
+      ],
+      "meaning": "Hvordan kunden bruger produktet.",
+      "variations": [
+        {
+          "text": "customer journey",
+          "slug": "customer-journey"
+        },
+        {
+          "text": "kundeoplevelse",
+          "slug": "kundeoplevelse"
+        },
+        {
+          "text": "customer experience",
+          "slug": "customer-experience"
+        },
+        {
+          "text": "CX",
+          "slug": "cx"
+        }
+      ],
+      "related": [
+        "bs-005",
+        "bs-074"
+      ]
+    },
+    {
+      "id": "bs-076",
+      "rank": 76,
+      "slug": "talenter",
+      "term": "Talenter",
+      "score": 39,
+      "tier": "tier-4",
+      "category": "hr_job_ad",
+      "origin": "consulting",
+      "language": "danglish",
+      "contexts": [
+        "hr"
+      ],
+      "meaning": "Ansatte.",
+      "variations": [
+        {
+          "text": "talent",
+          "slug": "talent"
+        },
+        {
+          "text": "talentpipeline",
+          "slug": "talentpipeline"
+        },
+        {
+          "text": "talentudvikling",
+          "slug": "talentudvikling"
+        },
+        {
+          "text": "toptalenter",
+          "slug": "toptalenter"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-077",
+      "rank": 77,
+      "slug": "ressourcer",
+      "term": "Ressourcer",
+      "score": 39,
+      "tier": "tier-4",
+      "category": "euphemism",
+      "origin": "general",
+      "language": "danglish",
+      "contexts": [
+        "leadership",
+        "hr"
+      ],
+      "meaning": "Mennesker.",
+      "variations": [
+        {
+          "text": "FTE",
+          "slug": "fte"
+        },
+        {
+          "text": "årsværk",
+          "slug": "aarsvaerk"
+        },
+        {
+          "text": "headcount",
+          "slug": "headcount"
+        },
+        {
+          "text": "ressourcepersoner",
+          "slug": "ressourcepersoner"
+        }
+      ],
+      "related": [
+        "bs-001",
+        "bs-003"
+      ]
+    },
+    {
+      "id": "bs-078",
+      "rank": 78,
+      "slug": "interessenter",
+      "term": "Interessenter",
+      "score": 38,
+      "tier": "tier-4",
+      "category": "process_jargon",
+      "origin": "consulting",
+      "language": "danglish",
+      "contexts": [
+        "strategy",
+        "tech"
+      ],
+      "meaning": "Folk der har en mening.",
+      "variations": [
+        {
+          "text": "stakeholders",
+          "slug": "stakeholders"
+        },
+        {
+          "text": "stakeholderhåndtering",
+          "slug": "stakeholderhaandtering"
+        },
+        {
+          "text": "interessentanalyse",
+          "slug": "interessentanalyse"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-079",
+      "rank": 79,
+      "slug": "onboarde",
+      "term": "Onboarde",
+      "score": 37,
+      "tier": "tier-4",
+      "category": "verbified_noun",
+      "origin": "general",
+      "language": "danglish",
+      "contexts": [
+        "hr",
+        "tech"
+      ],
+      "meaning": "Introducere.",
+      "variations": [
+        {
+          "text": "onboarding",
+          "slug": "onboarding"
+        },
+        {
+          "text": "onboardet",
+          "slug": "onboardet"
+        },
+        {
+          "text": "onboardingforløb",
+          "slug": "onboardingforloeb"
+        },
+        {
+          "text": "offboarding",
+          "slug": "offboarding"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-080",
+      "rank": 80,
+      "slug": "committe-sig",
+      "term": "Committe sig",
+      "score": 36,
+      "tier": "tier-4",
+      "category": "verbified_noun",
+      "origin": "general",
+      "language": "danglish",
+      "contexts": [
+        "leadership",
+        "meeting"
+      ],
+      "meaning": "Love.",
+      "variations": [
+        {
+          "text": "commitment",
+          "slug": "commitment"
+        },
+        {
+          "text": "committed",
+          "slug": "committed"
+        },
+        {
+          "text": "committe",
+          "slug": "committe"
+        }
+      ],
+      "related": [
+        "bs-019"
+      ]
+    },
+    {
+      "id": "bs-081",
+      "rank": 81,
+      "slug": "leverancer",
+      "term": "Leverancer",
+      "score": 35,
+      "tier": "tier-4",
+      "category": "process_jargon",
+      "origin": "consulting",
+      "language": "danglish",
+      "contexts": [
+        "tech",
+        "strategy"
+      ],
+      "meaning": "Opgaver.",
+      "variations": [
+        {
+          "text": "leverance",
+          "slug": "leverance"
+        },
+        {
+          "text": "deliverables",
+          "slug": "deliverables"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-082",
+      "rank": 82,
+      "slug": "fremadrettet",
+      "term": "Fremadrettet",
+      "score": 35,
+      "tier": "tier-4",
+      "category": "platitude",
+      "origin": "general",
+      "language": "danish",
+      "contexts": [
+        "email_chat",
+        "leadership"
+      ],
+      "meaning": "Fremover.",
+      "variations": [
+        {
+          "text": "fremadrettede",
+          "slug": "fremadrettede"
+        },
+        {
+          "text": "going forward",
+          "slug": "going-forward"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-083",
+      "rank": 83,
+      "slug": "proaktiv",
+      "term": "Proaktiv",
+      "score": 34,
+      "tier": "tier-4",
+      "category": "buzzword",
+      "origin": "general",
+      "language": "danglish",
+      "contexts": [
+        "job_ad",
+        "hr"
+      ],
+      "meaning": "Gør ting uden at blive bedt om det.",
+      "variations": [
+        {
+          "text": "proaktivt",
+          "slug": "proaktivt"
+        },
+        {
+          "text": "proaktivitet",
+          "slug": "proaktivitet"
+        },
+        {
+          "text": "være på forkant",
+          "slug": "vaere-paa-forkant"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-084",
+      "rank": 84,
+      "slug": "agil",
+      "term": "Agil",
+      "score": 33,
+      "tier": "tier-4",
+      "category": "buzzword",
+      "origin": "tech",
+      "language": "danglish",
+      "contexts": [
+        "tech",
+        "strategy"
+      ],
+      "meaning": "Om alt med statusmøde hver anden uge.",
+      "variations": [
+        {
+          "text": "agilt",
+          "slug": "agilt"
+        },
+        {
+          "text": "agilitet",
+          "slug": "agilitet"
+        },
+        {
+          "text": "agile",
+          "slug": "agile"
+        },
+        {
+          "text": "agil transformation",
+          "slug": "agil-transformation"
+        },
+        {
+          "text": "SAFe",
+          "slug": "safe"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-085",
+      "rank": 85,
+      "slug": "datadrevet",
+      "term": "Datadrevet",
+      "score": 32,
+      "tier": "tier-4",
+      "category": "buzzword",
+      "origin": "tech",
+      "language": "danglish",
+      "contexts": [
+        "strategy",
+        "tech"
+      ],
+      "meaning": "Vi har et dashboard.",
+      "variations": [
+        {
+          "text": "datadreven",
+          "slug": "datadreven"
+        },
+        {
+          "text": "data-driven",
+          "slug": "data-driven"
+        },
+        {
+          "text": "datainformeret",
+          "slug": "datainformeret"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-086",
+      "rank": 86,
+      "slug": "skalerbar",
+      "term": "Skalerbar",
+      "score": 31,
+      "tier": "tier-4",
+      "category": "buzzword",
+      "origin": "tech",
+      "language": "danglish",
+      "contexts": [
+        "tech",
+        "strategy"
+      ],
+      "meaning": "Kan vokse.",
+      "variations": [
+        {
+          "text": "skalere",
+          "slug": "skalere"
+        },
+        {
+          "text": "skalerbarhed",
+          "slug": "skalerbarhed"
+        },
+        {
+          "text": "skalere op",
+          "slug": "skalere-op"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-087",
+      "rank": 87,
+      "slug": "baeredygtig",
+      "term": "Bæredygtig",
+      "score": 31,
+      "tier": "tier-4",
+      "category": "buzzword",
+      "origin": "general",
+      "language": "danish",
+      "contexts": [
+        "strategy"
+      ],
+      "meaning": "Ofte brugt uden miljømæssig betydning.",
+      "variations": [
+        {
+          "text": "bæredygtighed",
+          "slug": "baeredygtighed"
+        },
+        {
+          "text": "bæredygtigt",
+          "slug": "baeredygtigt"
+        },
+        {
+          "text": "sustainable",
+          "slug": "sustainable"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-088",
+      "rank": 88,
+      "slug": "gaa-forrest",
+      "term": "Gå forrest",
+      "score": 30,
+      "tier": "tier-4",
+      "category": "management_speak",
+      "origin": "general",
+      "language": "danish",
+      "contexts": [
+        "leadership"
+      ],
+      "meaning": "Lederen gør det også.",
+      "variations": [
+        {
+          "text": "gå foran",
+          "slug": "gaa-foran"
+        },
+        {
+          "text": "lead by example",
+          "slug": "lead-by-example"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-089",
+      "rank": 89,
+      "slug": "goere-en-forskel",
+      "term": "Gøre en forskel",
+      "score": 29,
+      "tier": "tier-4",
+      "category": "platitude",
+      "origin": "general",
+      "language": "danish",
+      "contexts": [
+        "job_ad"
+      ],
+      "meaning": "Arbejde.",
+      "variations": [
+        {
+          "text": "gør en forskel",
+          "slug": "goer-en-forskel"
+        },
+        {
+          "text": "make a difference",
+          "slug": "make-a-difference"
+        },
+        {
+          "text": "gøre en reel forskel",
+          "slug": "goere-en-reel-forskel"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-090",
+      "rank": 90,
+      "slug": "skabe-rum-for",
+      "term": "Skabe rum for",
+      "score": 28,
+      "tier": "tier-4",
+      "category": "process_jargon",
+      "origin": "general",
+      "language": "danish",
+      "contexts": [
+        "hr",
+        "meeting"
+      ],
+      "meaning": "Afsætte tid.",
+      "variations": [
+        {
+          "text": "skabe rum",
+          "slug": "skabe-rum"
+        },
+        {
+          "text": "give plads til",
+          "slug": "give-plads-til"
+        },
+        {
+          "text": "rum for refleksion",
+          "slug": "rum-for-refleksion"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-091",
+      "rank": 91,
+      "slug": "ringe-i-vandet",
+      "term": "Ringe i vandet",
+      "score": 27,
+      "tier": "tier-4",
+      "category": "metaphor",
+      "origin": "general",
+      "language": "danish",
+      "contexts": [
+        "strategy"
+      ],
+      "meaning": "Konsekvenser.",
+      "variations": [
+        {
+          "text": "skabe ringe i vandet",
+          "slug": "skabe-ringe-i-vandet"
+        },
+        {
+          "text": "ringeffekt",
+          "slug": "ringeffekt"
+        },
+        {
+          "text": "afledte effekter",
+          "slug": "afledte-effekter"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-092",
+      "rank": 92,
+      "slug": "kick-off",
+      "term": "Kick-off",
+      "score": 26,
+      "tier": "tier-4",
+      "category": "process_jargon",
+      "origin": "sports",
+      "language": "english",
+      "contexts": [
+        "meeting"
+      ],
+      "meaning": "Første møde.",
+      "variations": [
+        {
+          "text": "kickoff",
+          "slug": "kickoff"
+        },
+        {
+          "text": "kick off",
+          "slug": "kick-off"
+        },
+        {
+          "text": "opstartsmøde",
+          "slug": "opstartsmoede"
+        },
+        {
+          "text": "kickoffmøde",
+          "slug": "kickoffmoede"
+        }
+      ],
+      "related": [
+        "bs-093"
+      ]
+    },
+    {
+      "id": "bs-093",
+      "rank": 93,
+      "slug": "workshop",
+      "term": "Workshop",
+      "score": 26,
+      "tier": "tier-4",
+      "category": "process_jargon",
+      "origin": "general",
+      "language": "danglish",
+      "contexts": [
+        "meeting"
+      ],
+      "meaning": "Møde med post-its.",
+      "variations": [
+        {
+          "text": "workshops",
+          "slug": "workshops"
+        },
+        {
+          "text": "workshoppe",
+          "slug": "workshoppe"
+        },
+        {
+          "text": "post-its",
+          "slug": "post-its"
+        },
+        {
+          "text": "design sprint",
+          "slug": "design-sprint"
+        }
+      ],
+      "related": [
+        "bs-092"
+      ]
+    },
+    {
+      "id": "bs-094",
+      "rank": 94,
+      "slug": "takeaways",
+      "term": "Takeaways",
+      "score": 25,
+      "tier": "tier-4",
+      "category": "process_jargon",
+      "origin": "general",
+      "language": "english",
+      "contexts": [
+        "meeting"
+      ],
+      "meaning": "Konklusioner.",
+      "variations": [
+        {
+          "text": "key takeaways",
+          "slug": "key-takeaways"
+        },
+        {
+          "text": "learnings",
+          "slug": "learnings"
+        },
+        {
+          "text": "læringspunkter",
+          "slug": "laeringspunkter"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-095",
+      "rank": 95,
+      "slug": "hands-on",
+      "term": "Hands-on",
+      "score": 24,
+      "tier": "tier-4",
+      "category": "hr_job_ad",
+      "origin": "general",
+      "language": "english",
+      "contexts": [
+        "job_ad"
+      ],
+      "meaning": "Laver selv arbejdet.",
+      "variations": [
+        {
+          "text": "hands on",
+          "slug": "hands-on"
+        },
+        {
+          "text": "hands-on-erfaring",
+          "slug": "hands-on-erfaring"
+        },
+        {
+          "text": "praktisk anlagt",
+          "slug": "praktisk-anlagt"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-096",
+      "rank": 96,
+      "slug": "iterere",
+      "term": "Iterere",
+      "score": 23,
+      "tier": "tier-4",
+      "category": "process_jargon",
+      "origin": "tech",
+      "language": "danglish",
+      "contexts": [
+        "tech"
+      ],
+      "meaning": "Prøve igen.",
+      "variations": [
+        {
+          "text": "iteration",
+          "slug": "iteration"
+        },
+        {
+          "text": "iterativ",
+          "slug": "iterativ"
+        },
+        {
+          "text": "næste iteration",
+          "slug": "naeste-iteration"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-097",
+      "rank": 97,
+      "slug": "mvp",
+      "term": "MVP",
+      "score": 22,
+      "tier": "tier-4",
+      "category": "buzzword",
+      "origin": "startup",
+      "language": "english",
+      "contexts": [
+        "tech",
+        "strategy"
+      ],
+      "meaning": "Første version, ofte den eneste.",
+      "variations": [
+        {
+          "text": "minimum viable product",
+          "slug": "minimum-viable-product"
+        },
+        {
+          "text": "MLP",
+          "slug": "mlp"
+        },
+        {
+          "text": "proof of concept",
+          "slug": "proof-of-concept"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-098",
+      "rank": 98,
+      "slug": "pivot",
+      "term": "Pivot",
+      "score": 22,
+      "tier": "tier-4",
+      "category": "buzzword",
+      "origin": "startup",
+      "language": "english",
+      "contexts": [
+        "strategy"
+      ],
+      "meaning": "Skifte retning.",
+      "variations": [
+        {
+          "text": "pivotere",
+          "slug": "pivotere"
+        },
+        {
+          "text": "pivoting",
+          "slug": "pivoting"
+        },
+        {
+          "text": "et pivot",
+          "slug": "et-pivot"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-099",
+      "rank": 99,
+      "slug": "i-forhold-til",
+      "term": "I forhold til",
+      "score": 21,
+      "tier": "tier-4",
+      "category": "platitude",
+      "origin": "general",
+      "language": "danish",
+      "contexts": [
+        "meeting",
+        "email_chat"
+      ],
+      "meaning": "Kan indsættes i enhver sætning.",
+      "variations": [
+        {
+          "text": "ift.",
+          "slug": "ift"
+        },
+        {
+          "text": "ifht.",
+          "slug": "ifht"
+        },
+        {
+          "text": "i relation til",
+          "slug": "i-relation-til"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-100",
+      "rank": 100,
+      "slug": "primo-ultimo",
+      "term": "Primo/ultimo",
+      "score": 20,
+      "tier": "tier-4",
+      "category": "platitude",
+      "origin": "general",
+      "language": "danish",
+      "contexts": [
+        "email_chat",
+        "meeting"
+      ],
+      "meaning": "Starten/slutningen af.",
+      "variations": [
+        {
+          "text": "primo",
+          "slug": "primo"
+        },
+        {
+          "text": "ultimo",
+          "slug": "ultimo"
+        },
+        {
+          "text": "medio",
+          "slug": "medio"
+        },
+        {
+          "text": "ultimo Q3",
+          "slug": "ultimo-q3"
+        }
+      ],
+      "related": []
+    }
+  ],
+  "indexes": {
+    "by_category": {
+      "euphemism": [
+        "bs-001",
+        "bs-002",
+        "bs-003",
+        "bs-025",
+        "bs-031",
+        "bs-032",
+        "bs-077"
+      ],
+      "metaphor": [
+        "bs-005",
+        "bs-006",
+        "bs-009",
+        "bs-010",
+        "bs-011",
+        "bs-015",
+        "bs-022",
+        "bs-023",
+        "bs-027",
+        "bs-028",
+        "bs-036",
+        "bs-045",
+        "bs-046",
+        "bs-048",
+        "bs-049",
+        "bs-059",
+        "bs-091"
+      ],
+      "buzzword": [
+        "bs-007",
+        "bs-012",
+        "bs-013",
+        "bs-014",
+        "bs-021",
+        "bs-033",
+        "bs-054",
+        "bs-056",
+        "bs-057",
+        "bs-058",
+        "bs-060",
+        "bs-074",
+        "bs-075",
+        "bs-083",
+        "bs-084",
+        "bs-085",
+        "bs-086",
+        "bs-087",
+        "bs-097",
+        "bs-098"
+      ],
+      "platitude": [
+        "bs-004",
+        "bs-024",
+        "bs-026",
+        "bs-030",
+        "bs-050",
+        "bs-051",
+        "bs-052",
+        "bs-082",
+        "bs-089",
+        "bs-099",
+        "bs-100"
+      ],
+      "management_speak": [
+        "bs-019",
+        "bs-020",
+        "bs-034",
+        "bs-035",
+        "bs-039",
+        "bs-040",
+        "bs-041",
+        "bs-042",
+        "bs-069",
+        "bs-071",
+        "bs-072",
+        "bs-088"
+      ],
+      "process_jargon": [
+        "bs-008",
+        "bs-016",
+        "bs-017",
+        "bs-029",
+        "bs-037",
+        "bs-038",
+        "bs-043",
+        "bs-044",
+        "bs-047",
+        "bs-053",
+        "bs-055",
+        "bs-078",
+        "bs-081",
+        "bs-090",
+        "bs-092",
+        "bs-093",
+        "bs-094",
+        "bs-096"
+      ],
+      "verbified_noun": [
+        "bs-018",
+        "bs-079",
+        "bs-080"
+      ],
+      "hr_job_ad": [
+        "bs-061",
+        "bs-062",
+        "bs-063",
+        "bs-064",
+        "bs-065",
+        "bs-066",
+        "bs-067",
+        "bs-068",
+        "bs-070",
+        "bs-073",
+        "bs-076",
+        "bs-095"
+      ]
+    },
+    "by_context": {
+      "meeting": [
+        "bs-006",
+        "bs-008",
+        "bs-009",
+        "bs-015",
+        "bs-016",
+        "bs-017",
+        "bs-019",
+        "bs-020",
+        "bs-025",
+        "bs-027",
+        "bs-029",
+        "bs-030",
+        "bs-037",
+        "bs-038",
+        "bs-043",
+        "bs-044",
+        "bs-045",
+        "bs-046",
+        "bs-047",
+        "bs-048",
+        "bs-049",
+        "bs-050",
+        "bs-051",
+        "bs-052",
+        "bs-053",
+        "bs-054",
+        "bs-080",
+        "bs-090",
+        "bs-092",
+        "bs-093",
+        "bs-094",
+        "bs-099",
+        "bs-100"
+      ],
+      "strategy": [
+        "bs-005",
+        "bs-006",
+        "bs-007",
+        "bs-010",
+        "bs-011",
+        "bs-012",
+        "bs-013",
+        "bs-014",
+        "bs-021",
+        "bs-027",
+        "bs-028",
+        "bs-030",
+        "bs-032",
+        "bs-039",
+        "bs-040",
+        "bs-041",
+        "bs-042",
+        "bs-054",
+        "bs-055",
+        "bs-056",
+        "bs-057",
+        "bs-058",
+        "bs-059",
+        "bs-075",
+        "bs-078",
+        "bs-081",
+        "bs-084",
+        "bs-085",
+        "bs-086",
+        "bs-087",
+        "bs-091",
+        "bs-097",
+        "bs-098"
+      ],
+      "leadership": [
+        "bs-001",
+        "bs-002",
+        "bs-003",
+        "bs-004",
+        "bs-005",
+        "bs-007",
+        "bs-011",
+        "bs-019",
+        "bs-020",
+        "bs-022",
+        "bs-023",
+        "bs-024",
+        "bs-025",
+        "bs-026",
+        "bs-031",
+        "bs-032",
+        "bs-033",
+        "bs-035",
+        "bs-036",
+        "bs-037",
+        "bs-039",
+        "bs-042",
+        "bs-046",
+        "bs-053",
+        "bs-058",
+        "bs-059",
+        "bs-060",
+        "bs-072",
+        "bs-077",
+        "bs-080",
+        "bs-082",
+        "bs-088"
+      ],
+      "hr": [
+        "bs-001",
+        "bs-002",
+        "bs-003",
+        "bs-004",
+        "bs-022",
+        "bs-031",
+        "bs-033",
+        "bs-034",
+        "bs-036",
+        "bs-038",
+        "bs-049",
+        "bs-056",
+        "bs-060",
+        "bs-061",
+        "bs-068",
+        "bs-069",
+        "bs-070",
+        "bs-071",
+        "bs-072",
+        "bs-073",
+        "bs-074",
+        "bs-076",
+        "bs-077",
+        "bs-079",
+        "bs-083",
+        "bs-090"
+      ],
+      "job_ad": [
+        "bs-004",
+        "bs-010",
+        "bs-026",
+        "bs-034",
+        "bs-061",
+        "bs-062",
+        "bs-063",
+        "bs-064",
+        "bs-065",
+        "bs-066",
+        "bs-067",
+        "bs-068",
+        "bs-069",
+        "bs-071",
+        "bs-083",
+        "bs-089",
+        "bs-095"
+      ],
+      "email_chat": [
+        "bs-009",
+        "bs-016",
+        "bs-017",
+        "bs-018",
+        "bs-048",
+        "bs-082",
+        "bs-099",
+        "bs-100"
+      ],
+      "tech": [
+        "bs-013",
+        "bs-014",
+        "bs-055",
+        "bs-064",
+        "bs-075",
+        "bs-078",
+        "bs-079",
+        "bs-081",
+        "bs-084",
+        "bs-085",
+        "bs-086",
+        "bs-096",
+        "bs-097"
+      ]
+    },
+    "by_origin": {
+      "general": [
+        "bs-004",
+        "bs-006",
+        "bs-010",
+        "bs-017",
+        "bs-020",
+        "bs-023",
+        "bs-024",
+        "bs-025",
+        "bs-026",
+        "bs-029",
+        "bs-030",
+        "bs-031",
+        "bs-034",
+        "bs-036",
+        "bs-037",
+        "bs-043",
+        "bs-044",
+        "bs-045",
+        "bs-046",
+        "bs-047",
+        "bs-049",
+        "bs-050",
+        "bs-051",
+        "bs-052",
+        "bs-054",
+        "bs-057",
+        "bs-058",
+        "bs-061",
+        "bs-062",
+        "bs-063",
+        "bs-065",
+        "bs-066",
+        "bs-067",
+        "bs-068",
+        "bs-069",
+        "bs-071",
+        "bs-072",
+        "bs-073",
+        "bs-077",
+        "bs-079",
+        "bs-080",
+        "bs-082",
+        "bs-083",
+        "bs-087",
+        "bs-088",
+        "bs-089",
+        "bs-090",
+        "bs-091",
+        "bs-093",
+        "bs-094",
+        "bs-095",
+        "bs-099",
+        "bs-100"
+      ],
+      "tech": [
+        "bs-008",
+        "bs-009",
+        "bs-018",
+        "bs-064",
+        "bs-084",
+        "bs-085",
+        "bs-086",
+        "bs-096"
+      ],
+      "sports": [
+        "bs-013",
+        "bs-016",
+        "bs-022",
+        "bs-053",
+        "bs-092"
+      ],
+      "military": [
+        "bs-048"
+      ],
+      "consulting": [
+        "bs-001",
+        "bs-002",
+        "bs-003",
+        "bs-005",
+        "bs-007",
+        "bs-011",
+        "bs-015",
+        "bs-019",
+        "bs-021",
+        "bs-027",
+        "bs-032",
+        "bs-033",
+        "bs-035",
+        "bs-039",
+        "bs-040",
+        "bs-041",
+        "bs-042",
+        "bs-055",
+        "bs-059",
+        "bs-074",
+        "bs-075",
+        "bs-076",
+        "bs-078",
+        "bs-081"
+      ],
+      "startup": [
+        "bs-014",
+        "bs-028",
+        "bs-097",
+        "bs-098"
+      ],
+      "academic": [
+        "bs-012",
+        "bs-038",
+        "bs-056",
+        "bs-060",
+        "bs-070"
+      ]
+    },
+    "by_language": {
+      "english": [
+        "bs-002",
+        "bs-013",
+        "bs-014",
+        "bs-030",
+        "bs-035",
+        "bs-054",
+        "bs-055",
+        "bs-060",
+        "bs-064",
+        "bs-092",
+        "bs-094",
+        "bs-095",
+        "bs-097",
+        "bs-098"
+      ],
+      "danish": [
+        "bs-001",
+        "bs-003",
+        "bs-004",
+        "bs-005",
+        "bs-010",
+        "bs-012",
+        "bs-022",
+        "bs-023",
+        "bs-024",
+        "bs-025",
+        "bs-026",
+        "bs-031",
+        "bs-032",
+        "bs-033",
+        "bs-034",
+        "bs-036",
+        "bs-037",
+        "bs-038",
+        "bs-039",
+        "bs-040",
+        "bs-041",
+        "bs-042",
+        "bs-043",
+        "bs-044",
+        "bs-045",
+        "bs-046",
+        "bs-047",
+        "bs-049",
+        "bs-050",
+        "bs-051",
+        "bs-056",
+        "bs-057",
+        "bs-058",
+        "bs-061",
+        "bs-062",
+        "bs-065",
+        "bs-066",
+        "bs-067",
+        "bs-068",
+        "bs-069",
+        "bs-071",
+        "bs-072",
+        "bs-082",
+        "bs-087",
+        "bs-088",
+        "bs-089",
+        "bs-090",
+        "bs-091",
+        "bs-099",
+        "bs-100"
+      ],
+      "danglish": [
+        "bs-006",
+        "bs-007",
+        "bs-008",
+        "bs-009",
+        "bs-011",
+        "bs-015",
+        "bs-016",
+        "bs-017",
+        "bs-018",
+        "bs-019",
+        "bs-020",
+        "bs-021",
+        "bs-027",
+        "bs-028",
+        "bs-029",
+        "bs-048",
+        "bs-052",
+        "bs-053",
+        "bs-059",
+        "bs-063",
+        "bs-070",
+        "bs-073",
+        "bs-074",
+        "bs-075",
+        "bs-076",
+        "bs-077",
+        "bs-078",
+        "bs-079",
+        "bs-080",
+        "bs-081",
+        "bs-083",
+        "bs-084",
+        "bs-085",
+        "bs-086",
+        "bs-093",
+        "bs-096"
+      ]
+    },
+    "by_tier": {
+      "tier-1": [
+        "bs-001",
+        "bs-002",
+        "bs-003",
+        "bs-004",
+        "bs-005",
+        "bs-006",
+        "bs-007",
+        "bs-008",
+        "bs-009",
+        "bs-010"
+      ],
+      "tier-2": [
+        "bs-011",
+        "bs-012",
+        "bs-013",
+        "bs-014",
+        "bs-015",
+        "bs-016",
+        "bs-017",
+        "bs-018",
+        "bs-019",
+        "bs-020",
+        "bs-021",
+        "bs-022",
+        "bs-023",
+        "bs-024",
+        "bs-025",
+        "bs-026",
+        "bs-027",
+        "bs-028",
+        "bs-029",
+        "bs-030"
+      ],
+      "tier-3": [
+        "bs-031",
+        "bs-032",
+        "bs-033",
+        "bs-034",
+        "bs-035",
+        "bs-036",
+        "bs-037",
+        "bs-038",
+        "bs-039",
+        "bs-040",
+        "bs-041",
+        "bs-042",
+        "bs-043",
+        "bs-044",
+        "bs-045",
+        "bs-046",
+        "bs-047",
+        "bs-048",
+        "bs-049",
+        "bs-050",
+        "bs-051",
+        "bs-052",
+        "bs-053",
+        "bs-054",
+        "bs-055",
+        "bs-056",
+        "bs-057",
+        "bs-058",
+        "bs-059",
+        "bs-060"
+      ],
+      "tier-4": [
+        "bs-061",
+        "bs-062",
+        "bs-063",
+        "bs-064",
+        "bs-065",
+        "bs-066",
+        "bs-067",
+        "bs-068",
+        "bs-069",
+        "bs-070",
+        "bs-071",
+        "bs-072",
+        "bs-073",
+        "bs-074",
+        "bs-075",
+        "bs-076",
+        "bs-077",
+        "bs-078",
+        "bs-079",
+        "bs-080",
+        "bs-081",
+        "bs-082",
+        "bs-083",
+        "bs-084",
+        "bs-085",
+        "bs-086",
+        "bs-087",
+        "bs-088",
+        "bs-089",
+        "bs-090",
+        "bs-091",
+        "bs-092",
+        "bs-093",
+        "bs-094",
+        "bs-095",
+        "bs-096",
+        "bs-097",
+        "bs-098",
+        "bs-099",
+        "bs-100"
+      ]
+    },
+    "variation_lookup": {
+      "tilpasse organisationen": "bs-001",
+      "organisationstilpasning": "bs-001",
+      "organisatorisk tilpasning": "bs-001",
+      "vi tilpasser os": "bs-001",
+      "right-sizing": "bs-002",
+      "rightsize": "bs-002",
+      "at rightsize": "bs-002",
+      "rightsizing af organisationen": "bs-002",
+      "frigive ressourcer": "bs-003",
+      "frigørelse af ressourcer": "bs-003",
+      "frigjorte ressourcer": "bs-003",
+      "vi er som en familie": "bs-004",
+      "en del af familien": "bs-004",
+      "vores lille familie": "bs-004",
+      "vores rejse": "bs-005",
+      "en spændende rejse": "bs-005",
+      "transformationsrejse": "bs-005",
+      "digital rejse": "bs-005",
+      "low-hanging fruit": "bs-006",
+      "lavthængende frugt": "bs-006",
+      "plukke de lavthængende frugter": "bs-006",
+      "synergi": "bs-007",
+      "synergieffekter": "bs-007",
+      "høste synergier": "bs-007",
+      "synergize": "bs-007",
+      "tage den offline": "bs-008",
+      "take it offline": "bs-008",
+      "vi tager den bilateralt": "bs-008",
+      "båndbredde": "bs-009",
+      "bandwidth": "bs-009",
+      "har du kapacitet": "bs-009",
+      "har du plads på tallerkenen": "bs-009",
+      "vores dna": "bs-010",
+      "i virksomhedens dna": "bs-010",
+      "dna'et": "bs-010",
+      "burning platform": "bs-011",
+      "den brændende platform": "bs-011",
+      "paradigm shift": "bs-012",
+      "et nyt paradigme": "bs-012",
+      "paradigmeskiftende": "bs-012",
+      "game changer": "bs-013",
+      "game-changer": "bs-013",
+      "gamechanging": "bs-013",
+      "disruptive": "bs-014",
+      "disruptiv": "bs-014",
+      "disrupte": "bs-014",
+      "blive disruptet": "bs-014",
+      "disruptor": "bs-014",
+      "out of the box": "bs-015",
+      "ud af boksen": "bs-015",
+      "think outside the box": "bs-015",
+      "touch base": "bs-016",
+      "touche base": "bs-016",
+      "et touchbase": "bs-016",
+      "tjekke ind": "bs-016",
+      "vende tilbage på det": "bs-017",
+      "circle back on this": "bs-017",
+      "følge op": "bs-017",
+      "ping": "bs-018",
+      "pinge": "bs-018",
+      "smid mig et ping": "bs-018",
+      "jeg pinger dig": "bs-018",
+      "alignment": "bs-019",
+      "aligne": "bs-019",
+      "er vi alignet?": "bs-019",
+      "forventningsafstemme": "bs-019",
+      "ejerskab": "bs-020",
+      "take ownership": "bs-020",
+      "eje opgaven": "bs-020",
+      "ejer af processen": "bs-020",
+      "værdiskabelse": "bs-021",
+      "værdiskabende": "bs-021",
+      "add value": "bs-021",
+      "skabe merværdi": "bs-021",
+      "spiller hinanden gode": "bs-022",
+      "gøre hinanden gode": "bs-022",
+      "vi løfter i flok": "bs-023",
+      "løfte sammen": "bs-023",
+      "lykkes sammen": "bs-024",
+      "vi skal lykkes": "bs-024",
+      "lykkes med opgaven": "bs-024",
+      "udfordringer": "bs-025",
+      "en spændende udfordring": "bs-025",
+      "udfordringsbillede": "bs-025",
+      "spændende tider": "bs-026",
+      "spændende muligheder": "bs-026",
+      "super spændende": "bs-026",
+      "mega spændende": "bs-026",
+      "helikopterniveau": "bs-027",
+      "helicopter view": "bs-027",
+      "overordnet niveau": "bs-027",
+      "north star": "bs-028",
+      "north star metric": "bs-028",
+      "ledestjerne": "bs-028",
+      "dykke ned i": "bs-029",
+      "deepdive": "bs-029",
+      "tage et deep dive": "bs-029",
+      "win/win": "bs-030",
+      "win-win-situation": "bs-030",
+      "win-win-win": "bs-030",
+      "rykke sammen": "bs-031",
+      "tættere sammen": "bs-031",
+      "effektivisere": "bs-032",
+      "effektiviseringsgevinst": "bs-032",
+      "effektiviseringspotentiale": "bs-032",
+      "optimering": "bs-032",
+      "robusthed": "bs-033",
+      "robuste medarbejdere": "bs-033",
+      "organisatorisk robusthed": "bs-033",
+      "forandringsparat": "bs-034",
+      "omstillingsparathed": "bs-034",
+      "omstillingsparat": "bs-034",
+      "forandringsledelse": "bs-035",
+      "change manager": "bs-035",
+      "håndtere forandringen": "bs-035",
+      "klæde på": "bs-036",
+      "klædt på til opgaven": "bs-036",
+      "rammesætning": "bs-037",
+      "sætte rammerne": "bs-037",
+      "italesættelse": "bs-038",
+      "sætte ord på": "bs-038",
+      "få det italesat": "bs-038",
+      "kaskadere": "bs-039",
+      "kaskadering": "bs-039",
+      "rulle strategien ud": "bs-039",
+      "oversætte strategien": "bs-039",
+      "pejlemærker": "bs-040",
+      "strategiske sigtelinjer": "bs-040",
+      "strategiske spor": "bs-040",
+      "målbilleder": "bs-041",
+      "det fremtidige målbillede": "bs-041",
+      "target state": "bs-041",
+      "forankre": "bs-042",
+      "forankret": "bs-042",
+      "sikre forankring": "bs-042",
+      "bringe noget i spil": "bs-043",
+      "spille ind med": "bs-043",
+      "byde ind med": "bs-044",
+      "byde ind på opgaven": "bs-044",
+      "komme med input": "bs-044",
+      "lande den": "bs-045",
+      "få landet": "bs-045",
+      "lande en aftale": "bs-045",
+      "løfte ansvaret": "bs-046",
+      "løfte niveauet": "bs-046",
+      "kan du løfte den?": "bs-046",
+      "parkere": "bs-047",
+      "parking lot": "bs-047",
+      "vi parkerer den": "bs-047",
+      "på radaren": "bs-048",
+      "on the radar": "bs-048",
+      "under radaren": "bs-048",
+      "temperaturmåling": "bs-049",
+      "pulsmåling": "bs-049",
+      "pulse check": "bs-049",
+      "udfordre dig": "bs-050",
+      "må jeg udfordre": "bs-050",
+      "challenge": "bs-050",
+      "godt spørgsmål": "bs-051",
+      "great question": "bs-051",
+      "super godt spørgsmål": "bs-051",
+      "giver mening": "bs-052",
+      "makes sense": "bs-052",
+      "det giver rigtig god mening": "bs-052",
+      "sparre": "bs-053",
+      "sparringspartner": "bs-053",
+      "give sparring": "bs-053",
+      "quick wins": "bs-054",
+      "hurtig gevinst": "bs-054",
+      "hurtige sejre": "bs-054",
+      "best practices": "bs-055",
+      "bedste praksis": "bs-055",
+      "next practice": "bs-055",
+      "holistisk tilgang": "bs-056",
+      "holistic": "bs-056",
+      "helhedssyn": "bs-056",
+      "helhedsorienteret tilgang": "bs-057",
+      "helhedstænkning": "bs-057",
+      "på tværs af organisationen": "bs-058",
+      "tværgående": "bs-058",
+      "tværorganisatorisk": "bs-058",
+      "tværfaglig": "bs-058",
+      "silotænkning": "bs-059",
+      "siloer": "bs-059",
+      "break down silos": "bs-059",
+      "growth mindset": "bs-060",
+      "det rette mindset": "bs-060",
+      "mindsettet": "bs-060",
+      "ildsjæle": "bs-061",
+      "en ægte ildsjæl": "bs-061",
+      "brænder for": "bs-062",
+      "brændende interesse": "bs-062",
+      "passion": "bs-063",
+      "passionate": "bs-063",
+      "med passion for": "bs-063",
+      "rockstar": "bs-064",
+      "ninja": "bs-064",
+      "guru": "bs-064",
+      "wizard": "bs-064",
+      "unicorn": "bs-064",
+      "dynamisk arbejdsplads": "bs-065",
+      "ingen dage er ens": "bs-065",
+      "bolde i luften": "bs-066",
+      "travl hverdag": "bs-066",
+      "højt tempo": "bs-066",
+      "konkurrencedygtige vilkår": "bs-067",
+      "attraktiv lønpakke": "bs-067",
+      "løn efter kvalifikationer": "bs-067",
+      "flad organisation": "bs-068",
+      "flat hierarchy": "bs-068",
+      "korte beslutningsveje": "bs-068",
+      "selvledende": "bs-069",
+      "selvledende teams": "bs-069",
+      "self-management": "bs-069",
+      "psychological safety": "bs-070",
+      "psykologisk sikkerhed": "bs-070",
+      "trygt rum": "bs-070",
+      "nærværende leder": "bs-071",
+      "nærvær": "bs-071",
+      "tilstedeværende ledelse": "bs-071",
+      "tillidsbaseret": "bs-072",
+      "ledelse baseret på tillid": "bs-072",
+      "feedback-kultur": "bs-073",
+      "feedforward": "bs-073",
+      "360-graders feedback": "bs-073",
+      "employee journey": "bs-074",
+      "medarbejderoplevelse": "bs-074",
+      "employee experience": "bs-074",
+      "customer journey": "bs-075",
+      "kundeoplevelse": "bs-075",
+      "customer experience": "bs-075",
+      "cx": "bs-075",
+      "talent": "bs-076",
+      "talentpipeline": "bs-076",
+      "talentudvikling": "bs-076",
+      "toptalenter": "bs-076",
+      "fte": "bs-077",
+      "årsværk": "bs-077",
+      "headcount": "bs-077",
+      "ressourcepersoner": "bs-077",
+      "stakeholders": "bs-078",
+      "stakeholderhåndtering": "bs-078",
+      "interessentanalyse": "bs-078",
+      "onboarding": "bs-079",
+      "onboardet": "bs-079",
+      "onboardingforløb": "bs-079",
+      "offboarding": "bs-079",
+      "commitment": "bs-080",
+      "committed": "bs-080",
+      "committe": "bs-080",
+      "leverance": "bs-081",
+      "deliverables": "bs-081",
+      "fremadrettede": "bs-082",
+      "going forward": "bs-082",
+      "proaktivt": "bs-083",
+      "proaktivitet": "bs-083",
+      "være på forkant": "bs-083",
+      "agilt": "bs-084",
+      "agilitet": "bs-084",
+      "agile": "bs-084",
+      "agil transformation": "bs-084",
+      "safe": "bs-084",
+      "datadreven": "bs-085",
+      "data-driven": "bs-085",
+      "datainformeret": "bs-085",
+      "skalere": "bs-086",
+      "skalerbarhed": "bs-086",
+      "skalere op": "bs-086",
+      "bæredygtighed": "bs-087",
+      "bæredygtigt": "bs-087",
+      "sustainable": "bs-087",
+      "gå foran": "bs-088",
+      "lead by example": "bs-088",
+      "gør en forskel": "bs-089",
+      "make a difference": "bs-089",
+      "gøre en reel forskel": "bs-089",
+      "skabe rum": "bs-090",
+      "give plads til": "bs-090",
+      "rum for refleksion": "bs-090",
+      "skabe ringe i vandet": "bs-091",
+      "ringeffekt": "bs-091",
+      "afledte effekter": "bs-091",
+      "kickoff": "bs-092",
+      "kick off": "bs-092",
+      "opstartsmøde": "bs-092",
+      "kickoffmøde": "bs-092",
+      "workshops": "bs-093",
+      "workshoppe": "bs-093",
+      "post-its": "bs-093",
+      "design sprint": "bs-093",
+      "key takeaways": "bs-094",
+      "learnings": "bs-094",
+      "læringspunkter": "bs-094",
+      "hands on": "bs-095",
+      "hands-on-erfaring": "bs-095",
+      "praktisk anlagt": "bs-095",
+      "iteration": "bs-096",
+      "iterativ": "bs-096",
+      "næste iteration": "bs-096",
+      "minimum viable product": "bs-097",
+      "mlp": "bs-097",
+      "proof of concept": "bs-097",
+      "pivotere": "bs-098",
+      "pivoting": "bs-098",
+      "et pivot": "bs-098",
+      "ift.": "bs-099",
+      "ifht.": "bs-099",
+      "i relation til": "bs-099",
+      "primo": "bs-100",
+      "ultimo": "bs-100",
+      "medio": "bs-100",
+      "ultimo q3": "bs-100",
+      "tilpasning af organisationen": "bs-001",
+      "rightsizing": "bs-002",
+      "frigøre ressourcer": "bs-003",
+      "vi er en familie": "bs-004",
+      "vi er på en rejse": "bs-005",
+      "lavthængende frugter": "bs-006",
+      "synergier": "bs-007",
+      "lad os tage den offline": "bs-008",
+      "har du båndbredde til det?": "bs-009",
+      "det ligger i vores dna": "bs-010",
+      "brændende platform": "bs-011",
+      "paradigmeskift": "bs-012",
+      "gamechanger": "bs-013",
+      "disruption": "bs-014",
+      "tænke ud af boksen": "bs-015",
+      "touchbase": "bs-016",
+      "circle back": "bs-017",
+      "ping mig": "bs-018",
+      "at være alignet": "bs-019",
+      "tage ejerskab": "bs-020",
+      "skabe værdi": "bs-021",
+      "spille hinanden gode": "bs-022",
+      "løfte i flok": "bs-023",
+      "vi skal lykkes sammen": "bs-024",
+      "udfordring": "bs-025",
+      "spændende": "bs-026",
+      "helikopterperspektiv": "bs-027",
+      "nordstjerne": "bs-028",
+      "deep dive": "bs-029",
+      "win-win": "bs-030",
+      "rykke tættere sammen": "bs-031",
+      "effektivisering": "bs-032",
+      "robust organisation": "bs-033",
+      "forandringsparathed": "bs-034",
+      "change management": "bs-035",
+      "klæde medarbejderne på": "bs-036",
+      "rammesætte": "bs-037",
+      "italesætte": "bs-038",
+      "kaskadere strategien": "bs-039",
+      "strategiske pejlemærker": "bs-040",
+      "målbillede": "bs-041",
+      "forankring": "bs-042",
+      "bringe i spil": "bs-043",
+      "byde ind": "bs-044",
+      "lande en beslutning": "bs-045",
+      "løfte opgaven": "bs-046",
+      "lad os parkere den": "bs-047",
+      "have det på radaren": "bs-048",
+      "tage temperaturen": "bs-049",
+      "jeg vil gerne udfordre dig på det": "bs-050",
+      "det er et rigtig godt spørgsmål": "bs-051",
+      "det giver god mening": "bs-052",
+      "sparring": "bs-053",
+      "quick win": "bs-054",
+      "best practice": "bs-055",
+      "holistisk": "bs-056",
+      "helhedsorienteret": "bs-057",
+      "på tværs": "bs-058",
+      "nedbryde siloer": "bs-059",
+      "mindset": "bs-060",
+      "ildsjæl": "bs-061",
+      "brænde for": "bs-062",
+      "passioneret": "bs-063",
+      "rockstjerne": "bs-064",
+      "dynamisk hverdag": "bs-065",
+      "mange bolde i luften": "bs-066",
+      "konkurrencedygtig løn": "bs-067",
+      "flad struktur": "bs-068",
+      "selvledelse": "bs-069",
+      "psykologisk tryghed": "bs-070",
+      "nærværende ledelse": "bs-071",
+      "tillidsbaseret ledelse": "bs-072",
+      "feedbackkultur": "bs-073",
+      "medarbejderrejsen": "bs-074",
+      "kunderejsen": "bs-075",
+      "talenter": "bs-076",
+      "ressourcer": "bs-077",
+      "interessenter": "bs-078",
+      "onboarde": "bs-079",
+      "committe sig": "bs-080",
+      "leverancer": "bs-081",
+      "fremadrettet": "bs-082",
+      "proaktiv": "bs-083",
+      "agil": "bs-084",
+      "datadrevet": "bs-085",
+      "skalerbar": "bs-086",
+      "bæredygtig": "bs-087",
+      "gå forrest": "bs-088",
+      "gøre en forskel": "bs-089",
+      "skabe rum for": "bs-090",
+      "ringe i vandet": "bs-091",
+      "kick-off": "bs-092",
+      "workshop": "bs-093",
+      "takeaways": "bs-094",
+      "hands-on": "bs-095",
+      "iterere": "bs-096",
+      "mvp": "bs-097",
+      "pivot": "bs-098",
+      "i forhold til": "bs-099",
+      "primo/ultimo": "bs-100"
+    }
+  },
+  "stats": {
+    "total_variations": 312,
+    "avg_score": 60,
+    "per_category": {
+      "euphemism": 7,
+      "metaphor": 17,
+      "buzzword": 20,
+      "platitude": 11,
+      "management_speak": 12,
+      "process_jargon": 18,
+      "verbified_noun": 3,
+      "hr_job_ad": 12
+    },
+    "per_origin": {
+      "general": 53,
+      "tech": 8,
+      "sports": 5,
+      "military": 1,
+      "consulting": 24,
+      "startup": 4,
+      "academic": 5
+    },
+    "per_language": {
+      "english": 14,
+      "danish": 50,
+      "danglish": 36
+    }
+  }
+}

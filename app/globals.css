@@ -38,6 +38,18 @@
     --color-card: var(--card);
     --color-foreground: var(--foreground);
     --color-background: var(--background);
+    --color-tier-1: var(--tier-1);
+    --color-tier-1-bg: var(--tier-1-bg);
+    --color-tier-1-fg: var(--tier-1-fg);
+    --color-tier-2: var(--tier-2);
+    --color-tier-2-bg: var(--tier-2-bg);
+    --color-tier-2-fg: var(--tier-2-fg);
+    --color-tier-3: var(--tier-3);
+    --color-tier-3-bg: var(--tier-3-bg);
+    --color-tier-3-fg: var(--tier-3-fg);
+    --color-tier-4: var(--tier-4);
+    --color-tier-4-bg: var(--tier-4-bg);
+    --color-tier-4-fg: var(--tier-4-fg);
     --radius-sm: calc(var(--radius) * 0.6);
     --radius-md: calc(var(--radius) * 0.8);
     --radius-lg: var(--radius);
@@ -80,6 +92,19 @@
     --sidebar-accent-foreground: oklch(0.228 0.013 107.4);
     --sidebar-border: oklch(0.93 0.007 106.5);
     --sidebar-ring: oklch(0.737 0.021 106.9);
+    /* Bullshit tiers: a heat scale from red (the worst) to teal (everyday noise). */
+    --tier-1: oklch(0.62 0.2 25);
+    --tier-1-bg: oklch(0.9 0.08 25);
+    --tier-1-fg: oklch(0.38 0.14 25);
+    --tier-2: oklch(0.7 0.17 55);
+    --tier-2-bg: oklch(0.91 0.08 55);
+    --tier-2-fg: oklch(0.4 0.11 55);
+    --tier-3: oklch(0.8 0.15 90);
+    --tier-3-bg: oklch(0.93 0.1 95);
+    --tier-3-fg: oklch(0.4 0.08 90);
+    --tier-4: oklch(0.68 0.11 190);
+    --tier-4-bg: oklch(0.91 0.06 190);
+    --tier-4-fg: oklch(0.36 0.07 190);
 }
 
 .dark {
@@ -114,6 +139,18 @@
     --sidebar-accent-foreground: oklch(0.988 0.003 106.5);
     --sidebar-border: oklch(1 0 0 / 10%);
     --sidebar-ring: oklch(0.58 0.031 107.3);
+    --tier-1: oklch(0.65 0.2 25);
+    --tier-1-bg: oklch(0.38 0.11 25);
+    --tier-1-fg: oklch(0.93 0.06 25);
+    --tier-2: oklch(0.72 0.16 55);
+    --tier-2-bg: oklch(0.4 0.09 55);
+    --tier-2-fg: oklch(0.93 0.07 60);
+    --tier-3: oklch(0.82 0.15 90);
+    --tier-3-bg: oklch(0.42 0.08 90);
+    --tier-3-fg: oklch(0.95 0.08 95);
+    --tier-4: oklch(0.72 0.11 190);
+    --tier-4-bg: oklch(0.38 0.06 190);
+    --tier-4-fg: oklch(0.93 0.05 190);
 }
 
 @layer base {

@@ -1,0 +1,4321 @@
+{
+  "meta": {
+    "title": "English corporate bullshit",
+    "version": "1.1.0",
+    "language": "en",
+    "generated": "2026-11-16",
+    "count": 100,
+    "scoring": {
+      "min": 1,
+      "max": 100,
+      "direction": "higher = more annoying",
+      "note": "Subjective ranking. Score derived from rank (1 = 100, 100 = 20)."
+    }
+  },
+  "taxonomy": {
+    "categories": [
+      {
+        "id": "euphemism",
+        "label": "Euphemism",
+        "description": "Softens an unpleasant reality (usually layoffs or cost cuts)."
+      },
+      {
+        "id": "metaphor",
+        "label": "Metaphor",
+        "description": "Figurative language replacing a concrete description."
+      },
+      {
+        "id": "buzzword",
+        "label": "Buzzword",
+        "description": "High-frequency, low-content fashionable word."
+      },
+      {
+        "id": "platitude",
+        "label": "Platitude",
+        "description": "Stock phrase carrying no real information."
+      },
+      {
+        "id": "management_speak",
+        "label": "Management speak",
+        "description": "Leadership and strategy language."
+      },
+      {
+        "id": "process_jargon",
+        "label": "Process jargon",
+        "description": "Language about meetings, processes and collaboration."
+      },
+      {
+        "id": "verbified_noun",
+        "label": "Verbified noun",
+        "description": "Nouns used as verbs or verbs used as nouns."
+      },
+      {
+        "id": "hr_job_ad",
+        "label": "HR and job ads",
+        "description": "HR language and typical job-ad phrasing."
+      }
+    ],
+    "contexts": [
+      {
+        "id": "meeting",
+        "label": "Meeting",
+        "description": "Meetings"
+      },
+      {
+        "id": "strategy",
+        "label": "Strategy",
+        "description": "Strategy docs and decks"
+      },
+      {
+        "id": "leadership",
+        "label": "Leadership",
+        "description": "Leadership communication"
+      },
+      {
+        "id": "hr",
+        "label": "HR",
+        "description": "HR and people"
+      },
+      {
+        "id": "job_ad",
+        "label": "Job ad",
+        "description": "Job ads"
+      },
+      {
+        "id": "email_chat",
+        "label": "Email and chat",
+        "description": "Email, Slack and Teams"
+      },
+      {
+        "id": "tech",
+        "label": "Tech",
+        "description": "Tech and development"
+      }
+    ],
+    "origins": [
+      {
+        "id": "general",
+        "label": "General"
+      },
+      {
+        "id": "tech",
+        "label": "Tech"
+      },
+      {
+        "id": "sports",
+        "label": "Sports"
+      },
+      {
+        "id": "military",
+        "label": "Military"
+      },
+      {
+        "id": "consulting",
+        "label": "Consulting"
+      },
+      {
+        "id": "startup",
+        "label": "Startup"
+      },
+      {
+        "id": "academic",
+        "label": "Academic"
+      }
+    ],
+    "languages": [
+      {
+        "id": "english",
+        "label": "English"
+      },
+      {
+        "id": "danish",
+        "label": "Danish"
+      },
+      {
+        "id": "danglish",
+        "label": "Danglish"
+      }
+    ],
+    "tiers": [
+      {
+        "id": "tier-1",
+        "label": "The worst",
+        "ranks": [
+          1,
+          10
+        ],
+        "score_range": [
+          93,
+          100
+        ]
+      },
+      {
+        "id": "tier-2",
+        "label": "Consultant dialect",
+        "ranks": [
+          11,
+          30
+        ],
+        "score_range": [
+          77,
+          92
+        ]
+      },
+      {
+        "id": "tier-3",
+        "label": "Meeting-room language",
+        "ranks": [
+          31,
+          60
+        ],
+        "score_range": [
+          52,
+          76
+        ]
+      },
+      {
+        "id": "tier-4",
+        "label": "HR, job ads and everyday noise",
+        "ranks": [
+          61,
+          100
+        ],
+        "score_range": [
+          20,
+          52
+        ]
+      }
+    ]
+  },
+  "entries": [
+    {
+      "id": "bs-en-001",
+      "rank": 1,
+      "slug": "rightsizing",
+      "term": "Rightsizing",
+      "score": 100,
+      "tier": "tier-1",
+      "category": "euphemism",
+      "origin": "consulting",
+      "language": "english",
+      "contexts": [
+        "leadership",
+        "hr"
+      ],
+      "meaning": "Layoffs.",
+      "variations": [
+        {
+          "text": "right-size",
+          "slug": "right-size"
+        },
+        {
+          "text": "right-sized",
+          "slug": "right-sized"
+        },
+        {
+          "text": "rightsizing the organization",
+          "slug": "rightsizing-the-organization"
+        }
+      ],
+      "related": [
+        "bs-en-002",
+        "bs-en-003",
+        "bs-en-067"
+      ]
+    },
+    {
+      "id": "bs-en-002",
+      "rank": 2,
+      "slug": "reduction-in-force",
+      "term": "Reduction in force",
+      "score": 99,
+      "tier": "tier-1",
+      "category": "euphemism",
+      "origin": "general",
+      "language": "english",
+      "contexts": [
+        "hr",
+        "leadership"
+      ],
+      "meaning": "Layoffs, with an acronym.",
+      "variations": [
+        {
+          "text": "RIF",
+          "slug": "rif"
+        },
+        {
+          "text": "RIF'd",
+          "slug": "rif-d"
+        },
+        {
+          "text": "workforce reduction",
+          "slug": "workforce-reduction"
+        },
+        {
+          "text": "headcount reduction",
+          "slug": "headcount-reduction"
+        }
+      ],
+      "related": [
+        "bs-en-001",
+        "bs-en-003",
+        "bs-en-067"
+      ]
+    },
+    {
+      "id": "bs-en-003",
+      "rank": 3,
+      "slug": "restructuring-for-growth",
+      "term": "Restructuring for growth",
+      "score": 98,
+      "tier": "tier-1",
+      "category": "euphemism",
+      "origin": "consulting",
+      "language": "english",
+      "contexts": [
+        "leadership",
+        "strategy"
+      ],
+      "meaning": "Layoffs, framed optimistically.",
+      "variations": [
+        {
+          "text": "strategic restructuring",
+          "slug": "strategic-restructuring"
+        },
+        {
+          "text": "organizational realignment",
+          "slug": "organizational-realignment"
+        },
+        {
+          "text": "streamlining operations",
+          "slug": "streamlining-operations"
+        }
+      ],
+      "related": [
+        "bs-en-001",
+        "bs-en-002",
+        "bs-en-084"
+      ]
+    },
+    {
+      "id": "bs-en-004",
+      "rank": 4,
+      "slug": "we-re-a-family",
+      "term": "We're a family",
+      "score": 98,
+      "tier": "tier-1",
+      "category": "platitude",
+      "origin": "general",
+      "language": "english",
+      "contexts": [
+        "hr",
+        "job_ad",
+        "leadership"
+      ],
+      "meaning": "Loyalty expected, not returned.",
+      "variations": [
+        {
+          "text": "we're like a family",
+          "slug": "we-re-like-a-family"
+        },
+        {
+          "text": "part of the family",
+          "slug": "part-of-the-family"
+        },
+        {
+          "text": "our work family",
+          "slug": "our-work-family"
+        }
+      ],
+      "related": [
+        "bs-en-046"
+      ]
+    },
+    {
+      "id": "bs-en-005",
+      "rank": 5,
+      "slug": "synergy",
+      "term": "Synergy",
+      "score": 97,
+      "tier": "tier-1",
+      "category": "buzzword",
+      "origin": "consulting",
+      "language": "english",
+      "contexts": [
+        "strategy",
+        "leadership"
+      ],
+      "meaning": "Cost cutting after a merger, rarely documented.",
+      "variations": [
+        {
+          "text": "synergies",
+          "slug": "synergies"
+        },
+        {
+          "text": "synergize",
+          "slug": "synergize"
+        },
+        {
+          "text": "synergistic",
+          "slug": "synergistic"
+        },
+        {
+          "text": "unlock synergies",
+          "slug": "unlock-synergies"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-006",
+      "rank": 6,
+      "slug": "low-hanging-fruit",
+      "term": "Low-hanging fruit",
+      "score": 96,
+      "tier": "tier-1",
+      "category": "metaphor",
+      "origin": "general",
+      "language": "english",
+      "contexts": [
+        "meeting",
+        "strategy"
+      ],
+      "meaning": "Easy tasks.",
+      "variations": [
+        {
+          "text": "low hanging fruit",
+          "slug": "low-hanging-fruit"
+        },
+        {
+          "text": "pick the low-hanging fruit",
+          "slug": "pick-the-low-hanging-fruit"
+        }
+      ],
+      "related": [
+        "bs-en-087"
+      ]
+    },
+    {
+      "id": "bs-en-007",
+      "rank": 7,
+      "slug": "circle-back",
+      "term": "Circle back",
+      "score": 95,
+      "tier": "tier-1",
+      "category": "process_jargon",
+      "origin": "general",
+      "language": "english",
+      "contexts": [
+        "meeting",
+        "email_chat"
+      ],
+      "meaning": "Later, maybe never.",
+      "variations": [
+        {
+          "text": "circle back on this",
+          "slug": "circle-back-on-this"
+        },
+        {
+          "text": "let's circle back",
+          "slug": "let-s-circle-back"
+        },
+        {
+          "text": "loop back",
+          "slug": "loop-back"
+        }
+      ],
+      "related": [
+        "bs-en-018",
+        "bs-en-075"
+      ]
+    },
+    {
+      "id": "bs-en-008",
+      "rank": 8,
+      "slug": "take-it-offline",
+      "term": "Take it offline",
+      "score": 94,
+      "tier": "tier-1",
+      "category": "process_jargon",
+      "origin": "tech",
+      "language": "english",
+      "contexts": [
+        "meeting"
+      ],
+      "meaning": "Stop talking about this now.",
+      "variations": [
+        {
+          "text": "take this offline",
+          "slug": "take-this-offline"
+        },
+        {
+          "text": "let's take it offline",
+          "slug": "let-s-take-it-offline"
+        },
+        {
+          "text": "discuss offline",
+          "slug": "discuss-offline"
+        }
+      ],
+      "related": [
+        "bs-en-020"
+      ]
+    },
+    {
+      "id": "bs-en-009",
+      "rank": 9,
+      "slug": "bandwidth",
+      "term": "Bandwidth",
+      "score": 94,
+      "tier": "tier-1",
+      "category": "metaphor",
+      "origin": "tech",
+      "language": "english",
+      "contexts": [
+        "meeting",
+        "email_chat"
+      ],
+      "meaning": "Time.",
+      "variations": [
+        {
+          "text": "do you have bandwidth",
+          "slug": "do-you-have-bandwidth"
+        },
+        {
+          "text": "capacity",
+          "slug": "capacity"
+        },
+        {
+          "text": "cycles",
+          "slug": "cycles"
+        },
+        {
+          "text": "spare cycles",
+          "slug": "spare-cycles"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-010",
+      "rank": 10,
+      "slug": "move-the-needle",
+      "term": "Move the needle",
+      "score": 93,
+      "tier": "tier-1",
+      "category": "metaphor",
+      "origin": "general",
+      "language": "english",
+      "contexts": [
+        "strategy",
+        "leadership"
+      ],
+      "meaning": "Make a measurable difference.",
+      "variations": [
+        {
+          "text": "needle-mover",
+          "slug": "needle-mover"
+        },
+        {
+          "text": "moves the needle",
+          "slug": "moves-the-needle"
+        },
+        {
+          "text": "needle-moving",
+          "slug": "needle-moving"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-011",
+      "rank": 11,
+      "slug": "paradigm-shift",
+      "term": "Paradigm shift",
+      "score": 92,
+      "tier": "tier-2",
+      "category": "buzzword",
+      "origin": "academic",
+      "language": "english",
+      "contexts": [
+        "strategy"
+      ],
+      "meaning": "A change, often a small one.",
+      "variations": [
+        {
+          "text": "new paradigm",
+          "slug": "new-paradigm"
+        },
+        {
+          "text": "paradigm-shifting",
+          "slug": "paradigm-shifting"
+        },
+        {
+          "text": "shift the paradigm",
+          "slug": "shift-the-paradigm"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-012",
+      "rank": 12,
+      "slug": "boil-the-ocean",
+      "term": "Boil the ocean",
+      "score": 91,
+      "tier": "tier-2",
+      "category": "metaphor",
+      "origin": "consulting",
+      "language": "english",
+      "contexts": [
+        "meeting",
+        "strategy"
+      ],
+      "meaning": "Do too much.",
+      "variations": [
+        {
+          "text": "don't boil the ocean",
+          "slug": "don-t-boil-the-ocean"
+        },
+        {
+          "text": "ocean-boiling",
+          "slug": "ocean-boiling"
+        }
+      ],
+      "related": [
+        "bs-en-015"
+      ]
+    },
+    {
+      "id": "bs-en-013",
+      "rank": 13,
+      "slug": "leverage",
+      "term": "Leverage",
+      "score": 90,
+      "tier": "tier-2",
+      "category": "verbified_noun",
+      "origin": "consulting",
+      "language": "english",
+      "contexts": [
+        "strategy",
+        "meeting"
+      ],
+      "meaning": "Use.",
+      "variations": [
+        {
+          "text": "leveraging",
+          "slug": "leveraging"
+        },
+        {
+          "text": "leveraged",
+          "slug": "leveraged"
+        },
+        {
+          "text": "leverage our assets",
+          "slug": "leverage-our-assets"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-014",
+      "rank": 14,
+      "slug": "deep-dive",
+      "term": "Deep dive",
+      "score": 89,
+      "tier": "tier-2",
+      "category": "process_jargon",
+      "origin": "general",
+      "language": "english",
+      "contexts": [
+        "meeting"
+      ],
+      "meaning": "Look closely.",
+      "variations": [
+        {
+          "text": "deep-dive",
+          "slug": "deep-dive"
+        },
+        {
+          "text": "dive deep",
+          "slug": "dive-deep"
+        },
+        {
+          "text": "take a deep dive",
+          "slug": "take-a-deep-dive"
+        }
+      ],
+      "related": [
+        "bs-en-037",
+        "bs-en-038",
+        "bs-en-080"
+      ]
+    },
+    {
+      "id": "bs-en-015",
+      "rank": 15,
+      "slug": "think-outside-the-box",
+      "term": "Think outside the box",
+      "score": 89,
+      "tier": "tier-2",
+      "category": "metaphor",
+      "origin": "consulting",
+      "language": "english",
+      "contexts": [
+        "meeting"
+      ],
+      "meaning": "Have an idea.",
+      "variations": [
+        {
+          "text": "out of the box",
+          "slug": "out-of-the-box"
+        },
+        {
+          "text": "outside-the-box thinking",
+          "slug": "outside-the-box-thinking"
+        },
+        {
+          "text": "blue-sky thinking",
+          "slug": "blue-sky-thinking"
+        }
+      ],
+      "related": [
+        "bs-en-012"
+      ]
+    },
+    {
+      "id": "bs-en-016",
+      "rank": 16,
+      "slug": "disrupt",
+      "term": "Disrupt",
+      "score": 88,
+      "tier": "tier-2",
+      "category": "buzzword",
+      "origin": "startup",
+      "language": "english",
+      "contexts": [
+        "strategy",
+        "tech"
+      ],
+      "meaning": "Compete, or use new tech.",
+      "variations": [
+        {
+          "text": "disruption",
+          "slug": "disruption"
+        },
+        {
+          "text": "disruptive",
+          "slug": "disruptive"
+        },
+        {
+          "text": "disruptor",
+          "slug": "disruptor"
+        },
+        {
+          "text": "disrupt the market",
+          "slug": "disrupt-the-market"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-017",
+      "rank": 17,
+      "slug": "game-changer",
+      "term": "Game changer",
+      "score": 87,
+      "tier": "tier-2",
+      "category": "buzzword",
+      "origin": "sports",
+      "language": "english",
+      "contexts": [
+        "strategy",
+        "tech"
+      ],
+      "meaning": "A new product or tool.",
+      "variations": [
+        {
+          "text": "game-changer",
+          "slug": "game-changer"
+        },
+        {
+          "text": "game-changing",
+          "slug": "game-changing"
+        },
+        {
+          "text": "changes the game",
+          "slug": "changes-the-game"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-018",
+      "rank": 18,
+      "slug": "touch-base",
+      "term": "Touch base",
+      "score": 86,
+      "tier": "tier-2",
+      "category": "process_jargon",
+      "origin": "sports",
+      "language": "english",
+      "contexts": [
+        "meeting",
+        "email_chat"
+      ],
+      "meaning": "A short meeting.",
+      "variations": [
+        {
+          "text": "touchbase",
+          "slug": "touchbase"
+        },
+        {
+          "text": "quick touchbase",
+          "slug": "quick-touchbase"
+        },
+        {
+          "text": "touch base offline",
+          "slug": "touch-base-offline"
+        }
+      ],
+      "related": [
+        "bs-en-007"
+      ]
+    },
+    {
+      "id": "bs-en-019",
+      "rank": 19,
+      "slug": "ping-me",
+      "term": "Ping me",
+      "score": 85,
+      "tier": "tier-2",
+      "category": "verbified_noun",
+      "origin": "tech",
+      "language": "english",
+      "contexts": [
+        "email_chat"
+      ],
+      "meaning": "Message me.",
+      "variations": [
+        {
+          "text": "ping",
+          "slug": "ping"
+        },
+        {
+          "text": "pinged",
+          "slug": "pinged"
+        },
+        {
+          "text": "shoot me a ping",
+          "slug": "shoot-me-a-ping"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-020",
+      "rank": 20,
+      "slug": "put-a-pin-in-it",
+      "term": "Put a pin in it",
+      "score": 85,
+      "tier": "tier-2",
+      "category": "process_jargon",
+      "origin": "general",
+      "language": "english",
+      "contexts": [
+        "meeting"
+      ],
+      "meaning": "It will never come back.",
+      "variations": [
+        {
+          "text": "pin that",
+          "slug": "pin-that"
+        },
+        {
+          "text": "let's put a pin in that",
+          "slug": "let-s-put-a-pin-in-that"
+        },
+        {
+          "text": "park it",
+          "slug": "park-it"
+        },
+        {
+          "text": "parking lot",
+          "slug": "parking-lot"
+        }
+      ],
+      "related": [
+        "bs-en-008"
+      ]
+    },
+    {
+      "id": "bs-en-021",
+      "rank": 21,
+      "slug": "alignment",
+      "term": "Alignment",
+      "score": 84,
+      "tier": "tier-2",
+      "category": "management_speak",
+      "origin": "consulting",
+      "language": "english",
+      "contexts": [
+        "meeting",
+        "leadership"
+      ],
+      "meaning": "Agreement.",
+      "variations": [
+        {
+          "text": "get aligned",
+          "slug": "get-aligned"
+        },
+        {
+          "text": "align on",
+          "slug": "align-on"
+        },
+        {
+          "text": "are we aligned?",
+          "slug": "are-we-aligned"
+        },
+        {
+          "text": "alignment session",
+          "slug": "alignment-session"
+        }
+      ],
+      "related": [
+        "bs-en-081"
+      ]
+    },
+    {
+      "id": "bs-en-022",
+      "rank": 22,
+      "slug": "take-ownership",
+      "term": "Take ownership",
+      "score": 83,
+      "tier": "tier-2",
+      "category": "management_speak",
+      "origin": "general",
+      "language": "english",
+      "contexts": [
+        "leadership",
+        "meeting"
+      ],
+      "meaning": "It's your problem now.",
+      "variations": [
+        {
+          "text": "own it",
+          "slug": "own-it"
+        },
+        {
+          "text": "ownership mindset",
+          "slug": "ownership-mindset"
+        },
+        {
+          "text": "single-threaded owner",
+          "slug": "single-threaded-owner"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-023",
+      "rank": 23,
+      "slug": "value-add",
+      "term": "Value-add",
+      "score": 82,
+      "tier": "tier-2",
+      "category": "buzzword",
+      "origin": "consulting",
+      "language": "english",
+      "contexts": [
+        "strategy"
+      ],
+      "meaning": "Useful.",
+      "variations": [
+        {
+          "text": "add value",
+          "slug": "add-value"
+        },
+        {
+          "text": "value creation",
+          "slug": "value-creation"
+        },
+        {
+          "text": "value-added",
+          "slug": "value-added"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-024",
+      "rank": 24,
+      "slug": "best-in-class",
+      "term": "Best-in-class",
+      "score": 81,
+      "tier": "tier-2",
+      "category": "buzzword",
+      "origin": "consulting",
+      "language": "english",
+      "contexts": [
+        "strategy",
+        "job_ad"
+      ],
+      "meaning": "Good.",
+      "variations": [
+        {
+          "text": "world-class",
+          "slug": "world-class"
+        },
+        {
+          "text": "best-of-breed",
+          "slug": "best-of-breed"
+        },
+        {
+          "text": "industry-leading",
+          "slug": "industry-leading"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-025",
+      "rank": 25,
+      "slug": "ecosystem",
+      "term": "Ecosystem",
+      "score": 81,
+      "tier": "tier-2",
+      "category": "buzzword",
+      "origin": "tech",
+      "language": "english",
+      "contexts": [
+        "strategy",
+        "tech"
+      ],
+      "meaning": "Several products or partners.",
+      "variations": [
+        {
+          "text": "partner ecosystem",
+          "slug": "partner-ecosystem"
+        },
+        {
+          "text": "digital ecosystem",
+          "slug": "digital-ecosystem"
+        },
+        {
+          "text": "ecosystem play",
+          "slug": "ecosystem-play"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-026",
+      "rank": 26,
+      "slug": "north-star",
+      "term": "North Star",
+      "score": 80,
+      "tier": "tier-2",
+      "category": "metaphor",
+      "origin": "startup",
+      "language": "english",
+      "contexts": [
+        "strategy"
+      ],
+      "meaning": "Main goal.",
+      "variations": [
+        {
+          "text": "north star metric",
+          "slug": "north-star-metric"
+        },
+        {
+          "text": "guiding star",
+          "slug": "guiding-star"
+        },
+        {
+          "text": "our north star",
+          "slug": "our-north-star"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-027",
+      "rank": 27,
+      "slug": "burning-platform",
+      "term": "Burning platform",
+      "score": 79,
+      "tier": "tier-2",
+      "category": "metaphor",
+      "origin": "consulting",
+      "language": "english",
+      "contexts": [
+        "strategy",
+        "leadership"
+      ],
+      "meaning": "A crisis used to justify change.",
+      "variations": [
+        {
+          "text": "the burning platform",
+          "slug": "the-burning-platform"
+        },
+        {
+          "text": "a burning platform",
+          "slug": "a-burning-platform"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-028",
+      "rank": 28,
+      "slug": "30-000-foot-view",
+      "term": "30,000-foot view",
+      "score": 78,
+      "tier": "tier-2",
+      "category": "metaphor",
+      "origin": "general",
+      "language": "english",
+      "contexts": [
+        "strategy",
+        "meeting"
+      ],
+      "meaning": "Overview without details.",
+      "variations": [
+        {
+          "text": "10,000-foot view",
+          "slug": "10-000-foot-view"
+        },
+        {
+          "text": "helicopter view",
+          "slug": "helicopter-view"
+        },
+        {
+          "text": "big picture",
+          "slug": "big-picture"
+        },
+        {
+          "text": "high level",
+          "slug": "high-level"
+        }
+      ],
+      "related": [
+        "bs-en-063"
+      ]
+    },
+    {
+      "id": "bs-en-029",
+      "rank": 29,
+      "slug": "drink-the-kool-aid",
+      "term": "Drink the Kool-Aid",
+      "score": 77,
+      "tier": "tier-2",
+      "category": "metaphor",
+      "origin": "general",
+      "language": "english",
+      "contexts": [
+        "leadership"
+      ],
+      "meaning": "Believe uncritically.",
+      "variations": [
+        {
+          "text": "drinking the Kool-Aid",
+          "slug": "drinking-the-kool-aid"
+        },
+        {
+          "text": "drank the Kool-Aid",
+          "slug": "drank-the-kool-aid"
+        },
+        {
+          "text": "buy-in",
+          "slug": "buy-in"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-030",
+      "rank": 30,
+      "slug": "win-win",
+      "term": "Win-win",
+      "score": 77,
+      "tier": "tier-2",
+      "category": "platitude",
+      "origin": "general",
+      "language": "english",
+      "contexts": [
+        "strategy",
+        "meeting"
+      ],
+      "meaning": "Both sides get something.",
+      "variations": [
+        {
+          "text": "win/win",
+          "slug": "win-win"
+        },
+        {
+          "text": "win-win situation",
+          "slug": "win-win-situation"
+        },
+        {
+          "text": "win-win-win",
+          "slug": "win-win-win"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-031",
+      "rank": 31,
+      "slug": "learnings",
+      "term": "Learnings",
+      "score": 76,
+      "tier": "tier-3",
+      "category": "verbified_noun",
+      "origin": "general",
+      "language": "english",
+      "contexts": [
+        "meeting"
+      ],
+      "meaning": "Lessons.",
+      "variations": [
+        {
+          "text": "key learnings",
+          "slug": "key-learnings"
+        },
+        {
+          "text": "lessons learned",
+          "slug": "lessons-learned"
+        },
+        {
+          "text": "learning",
+          "slug": "learning"
+        }
+      ],
+      "related": [
+        "bs-en-097"
+      ]
+    },
+    {
+      "id": "bs-en-032",
+      "rank": 32,
+      "slug": "the-ask",
+      "term": "The ask",
+      "score": 75,
+      "tier": "tier-3",
+      "category": "verbified_noun",
+      "origin": "general",
+      "language": "english",
+      "contexts": [
+        "meeting",
+        "email_chat"
+      ],
+      "meaning": "The request.",
+      "variations": [
+        {
+          "text": "what's the ask?",
+          "slug": "what-s-the-ask"
+        },
+        {
+          "text": "big ask",
+          "slug": "big-ask"
+        },
+        {
+          "text": "hard ask",
+          "slug": "hard-ask"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-033",
+      "rank": 33,
+      "slug": "action-this",
+      "term": "Action this",
+      "score": 74,
+      "tier": "tier-3",
+      "category": "verbified_noun",
+      "origin": "general",
+      "language": "english",
+      "contexts": [
+        "email_chat",
+        "meeting"
+      ],
+      "meaning": "Do this.",
+      "variations": [
+        {
+          "text": "action",
+          "slug": "action"
+        },
+        {
+          "text": "actioned",
+          "slug": "actioned"
+        },
+        {
+          "text": "actionable",
+          "slug": "actionable"
+        },
+        {
+          "text": "action items",
+          "slug": "action-items"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-034",
+      "rank": 34,
+      "slug": "deliverables",
+      "term": "Deliverables",
+      "score": 73,
+      "tier": "tier-3",
+      "category": "process_jargon",
+      "origin": "consulting",
+      "language": "english",
+      "contexts": [
+        "tech",
+        "strategy"
+      ],
+      "meaning": "Tasks.",
+      "variations": [
+        {
+          "text": "deliverable",
+          "slug": "deliverable"
+        },
+        {
+          "text": "deliver on",
+          "slug": "deliver-on"
+        },
+        {
+          "text": "delivery",
+          "slug": "delivery"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-035",
+      "rank": 35,
+      "slug": "operationalize",
+      "term": "Operationalize",
+      "score": 73,
+      "tier": "tier-3",
+      "category": "management_speak",
+      "origin": "consulting",
+      "language": "english",
+      "contexts": [
+        "strategy",
+        "leadership"
+      ],
+      "meaning": "Actually do it.",
+      "variations": [
+        {
+          "text": "operationalization",
+          "slug": "operationalization"
+        },
+        {
+          "text": "operationalized",
+          "slug": "operationalized"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-036",
+      "rank": 36,
+      "slug": "socialize-the-idea",
+      "term": "Socialize the idea",
+      "score": 72,
+      "tier": "tier-3",
+      "category": "process_jargon",
+      "origin": "general",
+      "language": "english",
+      "contexts": [
+        "meeting",
+        "leadership"
+      ],
+      "meaning": "Tell people about it.",
+      "variations": [
+        {
+          "text": "socialize this",
+          "slug": "socialize-this"
+        },
+        {
+          "text": "socializing the proposal",
+          "slug": "socializing-the-proposal"
+        },
+        {
+          "text": "socialize it",
+          "slug": "socialize-it"
+        }
+      ],
+      "related": [
+        "bs-en-065"
+      ]
+    },
+    {
+      "id": "bs-en-037",
+      "rank": 37,
+      "slug": "double-click-on-that",
+      "term": "Double-click on that",
+      "score": 71,
+      "tier": "tier-3",
+      "category": "process_jargon",
+      "origin": "tech",
+      "language": "english",
+      "contexts": [
+        "meeting"
+      ],
+      "meaning": "Go into detail.",
+      "variations": [
+        {
+          "text": "let's double-click",
+          "slug": "let-s-double-click"
+        },
+        {
+          "text": "double-click into",
+          "slug": "double-click-into"
+        },
+        {
+          "text": "double click",
+          "slug": "double-click"
+        }
+      ],
+      "related": [
+        "bs-en-014"
+      ]
+    },
+    {
+      "id": "bs-en-038",
+      "rank": 38,
+      "slug": "peel-back-the-onion",
+      "term": "Peel back the onion",
+      "score": 70,
+      "tier": "tier-3",
+      "category": "metaphor",
+      "origin": "general",
+      "language": "english",
+      "contexts": [
+        "meeting"
+      ],
+      "meaning": "Investigate.",
+      "variations": [
+        {
+          "text": "peel the onion",
+          "slug": "peel-the-onion"
+        },
+        {
+          "text": "layers of the onion",
+          "slug": "layers-of-the-onion"
+        }
+      ],
+      "related": [
+        "bs-en-014"
+      ]
+    },
+    {
+      "id": "bs-en-039",
+      "rank": 39,
+      "slug": "run-it-up-the-flagpole",
+      "term": "Run it up the flagpole",
+      "score": 69,
+      "tier": "tier-3",
+      "category": "metaphor",
+      "origin": "general",
+      "language": "english",
+      "contexts": [
+        "meeting"
+      ],
+      "meaning": "Test an idea.",
+      "variations": [
+        {
+          "text": "run it up the flagpole and see who salutes",
+          "slug": "run-it-up-the-flagpole-and-see-who-salutes"
+        },
+        {
+          "text": "flagpole it",
+          "slug": "flagpole-it"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-040",
+      "rank": 40,
+      "slug": "open-the-kimono",
+      "term": "Open the kimono",
+      "score": 68,
+      "tier": "tier-3",
+      "category": "metaphor",
+      "origin": "consulting",
+      "language": "english",
+      "contexts": [
+        "meeting",
+        "strategy"
+      ],
+      "meaning": "Share information (and widely considered offensive).",
+      "variations": [
+        {
+          "text": "opening the kimono",
+          "slug": "opening-the-kimono"
+        },
+        {
+          "text": "open kimono",
+          "slug": "open-kimono"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-041",
+      "rank": 41,
+      "slug": "herding-cats",
+      "term": "Herding cats",
+      "score": 68,
+      "tier": "tier-3",
+      "category": "metaphor",
+      "origin": "general",
+      "language": "english",
+      "contexts": [
+        "leadership"
+      ],
+      "meaning": "Coordinating people.",
+      "variations": [
+        {
+          "text": "like herding cats",
+          "slug": "like-herding-cats"
+        },
+        {
+          "text": "cat herding",
+          "slug": "cat-herding"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-042",
+      "rank": 42,
+      "slug": "drinking-from-a-firehose",
+      "term": "Drinking from a firehose",
+      "score": 67,
+      "tier": "tier-3",
+      "category": "metaphor",
+      "origin": "tech",
+      "language": "english",
+      "contexts": [
+        "hr",
+        "tech"
+      ],
+      "meaning": "Too much information during onboarding.",
+      "variations": [
+        {
+          "text": "firehose",
+          "slug": "firehose"
+        },
+        {
+          "text": "drink from the firehose",
+          "slug": "drink-from-the-firehose"
+        }
+      ],
+      "related": [
+        "bs-en-043"
+      ]
+    },
+    {
+      "id": "bs-en-043",
+      "rank": 43,
+      "slug": "hit-the-ground-running",
+      "term": "Hit the ground running",
+      "score": 66,
+      "tier": "tier-3",
+      "category": "hr_job_ad",
+      "origin": "military",
+      "language": "english",
+      "contexts": [
+        "job_ad",
+        "hr"
+      ],
+      "meaning": "No onboarding.",
+      "variations": [
+        {
+          "text": "hit the ground running from day one",
+          "slug": "hit-the-ground-running-from-day-one"
+        },
+        {
+          "text": "ramp up quickly",
+          "slug": "ramp-up-quickly"
+        }
+      ],
+      "related": [
+        "bs-en-042"
+      ]
+    },
+    {
+      "id": "bs-en-044",
+      "rank": 44,
+      "slug": "wear-many-hats",
+      "term": "Wear many hats",
+      "score": 65,
+      "tier": "tier-3",
+      "category": "hr_job_ad",
+      "origin": "general",
+      "language": "english",
+      "contexts": [
+        "job_ad"
+      ],
+      "meaning": "Understaffed.",
+      "variations": [
+        {
+          "text": "wear multiple hats",
+          "slug": "wear-multiple-hats"
+        },
+        {
+          "text": "many hats",
+          "slug": "many-hats"
+        }
+      ],
+      "related": [
+        "bs-en-045",
+        "bs-en-047",
+        "bs-en-048"
+      ]
+    },
+    {
+      "id": "bs-en-045",
+      "rank": 45,
+      "slug": "fast-paced-environment",
+      "term": "Fast-paced environment",
+      "score": 64,
+      "tier": "tier-3",
+      "category": "hr_job_ad",
+      "origin": "general",
+      "language": "english",
+      "contexts": [
+        "job_ad"
+      ],
+      "meaning": "Chaotic.",
+      "variations": [
+        {
+          "text": "fast-paced",
+          "slug": "fast-paced"
+        },
+        {
+          "text": "dynamic environment",
+          "slug": "dynamic-environment"
+        },
+        {
+          "text": "no two days are the same",
+          "slug": "no-two-days-are-the-same"
+        }
+      ],
+      "related": [
+        "bs-en-044"
+      ]
+    },
+    {
+      "id": "bs-en-046",
+      "rank": 46,
+      "slug": "work-hard-play-hard",
+      "term": "Work hard, play hard",
+      "score": 64,
+      "tier": "tier-3",
+      "category": "hr_job_ad",
+      "origin": "general",
+      "language": "english",
+      "contexts": [
+        "job_ad",
+        "hr"
+      ],
+      "meaning": "Long hours and a ping-pong table.",
+      "variations": [
+        {
+          "text": "work hard play hard culture",
+          "slug": "work-hard-play-hard-culture"
+        }
+      ],
+      "related": [
+        "bs-en-004"
+      ]
+    },
+    {
+      "id": "bs-en-047",
+      "rank": 47,
+      "slug": "rockstar",
+      "term": "Rockstar",
+      "score": 63,
+      "tier": "tier-3",
+      "category": "hr_job_ad",
+      "origin": "tech",
+      "language": "english",
+      "contexts": [
+        "job_ad",
+        "tech"
+      ],
+      "meaning": "Developer, without extra pay.",
+      "variations": [
+        {
+          "text": "ninja",
+          "slug": "ninja"
+        },
+        {
+          "text": "guru",
+          "slug": "guru"
+        },
+        {
+          "text": "wizard",
+          "slug": "wizard"
+        },
+        {
+          "text": "10x engineer",
+          "slug": "10x-engineer"
+        },
+        {
+          "text": "unicorn",
+          "slug": "unicorn"
+        }
+      ],
+      "related": [
+        "bs-en-044"
+      ]
+    },
+    {
+      "id": "bs-en-048",
+      "rank": 48,
+      "slug": "self-starter",
+      "term": "Self-starter",
+      "score": 62,
+      "tier": "tier-3",
+      "category": "hr_job_ad",
+      "origin": "general",
+      "language": "english",
+      "contexts": [
+        "job_ad"
+      ],
+      "meaning": "You won't get much guidance.",
+      "variations": [
+        {
+          "text": "self-motivated",
+          "slug": "self-motivated"
+        },
+        {
+          "text": "go-getter",
+          "slug": "go-getter"
+        },
+        {
+          "text": "proactive self-starter",
+          "slug": "proactive-self-starter"
+        }
+      ],
+      "related": [
+        "bs-en-044"
+      ]
+    },
+    {
+      "id": "bs-en-049",
+      "rank": 49,
+      "slug": "competitive-salary",
+      "term": "Competitive salary",
+      "score": 61,
+      "tier": "tier-3",
+      "category": "hr_job_ad",
+      "origin": "general",
+      "language": "english",
+      "contexts": [
+        "job_ad"
+      ],
+      "meaning": "We won't state the number.",
+      "variations": [
+        {
+          "text": "competitive compensation",
+          "slug": "competitive-compensation"
+        },
+        {
+          "text": "DOE",
+          "slug": "doe"
+        },
+        {
+          "text": "commensurate with experience",
+          "slug": "commensurate-with-experience"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-050",
+      "rank": 50,
+      "slug": "culture-fit",
+      "term": "Culture fit",
+      "score": 60,
+      "tier": "tier-3",
+      "category": "hr_job_ad",
+      "origin": "general",
+      "language": "english",
+      "contexts": [
+        "hr"
+      ],
+      "meaning": "Someone like us.",
+      "variations": [
+        {
+          "text": "cultural fit",
+          "slug": "cultural-fit"
+        },
+        {
+          "text": "culture add",
+          "slug": "culture-add"
+        },
+        {
+          "text": "good fit",
+          "slug": "good-fit"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-051",
+      "rank": 51,
+      "slug": "thought-leadership",
+      "term": "Thought leadership",
+      "score": 60,
+      "tier": "tier-3",
+      "category": "buzzword",
+      "origin": "consulting",
+      "language": "english",
+      "contexts": [
+        "strategy"
+      ],
+      "meaning": "Blog posts and LinkedIn.",
+      "variations": [
+        {
+          "text": "thought leader",
+          "slug": "thought-leader"
+        },
+        {
+          "text": "thought-leading",
+          "slug": "thought-leading"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-052",
+      "rank": 52,
+      "slug": "mission-critical",
+      "term": "Mission-critical",
+      "score": 59,
+      "tier": "tier-3",
+      "category": "buzzword",
+      "origin": "military",
+      "language": "english",
+      "contexts": [
+        "tech",
+        "strategy"
+      ],
+      "meaning": "Important.",
+      "variations": [
+        {
+          "text": "mission critical",
+          "slug": "mission-critical"
+        },
+        {
+          "text": "business-critical",
+          "slug": "business-critical"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-053",
+      "rank": 53,
+      "slug": "core-competency",
+      "term": "Core competency",
+      "score": 58,
+      "tier": "tier-3",
+      "category": "management_speak",
+      "origin": "consulting",
+      "language": "english",
+      "contexts": [
+        "strategy"
+      ],
+      "meaning": "What we're good at.",
+      "variations": [
+        {
+          "text": "core competencies",
+          "slug": "core-competencies"
+        },
+        {
+          "text": "core business",
+          "slug": "core-business"
+        },
+        {
+          "text": "core strengths",
+          "slug": "core-strengths"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-054",
+      "rank": 54,
+      "slug": "pivot",
+      "term": "Pivot",
+      "score": 57,
+      "tier": "tier-3",
+      "category": "buzzword",
+      "origin": "startup",
+      "language": "english",
+      "contexts": [
+        "strategy"
+      ],
+      "meaning": "Change direction.",
+      "variations": [
+        {
+          "text": "pivoting",
+          "slug": "pivoting"
+        },
+        {
+          "text": "pivoted",
+          "slug": "pivoted"
+        },
+        {
+          "text": "hard pivot",
+          "slug": "hard-pivot"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-055",
+      "rank": 55,
+      "slug": "agile",
+      "term": "Agile",
+      "score": 56,
+      "tier": "tier-3",
+      "category": "buzzword",
+      "origin": "tech",
+      "language": "english",
+      "contexts": [
+        "tech",
+        "strategy"
+      ],
+      "meaning": "Anything with a status meeting every two weeks.",
+      "variations": [
+        {
+          "text": "agility",
+          "slug": "agility"
+        },
+        {
+          "text": "agile transformation",
+          "slug": "agile-transformation"
+        },
+        {
+          "text": "scaled agile",
+          "slug": "scaled-agile"
+        },
+        {
+          "text": "SAFe",
+          "slug": "safe"
+        }
+      ],
+      "related": [
+        "bs-en-098",
+        "bs-en-099"
+      ]
+    },
+    {
+      "id": "bs-en-056",
+      "rank": 56,
+      "slug": "data-driven",
+      "term": "Data-driven",
+      "score": 56,
+      "tier": "tier-3",
+      "category": "buzzword",
+      "origin": "tech",
+      "language": "english",
+      "contexts": [
+        "strategy",
+        "tech"
+      ],
+      "meaning": "We have a dashboard.",
+      "variations": [
+        {
+          "text": "data-informed",
+          "slug": "data-informed"
+        },
+        {
+          "text": "evidence-based",
+          "slug": "evidence-based"
+        },
+        {
+          "text": "data-first",
+          "slug": "data-first"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-057",
+      "rank": 57,
+      "slug": "scalable",
+      "term": "Scalable",
+      "score": 55,
+      "tier": "tier-3",
+      "category": "buzzword",
+      "origin": "tech",
+      "language": "english",
+      "contexts": [
+        "tech",
+        "strategy"
+      ],
+      "meaning": "Can grow.",
+      "variations": [
+        {
+          "text": "at scale",
+          "slug": "at-scale"
+        },
+        {
+          "text": "scale up",
+          "slug": "scale-up"
+        },
+        {
+          "text": "scalability",
+          "slug": "scalability"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-058",
+      "rank": 58,
+      "slug": "holistic",
+      "term": "Holistic",
+      "score": 54,
+      "tier": "tier-3",
+      "category": "buzzword",
+      "origin": "general",
+      "language": "english",
+      "contexts": [
+        "strategy",
+        "hr"
+      ],
+      "meaning": "Broad.",
+      "variations": [
+        {
+          "text": "holistic approach",
+          "slug": "holistic-approach"
+        },
+        {
+          "text": "end-to-end",
+          "slug": "end-to-end"
+        },
+        {
+          "text": "360-degree",
+          "slug": "360-degree"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-059",
+      "rank": 59,
+      "slug": "robust",
+      "term": "Robust",
+      "score": 53,
+      "tier": "tier-3",
+      "category": "buzzword",
+      "origin": "tech",
+      "language": "english",
+      "contexts": [
+        "tech",
+        "strategy"
+      ],
+      "meaning": "Works.",
+      "variations": [
+        {
+          "text": "robustness",
+          "slug": "robustness"
+        },
+        {
+          "text": "robust solution",
+          "slug": "robust-solution"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-060",
+      "rank": 60,
+      "slug": "seamless",
+      "term": "Seamless",
+      "score": 52,
+      "tier": "tier-3",
+      "category": "buzzword",
+      "origin": "tech",
+      "language": "english",
+      "contexts": [
+        "tech"
+      ],
+      "meaning": "Probably has friction.",
+      "variations": [
+        {
+          "text": "seamlessly",
+          "slug": "seamlessly"
+        },
+        {
+          "text": "frictionless",
+          "slug": "frictionless"
+        },
+        {
+          "text": "seamless integration",
+          "slug": "seamless-integration"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-061",
+      "rank": 61,
+      "slug": "empower",
+      "term": "Empower",
+      "score": 52,
+      "tier": "tier-4",
+      "category": "management_speak",
+      "origin": "general",
+      "language": "english",
+      "contexts": [
+        "leadership",
+        "hr"
+      ],
+      "meaning": "Delegate without resources.",
+      "variations": [
+        {
+          "text": "empowerment",
+          "slug": "empowerment"
+        },
+        {
+          "text": "empowered teams",
+          "slug": "empowered-teams"
+        },
+        {
+          "text": "empowering",
+          "slug": "empowering"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-062",
+      "rank": 62,
+      "slug": "proactive",
+      "term": "Proactive",
+      "score": 51,
+      "tier": "tier-4",
+      "category": "buzzword",
+      "origin": "general",
+      "language": "english",
+      "contexts": [
+        "hr",
+        "job_ad"
+      ],
+      "meaning": "Do things without being asked.",
+      "variations": [
+        {
+          "text": "proactively",
+          "slug": "proactively"
+        },
+        {
+          "text": "proactivity",
+          "slug": "proactivity"
+        },
+        {
+          "text": "get ahead of it",
+          "slug": "get-ahead-of-it"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-063",
+      "rank": 63,
+      "slug": "granular",
+      "term": "Granular",
+      "score": 50,
+      "tier": "tier-4",
+      "category": "buzzword",
+      "origin": "general",
+      "language": "english",
+      "contexts": [
+        "meeting"
+      ],
+      "meaning": "Detailed.",
+      "variations": [
+        {
+          "text": "granularity",
+          "slug": "granularity"
+        },
+        {
+          "text": "get granular",
+          "slug": "get-granular"
+        },
+        {
+          "text": "drill down",
+          "slug": "drill-down"
+        }
+      ],
+      "related": [
+        "bs-en-028"
+      ]
+    },
+    {
+      "id": "bs-en-064",
+      "rank": 64,
+      "slug": "cadence",
+      "term": "Cadence",
+      "score": 49,
+      "tier": "tier-4",
+      "category": "process_jargon",
+      "origin": "general",
+      "language": "english",
+      "contexts": [
+        "meeting"
+      ],
+      "meaning": "How often.",
+      "variations": [
+        {
+          "text": "weekly cadence",
+          "slug": "weekly-cadence"
+        },
+        {
+          "text": "operating cadence",
+          "slug": "operating-cadence"
+        },
+        {
+          "text": "meeting cadence",
+          "slug": "meeting-cadence"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-065",
+      "rank": 65,
+      "slug": "stakeholders",
+      "term": "Stakeholders",
+      "score": 48,
+      "tier": "tier-4",
+      "category": "process_jargon",
+      "origin": "consulting",
+      "language": "english",
+      "contexts": [
+        "strategy",
+        "tech"
+      ],
+      "meaning": "People with an opinion.",
+      "variations": [
+        {
+          "text": "stakeholder management",
+          "slug": "stakeholder-management"
+        },
+        {
+          "text": "key stakeholders",
+          "slug": "key-stakeholders"
+        },
+        {
+          "text": "stakeholder buy-in",
+          "slug": "stakeholder-buy-in"
+        }
+      ],
+      "related": [
+        "bs-en-036"
+      ]
+    },
+    {
+      "id": "bs-en-066",
+      "rank": 66,
+      "slug": "onboarding",
+      "term": "Onboarding",
+      "score": 47,
+      "tier": "tier-4",
+      "category": "process_jargon",
+      "origin": "general",
+      "language": "english",
+      "contexts": [
+        "hr",
+        "tech"
+      ],
+      "meaning": "Introduction.",
+      "variations": [
+        {
+          "text": "onboard",
+          "slug": "onboard"
+        },
+        {
+          "text": "onboarded",
+          "slug": "onboarded"
+        },
+        {
+          "text": "offboarding",
+          "slug": "offboarding"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-067",
+      "rank": 67,
+      "slug": "headcount",
+      "term": "Headcount",
+      "score": 47,
+      "tier": "tier-4",
+      "category": "euphemism",
+      "origin": "general",
+      "language": "english",
+      "contexts": [
+        "hr",
+        "leadership"
+      ],
+      "meaning": "People.",
+      "variations": [
+        {
+          "text": "HC",
+          "slug": "hc"
+        },
+        {
+          "text": "FTE",
+          "slug": "fte"
+        },
+        {
+          "text": "resources",
+          "slug": "resources"
+        }
+      ],
+      "related": [
+        "bs-en-001",
+        "bs-en-002",
+        "bs-en-069"
+      ]
+    },
+    {
+      "id": "bs-en-068",
+      "rank": 68,
+      "slug": "human-capital",
+      "term": "Human capital",
+      "score": 46,
+      "tier": "tier-4",
+      "category": "euphemism",
+      "origin": "academic",
+      "language": "english",
+      "contexts": [
+        "hr"
+      ],
+      "meaning": "People, as assets.",
+      "variations": [
+        {
+          "text": "human resources",
+          "slug": "human-resources"
+        },
+        {
+          "text": "talent capital",
+          "slug": "talent-capital"
+        }
+      ],
+      "related": [
+        "bs-en-069"
+      ]
+    },
+    {
+      "id": "bs-en-069",
+      "rank": 69,
+      "slug": "top-talent",
+      "term": "Top talent",
+      "score": 45,
+      "tier": "tier-4",
+      "category": "hr_job_ad",
+      "origin": "general",
+      "language": "english",
+      "contexts": [
+        "hr"
+      ],
+      "meaning": "Employees.",
+      "variations": [
+        {
+          "text": "talent",
+          "slug": "talent"
+        },
+        {
+          "text": "talent pipeline",
+          "slug": "talent-pipeline"
+        },
+        {
+          "text": "war for talent",
+          "slug": "war-for-talent"
+        }
+      ],
+      "related": [
+        "bs-en-067",
+        "bs-en-068"
+      ]
+    },
+    {
+      "id": "bs-en-070",
+      "rank": 70,
+      "slug": "bring-to-the-table",
+      "term": "Bring to the table",
+      "score": 44,
+      "tier": "tier-4",
+      "category": "metaphor",
+      "origin": "general",
+      "language": "english",
+      "contexts": [
+        "meeting",
+        "hr"
+      ],
+      "meaning": "Contribute.",
+      "variations": [
+        {
+          "text": "what do you bring to the table",
+          "slug": "what-do-you-bring-to-the-table"
+        },
+        {
+          "text": "bring something to the table",
+          "slug": "bring-something-to-the-table"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-071",
+      "rank": 71,
+      "slug": "on-my-radar",
+      "term": "On my radar",
+      "score": 43,
+      "tier": "tier-4",
+      "category": "metaphor",
+      "origin": "military",
+      "language": "english",
+      "contexts": [
+        "email_chat",
+        "meeting"
+      ],
+      "meaning": "Aware of it.",
+      "variations": [
+        {
+          "text": "on the radar",
+          "slug": "on-the-radar"
+        },
+        {
+          "text": "under the radar",
+          "slug": "under-the-radar"
+        },
+        {
+          "text": "radar",
+          "slug": "radar"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-072",
+      "rank": 72,
+      "slug": "out-of-pocket",
+      "term": "Out of pocket",
+      "score": 43,
+      "tier": "tier-4",
+      "category": "process_jargon",
+      "origin": "general",
+      "language": "english",
+      "contexts": [
+        "email_chat"
+      ],
+      "meaning": "Unavailable.",
+      "variations": [
+        {
+          "text": "OOP",
+          "slug": "oop"
+        },
+        {
+          "text": "be out of pocket",
+          "slug": "be-out-of-pocket"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-073",
+      "rank": 73,
+      "slug": "eod",
+      "term": "EOD",
+      "score": 42,
+      "tier": "tier-4",
+      "category": "process_jargon",
+      "origin": "general",
+      "language": "english",
+      "contexts": [
+        "email_chat"
+      ],
+      "meaning": "Deadline without a time zone.",
+      "variations": [
+        {
+          "text": "COB",
+          "slug": "cob"
+        },
+        {
+          "text": "EOW",
+          "slug": "eow"
+        },
+        {
+          "text": "end of day",
+          "slug": "end-of-day"
+        },
+        {
+          "text": "close of business",
+          "slug": "close-of-business"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-074",
+      "rank": 74,
+      "slug": "per-my-last-email",
+      "term": "Per my last email",
+      "score": 41,
+      "tier": "tier-4",
+      "category": "platitude",
+      "origin": "general",
+      "language": "english",
+      "contexts": [
+        "email_chat"
+      ],
+      "meaning": "You didn't read it.",
+      "variations": [
+        {
+          "text": "as per my previous email",
+          "slug": "as-per-my-previous-email"
+        },
+        {
+          "text": "as previously mentioned",
+          "slug": "as-previously-mentioned"
+        },
+        {
+          "text": "as stated below",
+          "slug": "as-stated-below"
+        }
+      ],
+      "related": [
+        "bs-en-075",
+        "bs-en-076"
+      ]
+    },
+    {
+      "id": "bs-en-075",
+      "rank": 75,
+      "slug": "just-following-up",
+      "term": "Just following up",
+      "score": 40,
+      "tier": "tier-4",
+      "category": "platitude",
+      "origin": "general",
+      "language": "english",
+      "contexts": [
+        "email_chat"
+      ],
+      "meaning": "Why haven't you answered?",
+      "variations": [
+        {
+          "text": "gentle reminder",
+          "slug": "gentle-reminder"
+        },
+        {
+          "text": "friendly reminder",
+          "slug": "friendly-reminder"
+        },
+        {
+          "text": "bumping this",
+          "slug": "bumping-this"
+        }
+      ],
+      "related": [
+        "bs-en-007",
+        "bs-en-074"
+      ]
+    },
+    {
+      "id": "bs-en-076",
+      "rank": 76,
+      "slug": "quick-question",
+      "term": "Quick question",
+      "score": 39,
+      "tier": "tier-4",
+      "category": "platitude",
+      "origin": "general",
+      "language": "english",
+      "contexts": [
+        "email_chat"
+      ],
+      "meaning": "Not quick.",
+      "variations": [
+        {
+          "text": "quick q",
+          "slug": "quick-q"
+        },
+        {
+          "text": "got a sec?",
+          "slug": "got-a-sec"
+        },
+        {
+          "text": "quick one",
+          "slug": "quick-one"
+        }
+      ],
+      "related": [
+        "bs-en-074"
+      ]
+    },
+    {
+      "id": "bs-en-077",
+      "rank": 77,
+      "slug": "going-forward",
+      "term": "Going forward",
+      "score": 39,
+      "tier": "tier-4",
+      "category": "platitude",
+      "origin": "general",
+      "language": "english",
+      "contexts": [
+        "email_chat",
+        "leadership"
+      ],
+      "meaning": "From now on.",
+      "variations": [
+        {
+          "text": "moving forward",
+          "slug": "moving-forward"
+        },
+        {
+          "text": "on a go-forward basis",
+          "slug": "on-a-go-forward-basis"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-078",
+      "rank": 78,
+      "slug": "at-the-end-of-the-day",
+      "term": "At the end of the day",
+      "score": 38,
+      "tier": "tier-4",
+      "category": "platitude",
+      "origin": "general",
+      "language": "english",
+      "contexts": [
+        "meeting"
+      ],
+      "meaning": "Filler.",
+      "variations": [
+        {
+          "text": "end of the day",
+          "slug": "end-of-the-day"
+        },
+        {
+          "text": "when all is said and done",
+          "slug": "when-all-is-said-and-done"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-079",
+      "rank": 79,
+      "slug": "it-is-what-it-is",
+      "term": "It is what it is",
+      "score": 37,
+      "tier": "tier-4",
+      "category": "platitude",
+      "origin": "general",
+      "language": "english",
+      "contexts": [
+        "meeting",
+        "leadership"
+      ],
+      "meaning": "We won't fix it.",
+      "variations": [
+        {
+          "text": "it's what it is",
+          "slug": "it-s-what-it-is"
+        },
+        {
+          "text": "that's just how it is",
+          "slug": "that-s-just-how-it-is"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-080",
+      "rank": 80,
+      "slug": "let-s-unpack-that",
+      "term": "Let's unpack that",
+      "score": 36,
+      "tier": "tier-4",
+      "category": "process_jargon",
+      "origin": "academic",
+      "language": "english",
+      "contexts": [
+        "meeting"
+      ],
+      "meaning": "Explain.",
+      "variations": [
+        {
+          "text": "unpack",
+          "slug": "unpack"
+        },
+        {
+          "text": "unpacking",
+          "slug": "unpacking"
+        }
+      ],
+      "related": [
+        "bs-en-014"
+      ]
+    },
+    {
+      "id": "bs-en-081",
+      "rank": 81,
+      "slug": "level-set",
+      "term": "Level set",
+      "score": 35,
+      "tier": "tier-4",
+      "category": "process_jargon",
+      "origin": "general",
+      "language": "english",
+      "contexts": [
+        "meeting"
+      ],
+      "meaning": "Make sure everyone knows the same thing.",
+      "variations": [
+        {
+          "text": "level-setting",
+          "slug": "level-setting"
+        },
+        {
+          "text": "let's level-set",
+          "slug": "let-s-level-set"
+        }
+      ],
+      "related": [
+        "bs-en-021"
+      ]
+    },
+    {
+      "id": "bs-en-082",
+      "rank": 82,
+      "slug": "ideate",
+      "term": "Ideate",
+      "score": 35,
+      "tier": "tier-4",
+      "category": "verbified_noun",
+      "origin": "startup",
+      "language": "english",
+      "contexts": [
+        "meeting"
+      ],
+      "meaning": "Think of ideas.",
+      "variations": [
+        {
+          "text": "ideation",
+          "slug": "ideation"
+        },
+        {
+          "text": "ideation session",
+          "slug": "ideation-session"
+        },
+        {
+          "text": "ideating",
+          "slug": "ideating"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-083",
+      "rank": 83,
+      "slug": "workshop-it",
+      "term": "Workshop it",
+      "score": 34,
+      "tier": "tier-4",
+      "category": "verbified_noun",
+      "origin": "general",
+      "language": "english",
+      "contexts": [
+        "meeting"
+      ],
+      "meaning": "Discuss it, with sticky notes.",
+      "variations": [
+        {
+          "text": "workshopping",
+          "slug": "workshopping"
+        },
+        {
+          "text": "workshop this",
+          "slug": "workshop-this"
+        },
+        {
+          "text": "let's workshop",
+          "slug": "let-s-workshop"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-084",
+      "rank": 84,
+      "slug": "growth-opportunity",
+      "term": "Growth opportunity",
+      "score": 33,
+      "tier": "tier-4",
+      "category": "euphemism",
+      "origin": "general",
+      "language": "english",
+      "contexts": [
+        "hr",
+        "leadership"
+      ],
+      "meaning": "More work, same pay.",
+      "variations": [
+        {
+          "text": "learning opportunity",
+          "slug": "learning-opportunity"
+        },
+        {
+          "text": "stretch assignment",
+          "slug": "stretch-assignment"
+        },
+        {
+          "text": "opportunity to grow",
+          "slug": "opportunity-to-grow"
+        }
+      ],
+      "related": [
+        "bs-en-003"
+      ]
+    },
+    {
+      "id": "bs-en-085",
+      "rank": 85,
+      "slug": "growth-mindset",
+      "term": "Growth mindset",
+      "score": 32,
+      "tier": "tier-4",
+      "category": "hr_job_ad",
+      "origin": "academic",
+      "language": "english",
+      "contexts": [
+        "hr",
+        "leadership"
+      ],
+      "meaning": "Attitude.",
+      "variations": [
+        {
+          "text": "mindset",
+          "slug": "mindset"
+        },
+        {
+          "text": "the right mindset",
+          "slug": "the-right-mindset"
+        },
+        {
+          "text": "fixed mindset",
+          "slug": "fixed-mindset"
+        }
+      ],
+      "related": [
+        "bs-en-086"
+      ]
+    },
+    {
+      "id": "bs-en-086",
+      "rank": 86,
+      "slug": "psychological-safety",
+      "term": "Psychological safety",
+      "score": 31,
+      "tier": "tier-4",
+      "category": "hr_job_ad",
+      "origin": "academic",
+      "language": "english",
+      "contexts": [
+        "hr"
+      ],
+      "meaning": "A good concept, worn out as a slogan.",
+      "variations": [
+        {
+          "text": "safe space",
+          "slug": "safe-space"
+        },
+        {
+          "text": "psychologically safe",
+          "slug": "psychologically-safe"
+        }
+      ],
+      "related": [
+        "bs-en-085"
+      ]
+    },
+    {
+      "id": "bs-en-087",
+      "rank": 87,
+      "slug": "quick-win",
+      "term": "Quick win",
+      "score": 31,
+      "tier": "tier-4",
+      "category": "buzzword",
+      "origin": "general",
+      "language": "english",
+      "contexts": [
+        "strategy",
+        "meeting"
+      ],
+      "meaning": "Easy result.",
+      "variations": [
+        {
+          "text": "quick wins",
+          "slug": "quick-wins"
+        },
+        {
+          "text": "easy win",
+          "slug": "easy-win"
+        }
+      ],
+      "related": [
+        "bs-en-006"
+      ]
+    },
+    {
+      "id": "bs-en-088",
+      "rank": 88,
+      "slug": "best-practice",
+      "term": "Best practice",
+      "score": 30,
+      "tier": "tier-4",
+      "category": "process_jargon",
+      "origin": "consulting",
+      "language": "english",
+      "contexts": [
+        "tech",
+        "strategy"
+      ],
+      "meaning": "What others do.",
+      "variations": [
+        {
+          "text": "best practices",
+          "slug": "best-practices"
+        },
+        {
+          "text": "industry standard",
+          "slug": "industry-standard"
+        },
+        {
+          "text": "next practice",
+          "slug": "next-practice"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-089",
+      "rank": 89,
+      "slug": "value-proposition",
+      "term": "Value proposition",
+      "score": 29,
+      "tier": "tier-4",
+      "category": "buzzword",
+      "origin": "consulting",
+      "language": "english",
+      "contexts": [
+        "strategy"
+      ],
+      "meaning": "Why buy it.",
+      "variations": [
+        {
+          "text": "value prop",
+          "slug": "value-prop"
+        },
+        {
+          "text": "UVP",
+          "slug": "uvp"
+        },
+        {
+          "text": "unique selling point",
+          "slug": "unique-selling-point"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-090",
+      "rank": 90,
+      "slug": "bleeding-edge",
+      "term": "Bleeding edge",
+      "score": 28,
+      "tier": "tier-4",
+      "category": "buzzword",
+      "origin": "tech",
+      "language": "english",
+      "contexts": [
+        "tech"
+      ],
+      "meaning": "New.",
+      "variations": [
+        {
+          "text": "cutting edge",
+          "slug": "cutting-edge"
+        },
+        {
+          "text": "state of the art",
+          "slug": "state-of-the-art"
+        },
+        {
+          "text": "leading edge",
+          "slug": "leading-edge"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-091",
+      "rank": 91,
+      "slug": "next-gen",
+      "term": "Next-gen",
+      "score": 27,
+      "tier": "tier-4",
+      "category": "buzzword",
+      "origin": "tech",
+      "language": "english",
+      "contexts": [
+        "tech",
+        "strategy"
+      ],
+      "meaning": "Newer.",
+      "variations": [
+        {
+          "text": "next-generation",
+          "slug": "next-generation"
+        },
+        {
+          "text": "future-proof",
+          "slug": "future-proof"
+        },
+        {
+          "text": "future-ready",
+          "slug": "future-ready"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-092",
+      "rank": 92,
+      "slug": "wheelhouse",
+      "term": "Wheelhouse",
+      "score": 26,
+      "tier": "tier-4",
+      "category": "metaphor",
+      "origin": "general",
+      "language": "english",
+      "contexts": [
+        "meeting"
+      ],
+      "meaning": "Area of expertise.",
+      "variations": [
+        {
+          "text": "in my wheelhouse",
+          "slug": "in-my-wheelhouse"
+        },
+        {
+          "text": "sweet spot",
+          "slug": "sweet-spot"
+        },
+        {
+          "text": "lane",
+          "slug": "lane"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-093",
+      "rank": 93,
+      "slug": "ducks-in-a-row",
+      "term": "Ducks in a row",
+      "score": 26,
+      "tier": "tier-4",
+      "category": "metaphor",
+      "origin": "general",
+      "language": "english",
+      "contexts": [
+        "meeting"
+      ],
+      "meaning": "Be organized.",
+      "variations": [
+        {
+          "text": "get our ducks in a row",
+          "slug": "get-our-ducks-in-a-row"
+        },
+        {
+          "text": "ducks lined up",
+          "slug": "ducks-lined-up"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-094",
+      "rank": 94,
+      "slug": "moving-parts",
+      "term": "Moving parts",
+      "score": 25,
+      "tier": "tier-4",
+      "category": "metaphor",
+      "origin": "general",
+      "language": "english",
+      "contexts": [
+        "meeting"
+      ],
+      "meaning": "Complicated.",
+      "variations": [
+        {
+          "text": "a lot of moving parts",
+          "slug": "a-lot-of-moving-parts"
+        },
+        {
+          "text": "many moving pieces",
+          "slug": "many-moving-pieces"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-095",
+      "rank": 95,
+      "slug": "ballpark",
+      "term": "Ballpark",
+      "score": 24,
+      "tier": "tier-4",
+      "category": "metaphor",
+      "origin": "sports",
+      "language": "english",
+      "contexts": [
+        "meeting"
+      ],
+      "meaning": "Estimate.",
+      "variations": [
+        {
+          "text": "ballpark figure",
+          "slug": "ballpark-figure"
+        },
+        {
+          "text": "ballpark estimate",
+          "slug": "ballpark-estimate"
+        },
+        {
+          "text": "in the ballpark",
+          "slug": "in-the-ballpark"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-096",
+      "rank": 96,
+      "slug": "kick-off",
+      "term": "Kick-off",
+      "score": 23,
+      "tier": "tier-4",
+      "category": "process_jargon",
+      "origin": "sports",
+      "language": "english",
+      "contexts": [
+        "meeting"
+      ],
+      "meaning": "First meeting.",
+      "variations": [
+        {
+          "text": "kickoff",
+          "slug": "kickoff"
+        },
+        {
+          "text": "kick off",
+          "slug": "kick-off"
+        },
+        {
+          "text": "kickoff meeting",
+          "slug": "kickoff-meeting"
+        }
+      ],
+      "related": []
+    },
+    {
+      "id": "bs-en-097",
+      "rank": 97,
+      "slug": "takeaways",
+      "term": "Takeaways",
+      "score": 22,
+      "tier": "tier-4",
+      "category": "process_jargon",
+      "origin": "general",
+      "language": "english",
+      "contexts": [
+        "meeting"
+      ],
+      "meaning": "Conclusions.",
+      "variations": [
+        {
+          "text": "key takeaways",
+          "slug": "key-takeaways"
+        },
+        {
+          "text": "takeaway",
+          "slug": "takeaway"
+        },
+        {
+          "text": "main takeaways",
+          "slug": "main-takeaways"
+        }
+      ],
+      "related": [
+        "bs-en-031"
+      ]
+    },
+    {
+      "id": "bs-en-098",
+      "rank": 98,
+      "slug": "mvp",
+      "term": "MVP",
+      "score": 22,
+      "tier": "tier-4",
+      "category": "buzzword",
+      "origin": "startup",
+      "language": "english",
+      "contexts": [
+        "tech",
+        "strategy"
+      ],
+      "meaning": "First version, often the only one.",
+      "variations": [
+        {
+          "text": "minimum viable product",
+          "slug": "minimum-viable-product"
+        },
+        {
+          "text": "MLP",
+          "slug": "mlp"
+        },
+        {
+          "text": "proof of concept",
+          "slug": "proof-of-concept"
+        },
+        {
+          "text": "PoC",
+          "slug": "poc"
+        }
+      ],
+      "related": [
+        "bs-en-055"
+      ]
+    },
+    {
+      "id": "bs-en-099",
+      "rank": 99,
+      "slug": "iterate",
+      "term": "Iterate",
+      "score": 21,
+      "tier": "tier-4",
+      "category": "process_jargon",
+      "origin": "tech",
+      "language": "english",
+      "contexts": [
+        "tech"
+      ],
+      "meaning": "Try again.",
+      "variations": [
+        {
+          "text": "iteration",
+          "slug": "iteration"
+        },
+        {
+          "text": "iterative",
+          "slug": "iterative"
+        },
+        {
+          "text": "next iteration",
+          "slug": "next-iteration"
+        }
+      ],
+      "related": [
+        "bs-en-055"
+      ]
+    },
+    {
+      "id": "bs-en-100",
+      "rank": 100,
+      "slug": "open-door-policy",
+      "term": "Open-door policy",
+      "score": 20,
+      "tier": "tier-4",
+      "category": "platitude",
+      "origin": "general",
+      "language": "english",
+      "contexts": [
+        "hr",
+        "leadership"
+      ],
+      "meaning": "The door is open; nothing changes.",
+      "variations": [
+        {
+          "text": "my door is always open",
+          "slug": "my-door-is-always-open"
+        },
+        {
+          "text": "open door",
+          "slug": "open-door"
+        }
+      ],
+      "related": []
+    }
+  ],
+  "indexes": {
+    "by_category": {
+      "euphemism": [
+        "bs-en-001",
+        "bs-en-002",
+        "bs-en-003",
+        "bs-en-067",
+        "bs-en-068",
+        "bs-en-084"
+      ],
+      "metaphor": [
+        "bs-en-006",
+        "bs-en-009",
+        "bs-en-010",
+        "bs-en-012",
+        "bs-en-015",
+        "bs-en-026",
+        "bs-en-027",
+        "bs-en-028",
+        "bs-en-029",
+        "bs-en-038",
+        "bs-en-039",
+        "bs-en-040",
+        "bs-en-041",
+        "bs-en-042",
+        "bs-en-070",
+        "bs-en-071",
+        "bs-en-092",
+        "bs-en-093",
+        "bs-en-094",
+        "bs-en-095"
+      ],
+      "buzzword": [
+        "bs-en-005",
+        "bs-en-011",
+        "bs-en-016",
+        "bs-en-017",
+        "bs-en-023",
+        "bs-en-024",
+        "bs-en-025",
+        "bs-en-051",
+        "bs-en-052",
+        "bs-en-054",
+        "bs-en-055",
+        "bs-en-056",
+        "bs-en-057",
+        "bs-en-058",
+        "bs-en-059",
+        "bs-en-060",
+        "bs-en-062",
+        "bs-en-063",
+        "bs-en-087",
+        "bs-en-089",
+        "bs-en-090",
+        "bs-en-091",
+        "bs-en-098"
+      ],
+      "platitude": [
+        "bs-en-004",
+        "bs-en-030",
+        "bs-en-074",
+        "bs-en-075",
+        "bs-en-076",
+        "bs-en-077",
+        "bs-en-078",
+        "bs-en-079",
+        "bs-en-100"
+      ],
+      "management_speak": [
+        "bs-en-021",
+        "bs-en-022",
+        "bs-en-035",
+        "bs-en-053",
+        "bs-en-061"
+      ],
+      "process_jargon": [
+        "bs-en-007",
+        "bs-en-008",
+        "bs-en-014",
+        "bs-en-018",
+        "bs-en-020",
+        "bs-en-034",
+        "bs-en-036",
+        "bs-en-037",
+        "bs-en-064",
+        "bs-en-065",
+        "bs-en-066",
+        "bs-en-072",
+        "bs-en-073",
+        "bs-en-080",
+        "bs-en-081",
+        "bs-en-088",
+        "bs-en-096",
+        "bs-en-097",
+        "bs-en-099"
+      ],
+      "verbified_noun": [
+        "bs-en-013",
+        "bs-en-019",
+        "bs-en-031",
+        "bs-en-032",
+        "bs-en-033",
+        "bs-en-082",
+        "bs-en-083"
+      ],
+      "hr_job_ad": [
+        "bs-en-043",
+        "bs-en-044",
+        "bs-en-045",
+        "bs-en-046",
+        "bs-en-047",
+        "bs-en-048",
+        "bs-en-049",
+        "bs-en-050",
+        "bs-en-069",
+        "bs-en-085",
+        "bs-en-086"
+      ]
+    },
+    "by_context": {
+      "meeting": [
+        "bs-en-006",
+        "bs-en-007",
+        "bs-en-008",
+        "bs-en-009",
+        "bs-en-012",
+        "bs-en-013",
+        "bs-en-014",
+        "bs-en-015",
+        "bs-en-018",
+        "bs-en-020",
+        "bs-en-021",
+        "bs-en-022",
+        "bs-en-028",
+        "bs-en-030",
+        "bs-en-031",
+        "bs-en-032",
+        "bs-en-033",
+        "bs-en-036",
+        "bs-en-037",
+        "bs-en-038",
+        "bs-en-039",
+        "bs-en-040",
+        "bs-en-063",
+        "bs-en-064",
+        "bs-en-070",
+        "bs-en-071",
+        "bs-en-078",
+        "bs-en-079",
+        "bs-en-080",
+        "bs-en-081",
+        "bs-en-082",
+        "bs-en-083",
+        "bs-en-087",
+        "bs-en-092",
+        "bs-en-093",
+        "bs-en-094",
+        "bs-en-095",
+        "bs-en-096",
+        "bs-en-097"
+      ],
+      "strategy": [
+        "bs-en-003",
+        "bs-en-005",
+        "bs-en-006",
+        "bs-en-010",
+        "bs-en-011",
+        "bs-en-012",
+        "bs-en-013",
+        "bs-en-016",
+        "bs-en-017",
+        "bs-en-023",
+        "bs-en-024",
+        "bs-en-025",
+        "bs-en-026",
+        "bs-en-027",
+        "bs-en-028",
+        "bs-en-030",
+        "bs-en-034",
+        "bs-en-035",
+        "bs-en-040",
+        "bs-en-051",
+        "bs-en-052",
+        "bs-en-053",
+        "bs-en-054",
+        "bs-en-055",
+        "bs-en-056",
+        "bs-en-057",
+        "bs-en-058",
+        "bs-en-059",
+        "bs-en-065",
+        "bs-en-087",
+        "bs-en-088",
+        "bs-en-089",
+        "bs-en-091",
+        "bs-en-098"
+      ],
+      "leadership": [
+        "bs-en-001",
+        "bs-en-002",
+        "bs-en-003",
+        "bs-en-004",
+        "bs-en-005",
+        "bs-en-010",
+        "bs-en-021",
+        "bs-en-022",
+        "bs-en-027",
+        "bs-en-029",
+        "bs-en-035",
+        "bs-en-036",
+        "bs-en-041",
+        "bs-en-061",
+        "bs-en-067",
+        "bs-en-077",
+        "bs-en-079",
+        "bs-en-084",
+        "bs-en-085",
+        "bs-en-100"
+      ],
+      "hr": [
+        "bs-en-001",
+        "bs-en-002",
+        "bs-en-004",
+        "bs-en-042",
+        "bs-en-043",
+        "bs-en-046",
+        "bs-en-050",
+        "bs-en-058",
+        "bs-en-061",
+        "bs-en-062",
+        "bs-en-066",
+        "bs-en-067",
+        "bs-en-068",
+        "bs-en-069",
+        "bs-en-070",
+        "bs-en-084",
+        "bs-en-085",
+        "bs-en-086",
+        "bs-en-100"
+      ],
+      "job_ad": [
+        "bs-en-004",
+        "bs-en-024",
+        "bs-en-043",
+        "bs-en-044",
+        "bs-en-045",
+        "bs-en-046",
+        "bs-en-047",
+        "bs-en-048",
+        "bs-en-049",
+        "bs-en-062"
+      ],
+      "email_chat": [
+        "bs-en-007",
+        "bs-en-009",
+        "bs-en-018",
+        "bs-en-019",
+        "bs-en-032",
+        "bs-en-033",
+        "bs-en-071",
+        "bs-en-072",
+        "bs-en-073",
+        "bs-en-074",
+        "bs-en-075",
+        "bs-en-076",
+        "bs-en-077"
+      ],
+      "tech": [
+        "bs-en-016",
+        "bs-en-017",
+        "bs-en-025",
+        "bs-en-034",
+        "bs-en-042",
+        "bs-en-047",
+        "bs-en-052",
+        "bs-en-055",
+        "bs-en-056",
+        "bs-en-057",
+        "bs-en-059",
+        "bs-en-060",
+        "bs-en-065",
+        "bs-en-066",
+        "bs-en-088",
+        "bs-en-090",
+        "bs-en-091",
+        "bs-en-098",
+        "bs-en-099"
+      ]
+    },
+    "by_origin": {
+      "general": [
+        "bs-en-002",
+        "bs-en-004",
+        "bs-en-006",
+        "bs-en-007",
+        "bs-en-010",
+        "bs-en-014",
+        "bs-en-020",
+        "bs-en-022",
+        "bs-en-028",
+        "bs-en-029",
+        "bs-en-030",
+        "bs-en-031",
+        "bs-en-032",
+        "bs-en-033",
+        "bs-en-036",
+        "bs-en-038",
+        "bs-en-039",
+        "bs-en-041",
+        "bs-en-044",
+        "bs-en-045",
+        "bs-en-046",
+        "bs-en-048",
+        "bs-en-049",
+        "bs-en-050",
+        "bs-en-058",
+        "bs-en-061",
+        "bs-en-062",
+        "bs-en-063",
+        "bs-en-064",
+        "bs-en-066",
+        "bs-en-067",
+        "bs-en-069",
+        "bs-en-070",
+        "bs-en-072",
+        "bs-en-073",
+        "bs-en-074",
+        "bs-en-075",
+        "bs-en-076",
+        "bs-en-077",
+        "bs-en-078",
+        "bs-en-079",
+        "bs-en-081",
+        "bs-en-083",
+        "bs-en-084",
+        "bs-en-087",
+        "bs-en-092",
+        "bs-en-093",
+        "bs-en-094",
+        "bs-en-097",
+        "bs-en-100"
+      ],
+      "tech": [
+        "bs-en-008",
+        "bs-en-009",
+        "bs-en-019",
+        "bs-en-025",
+        "bs-en-037",
+        "bs-en-042",
+        "bs-en-047",
+        "bs-en-055",
+        "bs-en-056",
+        "bs-en-057",
+        "bs-en-059",
+        "bs-en-060",
+        "bs-en-090",
+        "bs-en-091",
+        "bs-en-099"
+      ],
+      "sports": [
+        "bs-en-017",
+        "bs-en-018",
+        "bs-en-095",
+        "bs-en-096"
+      ],
+      "military": [
+        "bs-en-043",
+        "bs-en-052",
+        "bs-en-071"
+      ],
+      "consulting": [
+        "bs-en-001",
+        "bs-en-003",
+        "bs-en-005",
+        "bs-en-012",
+        "bs-en-013",
+        "bs-en-015",
+        "bs-en-021",
+        "bs-en-023",
+        "bs-en-024",
+        "bs-en-027",
+        "bs-en-034",
+        "bs-en-035",
+        "bs-en-040",
+        "bs-en-051",
+        "bs-en-053",
+        "bs-en-065",
+        "bs-en-088",
+        "bs-en-089"
+      ],
+      "startup": [
+        "bs-en-016",
+        "bs-en-026",
+        "bs-en-054",
+        "bs-en-082",
+        "bs-en-098"
+      ],
+      "academic": [
+        "bs-en-011",
+        "bs-en-068",
+        "bs-en-080",
+        "bs-en-085",
+        "bs-en-086"
+      ]
+    },
+    "by_language": {
+      "english": [
+        "bs-en-001",
+        "bs-en-002",
+        "bs-en-003",
+        "bs-en-004",
+        "bs-en-005",
+        "bs-en-006",
+        "bs-en-007",
+        "bs-en-008",
+        "bs-en-009",
+        "bs-en-010",
+        "bs-en-011",
+        "bs-en-012",
+        "bs-en-013",
+        "bs-en-014",
+        "bs-en-015",
+        "bs-en-016",
+        "bs-en-017",
+        "bs-en-018",
+        "bs-en-019",
+        "bs-en-020",
+        "bs-en-021",
+        "bs-en-022",
+        "bs-en-023",
+        "bs-en-024",
+        "bs-en-025",
+        "bs-en-026",
+        "bs-en-027",
+        "bs-en-028",
+        "bs-en-029",
+        "bs-en-030",
+        "bs-en-031",
+        "bs-en-032",
+        "bs-en-033",
+        "bs-en-034",
+        "bs-en-035",
+        "bs-en-036",
+        "bs-en-037",
+        "bs-en-038",
+        "bs-en-039",
+        "bs-en-040",
+        "bs-en-041",
+        "bs-en-042",
+        "bs-en-043",
+        "bs-en-044",
+        "bs-en-045",
+        "bs-en-046",
+        "bs-en-047",
+        "bs-en-048",
+        "bs-en-049",
+        "bs-en-050",
+        "bs-en-051",
+        "bs-en-052",
+        "bs-en-053",
+        "bs-en-054",
+        "bs-en-055",
+        "bs-en-056",
+        "bs-en-057",
+        "bs-en-058",
+        "bs-en-059",
+        "bs-en-060",
+        "bs-en-061",
+        "bs-en-062",
+        "bs-en-063",
+        "bs-en-064",
+        "bs-en-065",
+        "bs-en-066",
+        "bs-en-067",
+        "bs-en-068",
+        "bs-en-069",
+        "bs-en-070",
+        "bs-en-071",
+        "bs-en-072",
+        "bs-en-073",
+        "bs-en-074",
+        "bs-en-075",
+        "bs-en-076",
+        "bs-en-077",
+        "bs-en-078",
+        "bs-en-079",
+        "bs-en-080",
+        "bs-en-081",
+        "bs-en-082",
+        "bs-en-083",
+        "bs-en-084",
+        "bs-en-085",
+        "bs-en-086",
+        "bs-en-087",
+        "bs-en-088",
+        "bs-en-089",
+        "bs-en-090",
+        "bs-en-091",
+        "bs-en-092",
+        "bs-en-093",
+        "bs-en-094",
+        "bs-en-095",
+        "bs-en-096",
+        "bs-en-097",
+        "bs-en-098",
+        "bs-en-099",
+        "bs-en-100"
+      ],
+      "danish": [],
+      "danglish": []
+    },
+    "by_tier": {
+      "tier-1": [
+        "bs-en-001",
+        "bs-en-002",
+        "bs-en-003",
+        "bs-en-004",
+        "bs-en-005",
+        "bs-en-006",
+        "bs-en-007",
+        "bs-en-008",
+        "bs-en-009",
+        "bs-en-010"
+      ],
+      "tier-2": [
+        "bs-en-011",
+        "bs-en-012",
+        "bs-en-013",
+        "bs-en-014",
+        "bs-en-015",
+        "bs-en-016",
+        "bs-en-017",
+        "bs-en-018",
+        "bs-en-019",
+        "bs-en-020",
+        "bs-en-021",
+        "bs-en-022",
+        "bs-en-023",
+        "bs-en-024",
+        "bs-en-025",
+        "bs-en-026",
+        "bs-en-027",
+        "bs-en-028",
+        "bs-en-029",
+        "bs-en-030"
+      ],
+      "tier-3": [
+        "bs-en-031",
+        "bs-en-032",
+        "bs-en-033",
+        "bs-en-034",
+        "bs-en-035",
+        "bs-en-036",
+        "bs-en-037",
+        "bs-en-038",
+        "bs-en-039",
+        "bs-en-040",
+        "bs-en-041",
+        "bs-en-042",
+        "bs-en-043",
+        "bs-en-044",
+        "bs-en-045",
+        "bs-en-046",
+        "bs-en-047",
+        "bs-en-048",
+        "bs-en-049",
+        "bs-en-050",
+        "bs-en-051",
+        "bs-en-052",
+        "bs-en-053",
+        "bs-en-054",
+        "bs-en-055",
+        "bs-en-056",
+        "bs-en-057",
+        "bs-en-058",
+        "bs-en-059",
+        "bs-en-060"
+      ],
+      "tier-4": [
+        "bs-en-061",
+        "bs-en-062",
+        "bs-en-063",
+        "bs-en-064",
+        "bs-en-065",
+        "bs-en-066",
+        "bs-en-067",
+        "bs-en-068",
+        "bs-en-069",
+        "bs-en-070",
+        "bs-en-071",
+        "bs-en-072",
+        "bs-en-073",
+        "bs-en-074",
+        "bs-en-075",
+        "bs-en-076",
+        "bs-en-077",
+        "bs-en-078",
+        "bs-en-079",
+        "bs-en-080",
+        "bs-en-081",
+        "bs-en-082",
+        "bs-en-083",
+        "bs-en-084",
+        "bs-en-085",
+        "bs-en-086",
+        "bs-en-087",
+        "bs-en-088",
+        "bs-en-089",
+        "bs-en-090",
+        "bs-en-091",
+        "bs-en-092",
+        "bs-en-093",
+        "bs-en-094",
+        "bs-en-095",
+        "bs-en-096",
+        "bs-en-097",
+        "bs-en-098",
+        "bs-en-099",
+        "bs-en-100"
+      ]
+    },
+    "variation_lookup": {
+      "rightsizing": "bs-en-001",
+      "right-size": "bs-en-001",
+      "right-sized": "bs-en-001",
+      "rightsizing the organization": "bs-en-001",
+      "reduction in force": "bs-en-002",
+      "rif": "bs-en-002",
+      "rif'd": "bs-en-002",
+      "workforce reduction": "bs-en-002",
+      "headcount reduction": "bs-en-002",
+      "restructuring for growth": "bs-en-003",
+      "strategic restructuring": "bs-en-003",
+      "organizational realignment": "bs-en-003",
+      "streamlining operations": "bs-en-003",
+      "we're a family": "bs-en-004",
+      "we're like a family": "bs-en-004",
+      "part of the family": "bs-en-004",
+      "our work family": "bs-en-004",
+      "synergy": "bs-en-005",
+      "synergies": "bs-en-005",
+      "synergize": "bs-en-005",
+      "synergistic": "bs-en-005",
+      "unlock synergies": "bs-en-005",
+      "low-hanging fruit": "bs-en-006",
+      "low hanging fruit": "bs-en-006",
+      "pick the low-hanging fruit": "bs-en-006",
+      "circle back": "bs-en-007",
+      "circle back on this": "bs-en-007",
+      "let's circle back": "bs-en-007",
+      "loop back": "bs-en-007",
+      "take it offline": "bs-en-008",
+      "take this offline": "bs-en-008",
+      "let's take it offline": "bs-en-008",
+      "discuss offline": "bs-en-008",
+      "bandwidth": "bs-en-009",
+      "do you have bandwidth": "bs-en-009",
+      "capacity": "bs-en-009",
+      "cycles": "bs-en-009",
+      "spare cycles": "bs-en-009",
+      "move the needle": "bs-en-010",
+      "needle-mover": "bs-en-010",
+      "moves the needle": "bs-en-010",
+      "needle-moving": "bs-en-010",
+      "paradigm shift": "bs-en-011",
+      "new paradigm": "bs-en-011",
+      "paradigm-shifting": "bs-en-011",
+      "shift the paradigm": "bs-en-011",
+      "boil the ocean": "bs-en-012",
+      "don't boil the ocean": "bs-en-012",
+      "ocean-boiling": "bs-en-012",
+      "leverage": "bs-en-013",
+      "leveraging": "bs-en-013",
+      "leveraged": "bs-en-013",
+      "leverage our assets": "bs-en-013",
+      "deep dive": "bs-en-014",
+      "deep-dive": "bs-en-014",
+      "dive deep": "bs-en-014",
+      "take a deep dive": "bs-en-014",
+      "think outside the box": "bs-en-015",
+      "out of the box": "bs-en-015",
+      "outside-the-box thinking": "bs-en-015",
+      "blue-sky thinking": "bs-en-015",
+      "disrupt": "bs-en-016",
+      "disruption": "bs-en-016",
+      "disruptive": "bs-en-016",
+      "disruptor": "bs-en-016",
+      "disrupt the market": "bs-en-016",
+      "game changer": "bs-en-017",
+      "game-changer": "bs-en-017",
+      "game-changing": "bs-en-017",
+      "changes the game": "bs-en-017",
+      "touch base": "bs-en-018",
+      "touchbase": "bs-en-018",
+      "quick touchbase": "bs-en-018",
+      "touch base offline": "bs-en-018",
+      "ping me": "bs-en-019",
+      "ping": "bs-en-019",
+      "pinged": "bs-en-019",
+      "shoot me a ping": "bs-en-019",
+      "put a pin in it": "bs-en-020",
+      "pin that": "bs-en-020",
+      "let's put a pin in that": "bs-en-020",
+      "park it": "bs-en-020",
+      "parking lot": "bs-en-020",
+      "alignment": "bs-en-021",
+      "get aligned": "bs-en-021",
+      "align on": "bs-en-021",
+      "are we aligned?": "bs-en-021",
+      "alignment session": "bs-en-021",
+      "take ownership": "bs-en-022",
+      "own it": "bs-en-022",
+      "ownership mindset": "bs-en-022",
+      "single-threaded owner": "bs-en-022",
+      "value-add": "bs-en-023",
+      "add value": "bs-en-023",
+      "value creation": "bs-en-023",
+      "value-added": "bs-en-023",
+      "best-in-class": "bs-en-024",
+      "world-class": "bs-en-024",
+      "best-of-breed": "bs-en-024",
+      "industry-leading": "bs-en-024",
+      "ecosystem": "bs-en-025",
+      "partner ecosystem": "bs-en-025",
+      "digital ecosystem": "bs-en-025",
+      "ecosystem play": "bs-en-025",
+      "north star": "bs-en-026",
+      "north star metric": "bs-en-026",
+      "guiding star": "bs-en-026",
+      "our north star": "bs-en-026",
+      "burning platform": "bs-en-027",
+      "the burning platform": "bs-en-027",
+      "a burning platform": "bs-en-027",
+      "30,000-foot view": "bs-en-028",
+      "10,000-foot view": "bs-en-028",
+      "helicopter view": "bs-en-028",
+      "big picture": "bs-en-028",
+      "high level": "bs-en-028",
+      "drink the kool-aid": "bs-en-029",
+      "drinking the kool-aid": "bs-en-029",
+      "drank the kool-aid": "bs-en-029",
+      "buy-in": "bs-en-029",
+      "win-win": "bs-en-030",
+      "win/win": "bs-en-030",
+      "win-win situation": "bs-en-030",
+      "win-win-win": "bs-en-030",
+      "learnings": "bs-en-031",
+      "key learnings": "bs-en-031",
+      "lessons learned": "bs-en-031",
+      "learning": "bs-en-031",
+      "the ask": "bs-en-032",
+      "what's the ask?": "bs-en-032",
+      "big ask": "bs-en-032",
+      "hard ask": "bs-en-032",
+      "action this": "bs-en-033",
+      "action": "bs-en-033",
+      "actioned": "bs-en-033",
+      "actionable": "bs-en-033",
+      "action items": "bs-en-033",
+      "deliverables": "bs-en-034",
+      "deliverable": "bs-en-034",
+      "deliver on": "bs-en-034",
+      "delivery": "bs-en-034",
+      "operationalize": "bs-en-035",
+      "operationalization": "bs-en-035",
+      "operationalized": "bs-en-035",
+      "socialize the idea": "bs-en-036",
+      "socialize this": "bs-en-036",
+      "socializing the proposal": "bs-en-036",
+      "socialize it": "bs-en-036",
+      "double-click on that": "bs-en-037",
+      "let's double-click": "bs-en-037",
+      "double-click into": "bs-en-037",
+      "double click": "bs-en-037",
+      "peel back the onion": "bs-en-038",
+      "peel the onion": "bs-en-038",
+      "layers of the onion": "bs-en-038",
+      "run it up the flagpole": "bs-en-039",
+      "run it up the flagpole and see who salutes": "bs-en-039",
+      "flagpole it": "bs-en-039",
+      "open the kimono": "bs-en-040",
+      "opening the kimono": "bs-en-040",
+      "open kimono": "bs-en-040",
+      "herding cats": "bs-en-041",
+      "like herding cats": "bs-en-041",
+      "cat herding": "bs-en-041",
+      "drinking from a firehose": "bs-en-042",
+      "firehose": "bs-en-042",
+      "drink from the firehose": "bs-en-042",
+      "hit the ground running": "bs-en-043",
+      "hit the ground running from day one": "bs-en-043",
+      "ramp up quickly": "bs-en-043",
+      "wear many hats": "bs-en-044",
+      "wear multiple hats": "bs-en-044",
+      "many hats": "bs-en-044",
+      "fast-paced environment": "bs-en-045",
+      "fast-paced": "bs-en-045",
+      "dynamic environment": "bs-en-045",
+      "no two days are the same": "bs-en-045",
+      "work hard, play hard": "bs-en-046",
+      "work hard play hard culture": "bs-en-046",
+      "rockstar": "bs-en-047",
+      "ninja": "bs-en-047",
+      "guru": "bs-en-047",
+      "wizard": "bs-en-047",
+      "10x engineer": "bs-en-047",
+      "unicorn": "bs-en-047",
+      "self-starter": "bs-en-048",
+      "self-motivated": "bs-en-048",
+      "go-getter": "bs-en-048",
+      "proactive self-starter": "bs-en-048",
+      "competitive salary": "bs-en-049",
+      "competitive compensation": "bs-en-049",
+      "doe": "bs-en-049",
+      "commensurate with experience": "bs-en-049",
+      "culture fit": "bs-en-050",
+      "cultural fit": "bs-en-050",
+      "culture add": "bs-en-050",
+      "good fit": "bs-en-050",
+      "thought leadership": "bs-en-051",
+      "thought leader": "bs-en-051",
+      "thought-leading": "bs-en-051",
+      "mission-critical": "bs-en-052",
+      "mission critical": "bs-en-052",
+      "business-critical": "bs-en-052",
+      "core competency": "bs-en-053",
+      "core competencies": "bs-en-053",
+      "core business": "bs-en-053",
+      "core strengths": "bs-en-053",
+      "pivot": "bs-en-054",
+      "pivoting": "bs-en-054",
+      "pivoted": "bs-en-054",
+      "hard pivot": "bs-en-054",
+      "agile": "bs-en-055",
+      "agility": "bs-en-055",
+      "agile transformation": "bs-en-055",
+      "scaled agile": "bs-en-055",
+      "safe": "bs-en-055",
+      "data-driven": "bs-en-056",
+      "data-informed": "bs-en-056",
+      "evidence-based": "bs-en-056",
+      "data-first": "bs-en-056",
+      "scalable": "bs-en-057",
+      "at scale": "bs-en-057",
+      "scale up": "bs-en-057",
+      "scalability": "bs-en-057",
+      "holistic": "bs-en-058",
+      "holistic approach": "bs-en-058",
+      "end-to-end": "bs-en-058",
+      "360-degree": "bs-en-058",
+      "robust": "bs-en-059",
+      "robustness": "bs-en-059",
+      "robust solution": "bs-en-059",
+      "seamless": "bs-en-060",
+      "seamlessly": "bs-en-060",
+      "frictionless": "bs-en-060",
+      "seamless integration": "bs-en-060",
+      "empower": "bs-en-061",
+      "empowerment": "bs-en-061",
+      "empowered teams": "bs-en-061",
+      "empowering": "bs-en-061",
+      "proactive": "bs-en-062",
+      "proactively": "bs-en-062",
+      "proactivity": "bs-en-062",
+      "get ahead of it": "bs-en-062",
+      "granular": "bs-en-063",
+      "granularity": "bs-en-063",
+      "get granular": "bs-en-063",
+      "drill down": "bs-en-063",
+      "cadence": "bs-en-064",
+      "weekly cadence": "bs-en-064",
+      "operating cadence": "bs-en-064",
+      "meeting cadence": "bs-en-064",
+      "stakeholders": "bs-en-065",
+      "stakeholder management": "bs-en-065",
+      "key stakeholders": "bs-en-065",
+      "stakeholder buy-in": "bs-en-065",
+      "onboarding": "bs-en-066",
+      "onboard": "bs-en-066",
+      "onboarded": "bs-en-066",
+      "offboarding": "bs-en-066",
+      "headcount": "bs-en-067",
+      "hc": "bs-en-067",
+      "fte": "bs-en-067",
+      "resources": "bs-en-067",
+      "human capital": "bs-en-068",
+      "human resources": "bs-en-068",
+      "talent capital": "bs-en-068",
+      "top talent": "bs-en-069",
+      "talent": "bs-en-069",
+      "talent pipeline": "bs-en-069",
+      "war for talent": "bs-en-069",
+      "bring to the table": "bs-en-070",
+      "what do you bring to the table": "bs-en-070",
+      "bring something to the table": "bs-en-070",
+      "on my radar": "bs-en-071",
+      "on the radar": "bs-en-071",
+      "under the radar": "bs-en-071",
+      "radar": "bs-en-071",
+      "out of pocket": "bs-en-072",
+      "oop": "bs-en-072",
+      "be out of pocket": "bs-en-072",
+      "eod": "bs-en-073",
+      "cob": "bs-en-073",
+      "eow": "bs-en-073",
+      "end of day": "bs-en-073",
+      "close of business": "bs-en-073",
+      "per my last email": "bs-en-074",
+      "as per my previous email": "bs-en-074",
+      "as previously mentioned": "bs-en-074",
+      "as stated below": "bs-en-074",
+      "just following up": "bs-en-075",
+      "gentle reminder": "bs-en-075",
+      "friendly reminder": "bs-en-075",
+      "bumping this": "bs-en-075",
+      "quick question": "bs-en-076",
+      "quick q": "bs-en-076",
+      "got a sec?": "bs-en-076",
+      "quick one": "bs-en-076",
+      "going forward": "bs-en-077",
+      "moving forward": "bs-en-077",
+      "on a go-forward basis": "bs-en-077",
+      "at the end of the day": "bs-en-078",
+      "end of the day": "bs-en-078",
+      "when all is said and done": "bs-en-078",
+      "it is what it is": "bs-en-079",
+      "it's what it is": "bs-en-079",
+      "that's just how it is": "bs-en-079",
+      "let's unpack that": "bs-en-080",
+      "unpack": "bs-en-080",
+      "unpacking": "bs-en-080",
+      "level set": "bs-en-081",
+      "level-setting": "bs-en-081",
+      "let's level-set": "bs-en-081",
+      "ideate": "bs-en-082",
+      "ideation": "bs-en-082",
+      "ideation session": "bs-en-082",
+      "ideating": "bs-en-082",
+      "workshop it": "bs-en-083",
+      "workshopping": "bs-en-083",
+      "workshop this": "bs-en-083",
+      "let's workshop": "bs-en-083",
+      "growth opportunity": "bs-en-084",
+      "learning opportunity": "bs-en-084",
+      "stretch assignment": "bs-en-084",
+      "opportunity to grow": "bs-en-084",
+      "growth mindset": "bs-en-085",
+      "mindset": "bs-en-085",
+      "the right mindset": "bs-en-085",
+      "fixed mindset": "bs-en-085",
+      "psychological safety": "bs-en-086",
+      "safe space": "bs-en-086",
+      "psychologically safe": "bs-en-086",
+      "quick win": "bs-en-087",
+      "quick wins": "bs-en-087",
+      "easy win": "bs-en-087",
+      "best practice": "bs-en-088",
+      "best practices": "bs-en-088",
+      "industry standard": "bs-en-088",
+      "next practice": "bs-en-088",
+      "value proposition": "bs-en-089",
+      "value prop": "bs-en-089",
+      "uvp": "bs-en-089",
+      "unique selling point": "bs-en-089",
+      "bleeding edge": "bs-en-090",
+      "cutting edge": "bs-en-090",
+      "state of the art": "bs-en-090",
+      "leading edge": "bs-en-090",
+      "next-gen": "bs-en-091",
+      "next-generation": "bs-en-091",
+      "future-proof": "bs-en-091",
+      "future-ready": "bs-en-091",
+      "wheelhouse": "bs-en-092",
+      "in my wheelhouse": "bs-en-092",
+      "sweet spot": "bs-en-092",
+      "lane": "bs-en-092",
+      "ducks in a row": "bs-en-093",
+      "get our ducks in a row": "bs-en-093",
+      "ducks lined up": "bs-en-093",
+      "moving parts": "bs-en-094",
+      "a lot of moving parts": "bs-en-094",
+      "many moving pieces": "bs-en-094",
+      "ballpark": "bs-en-095",
+      "ballpark figure": "bs-en-095",
+      "ballpark estimate": "bs-en-095",
+      "in the ballpark": "bs-en-095",
+      "kick-off": "bs-en-096",
+      "kickoff": "bs-en-096",
+      "kick off": "bs-en-096",
+      "kickoff meeting": "bs-en-096",
+      "takeaways": "bs-en-097",
+      "key takeaways": "bs-en-097",
+      "takeaway": "bs-en-097",
+      "main takeaways": "bs-en-097",
+      "mvp": "bs-en-098",
+      "minimum viable product": "bs-en-098",
+      "mlp": "bs-en-098",
+      "proof of concept": "bs-en-098",
+      "poc": "bs-en-098",
+      "iterate": "bs-en-099",
+      "iteration": "bs-en-099",
+      "iterative": "bs-en-099",
+      "next iteration": "bs-en-099",
+      "open-door policy": "bs-en-100",
+      "my door is always open": "bs-en-100",
+      "open door": "bs-en-100"
+    }
+  },
+  "stats": {
+    "total_variations": 284,
+    "avg_score": 60,
+    "per_category": {
+      "euphemism": 6,
+      "metaphor": 20,
+      "buzzword": 23,
+      "platitude": 9,
+      "management_speak": 5,
+      "process_jargon": 19,
+      "verbified_noun": 7,
+      "hr_job_ad": 11
+    },
+    "per_origin": {
+      "general": 50,
+      "tech": 15,
+      "sports": 4,
+      "military": 3,
+      "consulting": 18,
+      "startup": 5,
+      "academic": 5
+    },
+    "per_language": {
+      "english": 100,
+      "danish": 0,
+      "danglish": 0
+    }
+  }
+}
