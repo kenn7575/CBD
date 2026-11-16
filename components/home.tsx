@@ -1,5 +1,6 @@
 import { Detector } from "@/components/detector/detector"
 import { LangSwitcher } from "@/components/lang-switcher"
+import { ThemeToggle } from "@/components/theme-toggle"
 import type { Lang } from "@/lib/bullshit/types"
 import { dictionaries } from "@/lib/i18n"
 
@@ -15,7 +16,10 @@ export function Home({ locale }: { locale: Lang }) {
           </h1>
           <p className="max-w-2xl text-sm text-muted-foreground">{t.intro}</p>
         </div>
-        <LangSwitcher locale={locale} />
+        <div className="flex shrink-0 items-center gap-2">
+          <LangSwitcher locale={locale} />
+          <ThemeToggle locale={locale} />
+        </div>
       </header>
       <Detector locale={locale} />
       <footer className="font-mono text-xs text-muted-foreground">

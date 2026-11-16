@@ -62,6 +62,8 @@ export type Dictionary = {
   darkModeHint: [before: string, after: string]
   /** Accessible name of the language switcher. */
   language: string
+  /** Accessible name of the theme toggle button. */
+  toggleTheme: string
   loadSample: string
   clear: string
   plainLanguage: string
@@ -99,6 +101,7 @@ const en: Dictionary = {
     "Paste any text to find the buzzwords, euphemisms and consultant dialect hiding in it, in English and Danish. Hover a highlight to see what it actually means.",
   darkModeHint: ["Press ", " to toggle dark mode"],
   language: "Language",
+  toggleTheme: "Toggle dark mode",
   loadSample: "Load sample",
   clear: "Clear",
   plainLanguage: "Plain language",
@@ -168,6 +171,7 @@ const da: Dictionary = {
     "Indsæt en tekst og find de buzzwords, eufemismer og konsulentfloskler, der gemmer sig i den, på dansk og engelsk. Hold musen over en markering for at se, hvad den i virkeligheden betyder.",
   darkModeHint: ["Tryk på ", " for at slå mørk tilstand til eller fra"],
   language: "Sprog",
+  toggleTheme: "Slå mørk tilstand til eller fra",
   loadSample: "Indlæs eksempel",
   clear: "Ryd",
   plainLanguage: "Klart sprog",
