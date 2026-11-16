@@ -15,7 +15,7 @@ At the end of the day, our North Star is a seamless, data-driven ecosystem. We n
 Let's touch base at the kick-off and align on the key takeaways.`,
   da: `Kære alle
 
-Vi er på en rejse. Som led i en tilpasning af organisationen frigør vi nu ressourcer, så vi kan høste synergier og skabe værdi på tværs. Det ligger i vores DNA, og vi er en familie.
+Vi er på en rejse. Som led i en tilpasning af organisationen frigør vi nu ressourcer, så vi kan høste synergier og skabe værdi på tværs. Det ligger i vores DNA, og vi er en familie. Med fuld transparens bygger vi momentum frem mod 2030, og på et tidspunkt vender vi tilbage med en klar retning.
 
 Fremadrettet skal vi:
   - plukke de lavthængende frugter og løfte i flok

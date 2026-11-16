@@ -11,14 +11,38 @@ export type Finding = {
   phrase: string
   lang: Lang
   entry: Entry
+  /** The future year a pattern matched, e.g. 2030 in "frem mod 2030". */
+  year?: number
 }
 
 export type Segment =
   { type: "text"; text: string } | { type: "finding"; finding: Finding }
 
+export type ScanOptions = {
+  /** The year that future years are measured from. Defaults to now. */
+  currentYear?: number
+}
+
 type Candidate = { lang: Lang; entry: Entry }
 
+type Rule = Candidate & { regex: RegExp; minYearsAhead: number }
+
+type Raw = {
+  start: number
+  end: number
+  text: string
+  phrase: string
+  candidates: Candidate[]
+  year?: number
+}
+
 const LANGS: Lang[] = ["en", "da"]
+
+/** Years further ahead than this are not promises, just numbers. */
+const MAX_YEARS_AHEAD = 75
+
+const BEFORE = "(?<![\\p{L}\\p{N}])"
+const AFTER = "(?![\\p{L}\\p{N}])"
 
 const normalize = (s: string) =>
   s.toLowerCase().replace(/\s+/g, " ").replace(/’/g, "'").trim()
@@ -29,8 +53,12 @@ const toPattern = (phrase: string) =>
     .replace(/ /g, "\\s+")
     .replace(/'/g, "['’]")
 
-export function createScanner(datasets: Datasets): (text: string) => Finding[] {
+export function createScanner(
+  datasets: Datasets,
+  options: ScanOptions = {}
+): (text: string) => Finding[] {
   const candidates = new Map<string, Candidate[]>()
+  const rules: Rule[] = []
   for (const lang of LANGS) {
     const dataset = datasets[lang]
     const byId = new Map(dataset.entries.map((e) => [e.id, e]))
@@ -42,30 +70,91 @@ export function createScanner(datasets: Datasets): (text: string) => Finding[] {
       list.push({ lang, entry })
       candidates.set(phrase, list)
     }
+    for (const rule of dataset.indexes.pattern_lookup ?? []) {
+      const entry = byId.get(rule.id)
+      if (!entry) continue
+      rules.push({
+        lang,
+        entry,
+        regex: new RegExp(`${BEFORE}(?:${rule.pattern})${AFTER}`, "giu"),
+        minYearsAhead: rule.min_years_ahead ?? 0,
+      })
+    }
   }
 
   const phrases = [...candidates.keys()].sort((a, b) => b.length - a.length)
-  if (phrases.length === 0) return () => []
+  if (phrases.length === 0 && rules.length === 0) return () => []
 
-  const pattern = new RegExp(
-    `(?<![\\p{L}\\p{N}])(?:${phrases.map(toPattern).join("|")})(?![\\p{L}\\p{N}])`,
-    "giu"
-  )
+  const pattern =
+    phrases.length > 0
+      ? new RegExp(
+          `${BEFORE}(?:${phrases.map(toPattern).join("|")})${AFTER}`,
+          "giu"
+        )
+      : null
 
   return (text: string) => {
-    const raw: { start: number; text: string; phrase: string }[] = []
-    for (const match of text.matchAll(pattern)) {
-      const phrase = normalize(match[0])
-      if (candidates.has(phrase)) {
-        raw.push({ start: match.index, text: match[0], phrase })
+    const currentYear = options.currentYear ?? new Date().getFullYear()
+    const raw: Raw[] = []
+    if (pattern) {
+      for (const match of text.matchAll(pattern)) {
+        const phrase = normalize(match[0])
+        const list = candidates.get(phrase)
+        if (list) {
+          raw.push({
+            start: match.index,
+            end: match.index + match[0].length,
+            text: match[0],
+            phrase,
+            candidates: list,
+          })
+        }
+      }
+    }
+    for (const rule of rules) {
+      for (const match of text.matchAll(rule.regex)) {
+        const yearText = match.groups?.year
+        const year = yearText === undefined ? undefined : Number(yearText)
+        if (year !== undefined) {
+          const ahead = year - currentYear
+          if (ahead < rule.minYearsAhead || ahead > MAX_YEARS_AHEAD) continue
+        }
+        raw.push({
+          start: match.index,
+          end: match.index + match[0].length,
+          text: match[0],
+          phrase: normalize(match[0]),
+          candidates: [{ lang: rule.lang, entry: rule.entry }],
+          year,
+        })
       }
     }
 
-    // Phrases found in only one language tell us which language the text leans to.
-    const lean: Record<Lang, number> = { en: 0, da: 0 }
+    // Keep the earliest, then longest, of overlapping matches. Matches of
+    // the same span (a phrase and a pattern, or two languages) are merged.
+    raw.sort((a, b) => a.start - b.start || b.end - a.end)
+    const kept: Raw[] = []
     for (const r of raw) {
-      const list = candidates.get(r.phrase)!
-      if (list.length === 1) lean[list[0].lang]++
+      const last = kept.at(-1)
+      if (last && r.start === last.start && r.end === last.end) {
+        for (const c of r.candidates) {
+          const known = last.candidates.some(
+            (k) => k.lang === c.lang && k.entry.id === c.entry.id
+          )
+          if (!known) last.candidates = [...last.candidates, c]
+        }
+        last.year ??= r.year
+        continue
+      }
+      if (last && r.start < last.end) continue
+      kept.push({ ...r })
+    }
+
+    // Matches found in only one language tell us which language the text leans to.
+    const lean: Record<Lang, number> = { en: 0, da: 0 }
+    for (const r of kept) {
+      const langs = new Set(r.candidates.map((c) => c.lang))
+      if (langs.size === 1) lean[r.candidates[0].lang]++
     }
 
     const pick = (list: Candidate[]): Candidate =>
@@ -76,15 +165,16 @@ export function createScanner(datasets: Datasets): (text: string) => Finding[] {
           LANGS.indexOf(a.lang) - LANGS.indexOf(b.lang)
       )[0]
 
-    return raw.map((r) => {
-      const { lang, entry } = pick(candidates.get(r.phrase)!)
+    return kept.map((r) => {
+      const { lang, entry } = pick(r.candidates)
       return {
         start: r.start,
-        end: r.start + r.text.length,
+        end: r.end,
         text: r.text,
         phrase: r.phrase,
         lang,
         entry,
+        ...(r.year !== undefined && { year: r.year }),
       }
     })
   }

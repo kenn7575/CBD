@@ -1,7 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card"
 import type { Analysis } from "@/lib/bullshit/analyze"
-import { label, TIER_SOLID } from "@/lib/bullshit/labels"
-import type { Lang, TierId } from "@/lib/bullshit/types"
+import { CATEGORY_MARK, label, TIER_SOLID } from "@/lib/bullshit/labels"
+import { UNSPECIFIED_TIME, type Lang, type TierId } from "@/lib/bullshit/types"
 import { dictionaries } from "@/lib/i18n"
 import { cn } from "@/lib/utils"
 
@@ -76,6 +76,7 @@ export function ScorePanel({
   const tier = scoreTier(score)
   const neutral = () => "bg-foreground/60"
   const hasFindings = analysis.findingCount > 0
+  const promises = analysis.perCategory[UNSPECIFIED_TIME] ?? 0
 
   return (
     <Card>
@@ -139,6 +140,18 @@ export function ScorePanel({
                   <span className="text-muted-foreground">{t.readsLike} </span>
                   <span className="font-medium">
                     {label(lang, "contexts", topContext)}
+                  </span>
+                </p>
+              )}
+              {promises > 0 && (
+                <p>
+                  <span
+                    className={cn(
+                      "font-medium",
+                      CATEGORY_MARK[UNSPECIFIED_TIME]
+                    )}
+                  >
+                    {t.undatedPromises(promises)}
                   </span>
                 </p>
               )}

@@ -1,5 +1,5 @@
 import { datasets } from "./data"
-import type { Lang, TierId } from "./types"
+import { UNSPECIFIED_TIME, type Lang, type TierId } from "./types"
 
 type Kind = "categories" | "contexts" | "origins" | "languages" | "tiers"
 
@@ -24,6 +24,12 @@ export const TIER_HIGHLIGHT: Record<TierId, string> = {
   "tier-2": "bg-tier-2-bg text-tier-2-fg",
   "tier-3": "bg-tier-3-bg text-tier-3-fg",
   "tier-4": "bg-tier-4-bg text-tier-4-fg",
+}
+
+/** Extra highlight classes per category, on top of the tier colours. */
+export const CATEGORY_MARK: Record<string, string> = {
+  [UNSPECIFIED_TIME]:
+    "underline decoration-current decoration-dashed decoration-1 underline-offset-[3px]",
 }
 
 export const TIER_SOLID: Record<TierId, string> = {

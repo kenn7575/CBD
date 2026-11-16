@@ -74,13 +74,17 @@ export type Dictionary = {
   stats: (findings: number, unique: number, words: number) => string
   worstOffender: string
   readsLike: string
+  /** Count of promises about the future with no date. */
+  undatedPromises: (n: number) => string
+  /** Hover-card note for a matched future year. */
+  yearsAway: (years: number) => string
   byTier: string
   byCategory: string
   byOrigin: string
   byLanguage: string
   matchedAs: (text: string) => string
   actuallyMeans: string
-  rankLine: (rank: number, score: number) => string
+  rankLine: (rank: number, score: number, total: number) => string
   related: string
   tierTitle: (ranks: [number, number], scores: [number, number]) => string
   /** Keyed by `Verdict.min` from lib/bullshit/analyze. */
@@ -113,13 +117,18 @@ const en: Dictionary = {
     }`,
   worstOffender: "Worst offender:",
   readsLike: "Reads like:",
+  undatedPromises: (n) =>
+    `${count(n, "en")} ${n === 1 ? "promise" : "promises"} with no date`,
+  yearsAway: (years) =>
+    `That is ${count(years, "en")} ${years === 1 ? "year" : "years"} from now.`,
   byTier: "By tier",
   byCategory: "By category",
   byOrigin: "By origin",
   byLanguage: "By language",
   matchedAs: (text) => `matched as “${text}”`,
   actuallyMeans: "Actually means:",
-  rankLine: (rank, score) => `#${rank} of 100 · score ${score}`,
+  rankLine: (rank, score, total) =>
+    `#${rank} of ${count(total, "en")} · score ${score}`,
   related: "Related:",
   tierTitle: (ranks, scores) =>
     `Ranks ${ranks[0]}–${ranks[1]}, score ${scores[0]}–${scores[1]}`,
@@ -174,13 +183,17 @@ const da: Dictionary = {
     } · ${count(words, "da")} ord`,
   worstOffender: "Værste synder:",
   readsLike: "Lyder som:",
+  undatedPromises: (n) =>
+    `${count(n, "da")} ${n === 1 ? "løfte" : "løfter"} uden dato`,
+  yearsAway: (years) => `Det er om ${count(years, "da")} år.`,
   byTier: "Efter niveau",
   byCategory: "Efter kategori",
   byOrigin: "Efter oprindelse",
   byLanguage: "Efter sprog",
   matchedAs: (text) => `fundet som ”${text}”`,
   actuallyMeans: "Betyder i virkeligheden:",
-  rankLine: (rank, score) => `Nr. ${rank} af 100 · score ${score}`,
+  rankLine: (rank, score, total) =>
+    `Nr. ${rank} af ${count(total, "da")} · score ${score}`,
   related: "Beslægtede udtryk:",
   tierTitle: (ranks, scores) =>
     `Placering ${ranks[0]}–${ranks[1]}, score ${scores[0]}–${scores[1]}`,

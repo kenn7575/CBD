@@ -50,9 +50,53 @@ describe("scan", () => {
     const found = scan("Going forward, rightsizing will move the needle")
     expect(found.find((f) => f.phrase === "rightsizing")?.lang).toBe("en")
   })
+  it("finds the new Danish phrases", () => {
+    const found = scan(
+      "Vi har momentum i den digitale transformation og vender tilbage på et senere tidspunkt."
+    )
+    expect(found.map((f) => [f.entry.term, f.lang])).toEqual([
+      ["Momentum", "da"],
+      ["Digital transformation", "da"],
+      ["På et tidspunkt", "da"],
+    ])
+    expect(found[2].entry.category).toBe("unspecified_time")
+  })
   it("returns nothing for empty or clean text", () => {
     expect(scan("")).toEqual([])
     expect(scan("The cat sat on the mat.")).toEqual([])
+  })
+})
+
+describe("future years", () => {
+  const scan2026 = createScanner(datasets, { currentYear: 2026 })
+  const years = (text: string) =>
+    scan2026(text).map((f) => [f.text, f.year, f.lang])
+
+  it("matches a prefixed future year as one finding", () => {
+    expect(years("Vi vil være CO2-neutrale frem mod 2035.")).toEqual([
+      ["frem mod 2035", 2035, "da"],
+    ])
+    expect(years("Next year? No, by 2027.")).toEqual([["by 2027", 2027, "en"]])
+  })
+  it("matches a bare year only when it is far enough ahead", () => {
+    expect(years("Målet er nået i 2030").map(([t, y]) => [t, y])).toEqual([
+      ["2030", 2030],
+    ])
+    expect(years("Budget 2027 er vedtaget")).toEqual([])
+  })
+  it("ignores past and current years and far-off numbers", () => {
+    expect(years("Frem mod 2020 og inden 2026 voksede vi.")).toEqual([])
+    expect(years("Ordrenummer 9999 og 1234")).toEqual([])
+  })
+  it("follows the text's language for a bare year", () => {
+    const [f] = scan2026("Vi er på en rejse, og i 2030 er vi i mål.").filter(
+      (x) => x.year
+    )
+    expect(f.lang).toBe("da")
+  })
+  it("uses the current year by default", () => {
+    const next = new Date().getFullYear() + 5
+    expect(scan(`frem mod ${next}`)[0]?.year).toBe(next)
   })
 })
 

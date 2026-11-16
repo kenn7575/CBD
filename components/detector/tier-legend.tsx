@@ -1,6 +1,11 @@
 import { datasets } from "@/lib/bullshit/data"
-import { TIER_HIGHLIGHT } from "@/lib/bullshit/labels"
-import type { Lang } from "@/lib/bullshit/types"
+import {
+  CATEGORY_MARK,
+  describe,
+  label,
+  TIER_HIGHLIGHT,
+} from "@/lib/bullshit/labels"
+import { UNSPECIFIED_TIME, type Lang } from "@/lib/bullshit/types"
 import { dictionaries } from "@/lib/i18n"
 import { cn } from "@/lib/utils"
 
@@ -30,6 +35,15 @@ export function TierLegend({
           {tier.label}
         </li>
       ))}
+      <li
+        title={describe(lang, "categories", UNSPECIFIED_TIME)}
+        className={cn(
+          "rounded-sm px-1.5 py-0.5 font-medium",
+          CATEGORY_MARK[UNSPECIFIED_TIME]
+        )}
+      >
+        {label(lang, "categories", UNSPECIFIED_TIME)}
+      </li>
     </ul>
   )
 }

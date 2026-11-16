@@ -7,8 +7,13 @@ import {
   HoverCardTrigger,
 } from "@/components/ui/hover-card"
 import { Separator } from "@/components/ui/separator"
-import { entryById } from "@/lib/bullshit/data"
-import { describe, label, TIER_HIGHLIGHT } from "@/lib/bullshit/labels"
+import { datasets, entryById } from "@/lib/bullshit/data"
+import {
+  CATEGORY_MARK,
+  describe,
+  label,
+  TIER_HIGHLIGHT,
+} from "@/lib/bullshit/labels"
 import type { Finding } from "@/lib/bullshit/scan"
 import type { Lang } from "@/lib/bullshit/types"
 import { dictionaries } from "@/lib/i18n"
@@ -41,6 +46,10 @@ export function FindingMark({
     .map((id) => entryById(lang, id))
     .filter((e) => e !== undefined)
   const categoryDescription = describe(lang, "categories", entry.category)
+  const yearsAway =
+    finding.year === undefined
+      ? undefined
+      : finding.year - new Date().getFullYear()
 
   return (
     <HoverCard>
@@ -53,6 +62,7 @@ export function FindingMark({
             className={cn(
               "cursor-help rounded-sm box-decoration-clone px-0.5 py-px outline-none focus-visible:ring-2 focus-visible:ring-ring",
               tierClass,
+              CATEGORY_MARK[entry.category],
               plain && "italic"
             )}
           />
@@ -80,10 +90,16 @@ export function FindingMark({
         <p className="text-sm">
           <span className="text-muted-foreground">{t.actuallyMeans} </span>
           {entry.meaning}
+          {yearsAway !== undefined && yearsAway > 0 && (
+            <span className="text-muted-foreground">
+              {" "}
+              {t.yearsAway(yearsAway)}
+            </span>
+          )}
         </p>
 
         <div className="font-mono text-xs text-muted-foreground">
-          {t.rankLine(entry.rank, entry.score)}
+          {t.rankLine(entry.rank, entry.score, datasets[lang].meta.count)}
         </div>
 
         <Separator />

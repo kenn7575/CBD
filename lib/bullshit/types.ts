@@ -27,6 +27,20 @@ export type Entry = {
   related: string[]
 }
 
+/** Category for promises about the future with no date or owner. */
+export const UNSPECIFIED_TIME = "unspecified_time"
+
+/**
+ * A regular expression that maps matches to an entry. A named group `year`
+ * makes the match count only when that year is at least `min_years_ahead`
+ * years after the current one.
+ */
+export type PatternRule = {
+  pattern: string
+  id: string
+  min_years_ahead?: number
+}
+
 export type Dataset = {
   meta: { title: string; language: string; count: number }
   taxonomy: {
@@ -37,7 +51,10 @@ export type Dataset = {
     tiers: Tier[]
   }
   entries: Entry[]
-  indexes: { variation_lookup: Record<string, string> }
+  indexes: {
+    variation_lookup: Record<string, string>
+    pattern_lookup?: PatternRule[]
+  }
 }
 
 export type Datasets = Record<Lang, Dataset>
