@@ -979,8 +979,8 @@
           "slug": "helicopter-view"
         },
         {
-          "text": "helicopteren",
-          "slug": "helicopteren"
+          "text": "helikopteren",
+          "slug": "helikopteren"
         },
         {
           "text": "overordnet niveau",
@@ -4744,7 +4744,7 @@
       "spændende": "bs-026",
       "helikopterniveau": "bs-027",
       "helicopter view": "bs-027",
-      "helicopteren": "bs-027",
+      "helikopteren": "bs-027",
       "overordnet niveau": "bs-027",
       "helikopterperspektiv": "bs-027",
       "north star": "bs-028",
